@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   keywords:
     "skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties",
   alternates: { canonical: "https://allskatingrinks.com" },
+  verification: { google: "_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs" },
   openGraph: {
     title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
     description:
