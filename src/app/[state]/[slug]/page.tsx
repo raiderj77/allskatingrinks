@@ -25,8 +25,8 @@ export async function generateMetadata({
 
   return {
     title: `${rink.name} - Skating Rink in ${rink.city}, ${rink.state}`,
-    description: `${rink.name} - ${rink.type === "ice" ? "Ice" : "Roller"} skating rink in ${rink.city}, ${rink.state}. ${rink.description}`,
-    canonical: `https://allskatingrinks.com/${state}/${slug}`,
+    description: `${rink.name} - ${rink.amenities.includes("Ice skating") ? "Ice" : "Roller"} skating rink in ${rink.city}, ${rink.state}. ${rink.description}`,
+    alternates: { canonical: `https://allskatingrinks.com/${state}/${slug}` },
     openGraph: {
       title: `${rink.name} - ${rink.state}`,
       description: rink.description,
@@ -108,7 +108,7 @@ export default async function RinkDetailPage({
                 Type
               </h3>
               <p style={{ color: "#555" }}>
-                {rink.type === "ice" ? "Ice Skating" : "Roller Skating"}
+                {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
               </p>
 
               <h3 style={{ fontSize: "1.2rem", color: "#003d99", marginBottom: "1rem", marginTop: "1.5rem", fontWeight: "bold" }}>
@@ -186,7 +186,7 @@ export default async function RinkDetailPage({
                       <strong>Type:</strong>
                     </p>
                     <p style={{ margin: 0, color: "#333" }}>
-                      {rink.type === "ice" ? "Ice Skating" : "Roller Skating"}
+                      {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
                     </p>
                   </div>
                   <div style={{ marginBottom: "1rem", paddingBottom: "1rem", borderBottom: "1px solid #ddd" }}>
@@ -266,7 +266,7 @@ export default async function RinkDetailPage({
             },
             sportsActivityLocation: {
               "@type": "SportsActivityLocation",
-              sportsActivity: rink.type === "ice" ? "Ice Skating" : "Roller Skating",
+              sportsActivity: rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating",
             },
           }),
         }}

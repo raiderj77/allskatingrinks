@@ -86,7 +86,7 @@ export default function Home() {
           >
             {featured.map((rink) => (
               <a
-                key={rink.id}
+                key={rink.slug}
                 href={`/${rink.stateSlug}/${rink.slug}`}
                 style={{
                   textDecoration: "none",
@@ -107,8 +107,8 @@ export default function Home() {
                     style={{
                       display: "inline-block",
                       backgroundColor:
-                        rink.type === "ice" ? "#e6f2ff" : "#fff5e6",
-                      color: rink.type === "ice" ? "#003d99" : "#ff6600",
+                        rink.amenities.includes("Ice skating") ? "#e6f2ff" : "#fff5e6",
+                      color: rink.amenities.includes("Ice skating") ? "#003d99" : "#ff6600",
                       padding: "0.4rem 0.8rem",
                       borderRadius: "4px",
                       fontSize: "0.85rem",
@@ -116,7 +116,7 @@ export default function Home() {
                       marginBottom: "0.5rem",
                     }}
                   >
-                    {rink.type === "ice" ? "Ice Skating" : "Roller Skating"}
+                    {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
                   </div>
                   <h3
                     style={{
