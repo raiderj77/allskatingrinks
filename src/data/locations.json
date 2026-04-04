@@ -1,222 +1,662 @@
 [
   {
-    "id": 1,
-    "name": "Skateland Pasadena",
-    "slug": "skateland-pasadena",
-    "state": "California",
-    "stateSlug": "california",
-    "city": "Pasadena",
-    "lat": 34.1478,
-    "lng": -118.1445,
-    "type": "roller",
-    "description": "Classic roller skating rink with arcade, DJ weekends, and birthday party facilities. Family-friendly atmosphere perfect for kids of all ages.",
-    "amenities": [
-      "Roller skating",
-      "Skate rentals",
-      "Arcade games",
-      "Birthday party rooms",
-      "DJ on weekends",
-      "Lessons available",
-      "Snack bar",
-      "Group bookings"
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Glide Ice Skating",
-    "slug": "glide-ice-skating",
-    "state": "Texas",
-    "stateSlug": "texas",
-    "city": "Dallas",
-    "lat": 32.7767,
-    "lng": -96.797,
-    "type": "ice",
-    "description": "Premier ice skating facility with professional instructors, hockey leagues, and figure skating programs. Open year-round with family skating sessions.",
-    "amenities": [
-      "Ice skating",
-      "Skate rentals",
-      "Professional lessons",
-      "Birthday parties",
-      "Hockey leagues",
-      "Figure skating programs",
-      "Warming lounge",
-      "Concessions"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Roller Palace NYC",
-    "slug": "roller-palace-nyc",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "New York",
-    "lat": 40.7128,
-    "lng": -74.006,
-    "type": "roller",
-    "description": "Urban roller skating rink in the heart of Manhattan. High-energy atmosphere with DJ, arcade, and special themed skating nights for families.",
-    "amenities": [
-      "Roller skating",
-      "Skate rentals",
-      "Arcade",
-      "DJ and music",
-      "Birthday packages",
-      "Group rates",
-      "Laser light shows",
-      "Food court"
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Ice World Orlando",
-    "slug": "ice-world-orlando",
-    "state": "Florida",
-    "stateSlug": "florida",
-    "city": "Orlando",
-    "lat": 28.5421,
-    "lng": -81.3723,
-    "type": "ice",
-    "description": "Year-round indoor ice skating with beginner-friendly programs, holiday shows, and family skating nights. Perfect introduction to ice skating.",
-    "amenities": [
-      "Ice skating",
-      "Skate rentals",
-      "Beginner lessons",
-      "Birthday parties",
-      "Holiday shows",
-      "Family skating nights",
-      "Café",
-      "Locker rooms"
-    ]
-  },
-  {
-    "id": 5,
-    "name": "Rolling Thunder Rink",
-    "slug": "rolling-thunder-rink",
-    "state": "Michigan",
-    "stateSlug": "michigan",
-    "city": "Detroit",
-    "lat": 42.3314,
-    "lng": -83.0458,
-    "type": "roller",
-    "description": "Vintage roller skating experience with modern amenities. Weekly family nights, arcade games, and professional birthday party packages.",
-    "amenities": [
-      "Roller skating",
-      "Skate rentals",
-      "Arcade games",
-      "Vintage atmosphere",
-      "Birthday packages",
-      "Family skating nights",
-      "Snack bar",
-      "Dance parties"
-    ]
-  },
-  {
-    "id": 6,
-    "name": "Peak Ice Arena",
-    "slug": "peak-ice-arena",
-    "state": "Colorado",
-    "stateSlug": "colorado",
-    "city": "Denver",
-    "lat": 39.7392,
-    "lng": -104.9903,
-    "type": "ice",
-    "description": "High-altitude ice skating in the Mile High City. Multi-level facility with hockey leagues, figure skating programs, and public skating sessions.",
-    "amenities": [
-      "Ice skating",
-      "Skate rentals",
-      "Figure skating lessons",
-      "Hockey leagues",
-      "Public sessions",
-      "Birthday parties",
-      "Pro shop",
-      "Restaurant"
-    ]
-  },
-  {
-    "id": 7,
-    "name": "Skate Express Columbus",
-    "slug": "skate-express-columbus",
-    "state": "Ohio",
-    "stateSlug": "ohio",
-    "city": "Columbus",
-    "lat": 39.9612,
-    "lng": -82.9988,
-    "type": "roller",
-    "description": "Modern roller skating facility with LED light shows, bumper skating area for young kids, and special themed nights every weekend.",
-    "amenities": [
-      "Roller skating",
-      "Skate rentals",
-      "Bumper skating area",
-      "LED light shows",
-      "Themed nights",
-      "Birthday rooms",
-      "Arcade",
-      "Concession stand"
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Atlanta Ice Center",
-    "slug": "atlanta-ice-center",
-    "state": "Georgia",
-    "stateSlug": "georgia",
-    "city": "Atlanta",
-    "lat": 33.749,
-    "lng": -84.388,
-    "type": "ice",
-    "description": "Full-service ice skating center with multiple rinks, training programs, and recreational skating. Perfect for families learning to ice skate.",
-    "amenities": [
-      "Ice skating",
-      "Skate rentals",
-      "Training programs",
-      "Multiple rinks",
-      "Birthday parties",
-      "Recreational sessions",
-      "Pro shop",
-      "Lounge area"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Chicago Roller Dome",
-    "slug": "chicago-roller-dome",
+    "name": "Skatium Ice Arena",
+    "slug": "skatium-ice-arena",
     "state": "Illinois",
     "stateSlug": "illinois",
-    "city": "Chicago",
-    "lat": 41.8781,
-    "lng": -87.6298,
-    "type": "roller",
-    "description": "Legendary roller skating destination with energetic atmosphere, live DJ, arcade games, and family skating sessions throughout the week.",
+    "city": "Skokie",
+    "lat": 42.049122,
+    "lng": -87.750045,
+    "description": "Skatium Ice Arena is a ice skating rink in Skokie, Illinois. Great for families, recreational skating, and group events.",
     "amenities": [
-      "Roller skating",
-      "Skate rentals",
-      "Live DJ",
-      "Arcade games",
-      "Birthday parties",
-      "Family nights",
-      "Snack bar",
-      "Group discounts"
+      "Ice skating"
     ]
   },
   {
-    "id": 10,
-    "name": "Northgate Ice Skating",
-    "slug": "northgate-ice-skating",
+    "name": "Sugar Land Ice & Sports Center",
+    "slug": "sugar-land-ice-sports-center",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 29.591143,
+    "lng": -95.61852,
+    "description": "Sugar Land Ice & Sports Center is a ice skating rink in Texas. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "The Ice",
+    "slug": "the-ice",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.173069,
+    "lng": -84.159634,
+    "description": "The Ice is a ice skating rink in Georgia. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Plymouth Ice Center",
+    "slug": "plymouth-ice-center",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.023511,
+    "lng": -93.475447,
+    "description": "Plymouth Ice Center is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Riverside Arena",
+    "slug": "riverside-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 43.668816,
+    "lng": -92.969289,
+    "description": "Riverside Arena is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "UTC Ice",
+    "slug": "utc-ice",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "San Diego",
+    "lat": 32.870204,
+    "lng": -117.209984,
+    "description": "UTC Ice is a ice skating rink in San Diego, California. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Al Paladini Community Centre",
+    "slug": "al-paladini-community-centre",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.816866,
+    "lng": -79.597445,
+    "description": "Al Paladini Community Centre is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Lloyd Center Ice Rink",
+    "slug": "lloyd-center-ice-rink",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Portland",
+    "lat": 45.532539,
+    "lng": -122.653577,
+    "description": "Lloyd Center Ice Rink is a ice skating rink in Portland, Oregon. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://lloydice.com"
+  },
+  {
+    "name": "Can Lan Ice Sports",
+    "slug": "can-lan-ice-sports",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "city": "",
+    "lat": 39.513698,
+    "lng": -75.063497,
+    "description": "Can Lan Ice Sports is a ice skating rink in Delaware. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Circle at the Centre Rink",
+    "slug": "circle-at-the-centre-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 44.390808,
+    "lng": -79.686035,
+    "description": "Circle at the Centre Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Webster Ice Arena",
+    "slug": "webster-ice-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.21658,
+    "lng": -77.46903,
+    "description": "Webster Ice Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "O'Brien Rink",
+    "slug": "obrien-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.595445,
+    "lng": -71.585425,
+    "description": "O'Brien Rink is a ice skating rink in Massachusetts. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Pratt Rink",
+    "slug": "pratt-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.595304,
+    "lng": -71.586294,
+    "description": "Pratt Rink is a ice skating rink in Massachusetts. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Glen Abbey Recreation Centre",
+    "slug": "glen-abbey-recreation-centre",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.436351,
+    "lng": -79.738554,
+    "description": "Glen Abbey Recreation Centre is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Auburn Skating Rinks",
+    "slug": "auburn-skating-rinks",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 43.007219,
+    "lng": -71.344493,
+    "description": "Auburn Skating Rinks is a ice skating rink in New Hampshire. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Ice Arena",
+    "slug": "ice-arena",
+    "state": "South Dakota",
+    "stateSlug": "south-dakota",
+    "city": "",
+    "lat": 44.08706,
+    "lng": -103.225106,
+    "description": "Ice Arena is a ice skating rink in South Dakota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Clinton Square Ice Rink (Seasonal)",
+    "slug": "clinton-square-ice-rink-seasonal",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.050863,
+    "lng": -76.152906,
+    "description": "Clinton Square Ice Rink (Seasonal) is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "http://www.syracuse.ny.us/parks/clintonsquarerink.html"
+  },
+  {
+    "name": "UPMC Lemieux Sports Complex",
+    "slug": "upmc-lemieux-sports-complex",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Cranberry Township",
+    "lat": 40.687922,
+    "lng": -80.094353,
+    "description": "UPMC Lemieux Sports Complex is a ice skating rink in Cranberry Township, Pennsylvania. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Duluth Curling Club",
+    "slug": "duluth-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.781891,
+    "lng": -92.098124,
+    "description": "Duluth Curling Club is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://duluthcurlingclub.org/"
+  },
+  {
+    "name": "Hockey Rink",
+    "slug": "hockey-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 40.688133,
+    "lng": -73.659869,
+    "description": "Hockey Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Bucks County Curling Club",
+    "slug": "bucks-county-curling-club",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Warminster",
+    "lat": 40.224393,
+    "lng": -75.095409,
+    "description": "Bucks County Curling Club is a ice skating rink in Warminster, Pennsylvania. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://www.buckscountycurlingclub.org/"
+  },
+  {
+    "name": "Kennedy Arena",
+    "slug": "kennedy-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.219466,
+    "lng": -75.463726,
+    "description": "Kennedy Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Ice Arena",
+    "slug": "ice-arena-2",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.406847,
+    "lng": -74.12533,
+    "description": "Ice Arena is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "The Rink",
+    "slug": "the-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.753665,
+    "lng": -73.983671,
+    "description": "The Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park"
+  },
+  {
+    "name": "Olympic Arena",
+    "slug": "olympic-arena",
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "city": "",
+    "lat": 40.518858,
+    "lng": -80.149852,
+    "description": "Olympic Arena is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "84 Lumber Arena",
+    "slug": "84-lumber-arena",
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "city": "",
+    "lat": 40.51905,
+    "lng": -80.150458,
+    "description": "84 Lumber Arena is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Sky Rink",
+    "slug": "sky-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.747731,
+    "lng": -74.010555,
+    "description": "Sky Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "http://venues.chelseapiers.com/sr/"
+  },
+  {
+    "name": "The Standard Ice Rink",
+    "slug": "the-standard-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.740882,
+    "lng": -74.007913,
+    "description": "The Standard Ice Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Arcadia Ice Arena",
+    "slug": "arcadia-ice-arena",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "",
+    "lat": 33.47859,
+    "lng": -111.999225,
+    "description": "Arcadia Ice Arena is a ice skating rink in Arizona. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Dunn County Ice Arena",
+    "slug": "dunn-county-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.877628,
+    "lng": -91.908036,
+    "description": "Dunn County Ice Arena is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Aspen Ice Garden",
+    "slug": "aspen-ice-garden",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.190035,
+    "lng": -106.825282,
+    "description": "Aspen Ice Garden is a ice skating rink in Colorado. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Centennial Ice Rink",
+    "slug": "centennial-ice-rink",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Wilmette",
+    "lat": 42.069422,
+    "lng": -87.734276,
+    "description": "Centennial Ice Rink is a ice skating rink in Wilmette, Illinois. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Ice Centre At the Promenade",
+    "slug": "ice-centre-at-the-promenade",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.891569,
+    "lng": -105.068455,
+    "description": "Ice Centre At the Promenade is a ice skating rink in Colorado. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://www.icecentre.com/"
+  },
+  {
+    "name": "Valley Park Arena",
+    "slug": "valley-park-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.192577,
+    "lng": -79.797633,
+    "description": "Valley Park Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Kenyon Arena",
+    "slug": "kenyon-arena",
+    "state": "Vermont",
+    "stateSlug": "vermont",
+    "city": "",
+    "lat": 44.002965,
+    "lng": -73.177807,
+    "description": "Kenyon Arena is a ice skating rink in Vermont. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://athletics.middlebury.edu/facilities/kenyonarena"
+  },
+  {
+    "name": "Sno-King Ice Arena",
+    "slug": "sno-king-ice-arena",
     "state": "Washington",
     "stateSlug": "washington",
-    "city": "Seattle",
-    "lat": 47.6062,
-    "lng": -122.3321,
-    "type": "ice",
-    "description": "Community ice skating rink with gentle learning programs, recreational sessions, and competitive figure skating options. Year-round operation.",
+    "city": "Kirkland",
+    "lat": 47.730399,
+    "lng": -122.173728,
+    "description": "Sno-King Ice Arena is a ice skating rink in Kirkland, Washington. Great for families, recreational skating, and group events.",
     "amenities": [
-      "Ice skating",
-      "Skate rentals",
-      "Learn-to-skate programs",
-      "Figure skating",
-      "Birthday parties",
-      "Recreational sessions",
-      "Warm-up area",
-      "Parking available"
+      "Ice skating"
+    ],
+    "website": "http://snokingkirkland.com"
+  },
+  {
+    "name": "Columbia Ice Arena",
+    "slug": "columbia-ice-arena",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.209999,
+    "lng": -76.844007,
+    "description": "Columbia Ice Arena is a ice skating rink in Maryland. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Haldane Center",
+    "slug": "haldane-center",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.564083,
+    "lng": -76.118206,
+    "description": "Haldane Center is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Atlanta IceForum",
+    "slug": "atlanta-iceforum",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Duluth",
+    "lat": 33.979218,
+    "lng": -84.09062,
+    "description": "Atlanta IceForum is a ice skating rink in Duluth, Georgia. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Woodbury Community Ice Rink",
+    "slug": "woodbury-community-ice-rink",
+    "state": "Vermont",
+    "stateSlug": "vermont",
+    "city": "",
+    "lat": 44.440143,
+    "lng": -72.415806,
+    "description": "Woodbury Community Ice Rink is a ice skating rink in Vermont. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Ralph G. Cantile Arena",
+    "slug": "ralph-g-cantile-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Cheboygan",
+    "lat": 45.637691,
+    "lng": -84.474588,
+    "description": "Ralph G. Cantile Arena is a ice skating rink in Cheboygan, Michigan. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Blue Mound Ice Arena",
+    "slug": "blue-mound-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Luverne",
+    "lat": 43.644373,
+    "lng": -96.218326,
+    "description": "Blue Mound Ice Arena is a ice skating rink in Luverne, Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Chestnut Hill Developments Recreation Complex",
+    "slug": "chestnut-hill-developments-recreation-complex",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.839452,
+    "lng": -79.079744,
+    "description": "Chestnut Hill Developments Recreation Complex is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Ice at The Parks",
+    "slug": "ice-at-the-parks",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 32.679236,
+    "lng": -97.128769,
+    "description": "Ice at The Parks is a ice skating rink in Texas. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ],
+    "website": "https://www.iceattheparks.net/Site/Home.html"
+  },
+  {
+    "name": "Riverview Icehouse",
+    "slug": "riverview-icehouse",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 42.272464,
+    "lng": -89.088043,
+    "description": "Riverview Icehouse is a ice skating rink in Illinois. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Blue Cross Healthy Zone Rink",
+    "slug": "blue-cross-healthy-zone-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.768872,
+    "lng": -78.613042,
+    "description": "Blue Cross Healthy Zone Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Sleepy Eye Outdoor Rink",
+    "slug": "sleepy-eye-outdoor-rink",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.290445,
+    "lng": -94.719707,
+    "description": "Sleepy Eye Outdoor Rink is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Oak Park Ice Arena",
+    "slug": "oak-park-ice-arena",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.984701,
+    "lng": -121.290796,
+    "description": "Oak Park Ice Arena is a ice skating rink in California. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Hickory Hockey Rink",
+    "slug": "hickory-hockey-rink",
+    "state": "West Virginia",
+    "stateSlug": "west-virginia",
+    "city": "",
+    "lat": 40.294484,
+    "lng": -80.313866,
+    "description": "Hickory Hockey Rink is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
+    ]
+  },
+  {
+    "name": "Dr Pepper Starcenter",
+    "slug": "dr-pepper-starcenter",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Plano",
+    "lat": 33.010551,
+    "lng": -96.771922,
+    "description": "Dr Pepper Starcenter is a ice skating rink in Plano, Texas. Great for families, recreational skating, and group events.",
+    "amenities": [
+      "Ice skating"
     ]
   }
 ]
