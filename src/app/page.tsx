@@ -52,12 +52,6 @@ export default function Home() {
                   fontWeight: "500",
                   transition: "background-color 0.2s",
                 }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.backgroundColor = "#ff8533")
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.backgroundColor = "#ff6600")
-                }
               >
                 {state
                   .split("-")
@@ -107,16 +101,6 @@ export default function Home() {
                     boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
                     transition: "transform 0.2s, box-shadow 0.2s",
                     cursor: "pointer",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "translateY(-4px)";
-                    e.currentTarget.style.boxShadow =
-                      "0 4px 16px rgba(0, 61, 153, 0.15)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "translateY(0)";
-                    e.currentTarget.style.boxShadow =
-                      "0 2px 8px rgba(0, 0, 0, 0.1)";
                   }}
                 >
                   <div

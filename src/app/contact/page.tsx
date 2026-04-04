@@ -167,12 +167,6 @@ export default function ContactPage() {
                     cursor: "pointer",
                     fontSize: "1rem",
                   }}
-                  onMouseEnter={(e) =>
-                    (e.currentTarget.style.backgroundColor = "#0052cc")
-                  }
-                  onMouseLeave={(e) =>
-                    (e.currentTarget.style.backgroundColor = "#003d99")
-                  }
                 >
                   Send Message
                 </button>
@@ -281,12 +275,6 @@ export default function ContactPage() {
                 textDecoration: "none",
                 fontWeight: "500",
               }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.backgroundColor = "#0052cc")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.backgroundColor = "#003d99")
-              }
             >
               Browse Skating Rinks
             </a>
