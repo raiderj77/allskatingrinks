@@ -1,11 +1,12 @@
 {
   "name": "allskatingrinks",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "Find skating rinks near you",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.0",

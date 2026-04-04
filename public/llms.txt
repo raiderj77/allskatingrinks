@@ -1,0 +1,70 @@
+# All Skating Rinks - LLM-Friendly Directory Information
+
+## Site Overview
+All Skating Rinks is a comprehensive directory for finding family-friendly roller skating and ice skating rinks across the United States.
+
+## Site Purpose
+The site helps families, kids, and skating enthusiasts find and discover:
+- Roller skating rinks and ice skating rinks
+- Rink locations, hours, and amenities
+- Birthday party packages and group booking options
+- Skating lessons and programs
+- Family-friendly skating activities
+
+## Content Structure
+- **Home Page**: Overview, featured rinks, educational content about skating
+- **State Pages**: Lists of skating rinks organized by state (50 states covered)
+- **Rink Detail Pages**: Individual skating rink information including:
+  - Rink type (roller or ice)
+  - Location and coordinates
+  - Amenities and services offered
+  - Description and general information
+  - Birthday party information
+
+## Featured Content Sections
+1. Types of Skating: Information about roller skating vs ice skating
+2. Benefits for Kids and Families: Physical and social benefits
+3. What to Expect at a Skating Rink: Experience overview
+4. Amenities and Programs: Modern rink facilities and offerings
+5. Birthday Parties and Group Bookings: Event planning information
+6. FAQ: Answers to common questions about skating rinks
+
+## Skating Rinks in Directory (10 Featured)
+1. Skateland Pasadena - Roller skating in Pasadena, California
+2. Glide Ice Skating - Ice skating in Dallas, Texas
+3. Roller Palace NYC - Roller skating in New York, New York
+4. Ice World Orlando - Ice skating in Orlando, Florida
+5. Rolling Thunder Rink - Roller skating in Detroit, Michigan
+6. Peak Ice Arena - Ice skating in Denver, Colorado
+7. Skate Express Columbus - Roller skating in Columbus, Ohio
+8. Atlanta Ice Center - Ice skating in Atlanta, Georgia
+9. Chicago Roller Dome - Roller skating in Chicago, Illinois
+10. Northgate Ice Skating - Ice skating in Seattle, Washington
+
+## Key Information
+- Brand Colors: Ice blue (#003d99), Fun orange (#ff6600)
+- AdSense Publisher ID: ca-pub-7171402107622932
+- Focus: Family-friendly, kid-safe skating venues
+- Target Audience: Families with children, kids, casual skaters
+
+## Navigation
+Users can browse by state or search for specific skating rinks. Each rink listing includes type (roller or ice), location, and amenities.
+
+## Sister Sites (Directory Network)
+- publicboatramps.com - Boat ramps directory
+- findswimspots.com - Swimming spots directory
+- allskateparks.com - Skate parks directory
+- driveintonight.com - Drive-in theaters directory
+- craftdistilleryfinder.com - Craft distilleries directory
+- rockhoundingfinder.com - Rockhounding sites directory
+- nearbyescaperooms.com - Escape rooms directory
+- soakusa.net - Hot springs directory
+
+## Contact
+Contact form available at: https://allskatingrinks.com/contact
+Email: contact@allskatingrinks.com
+
+## Legal Pages
+- Privacy Policy: https://allskatingrinks.com/privacy
+- Terms of Service: https://allskatingrinks.com/terms
+- About: https://allskatingrinks.com/about

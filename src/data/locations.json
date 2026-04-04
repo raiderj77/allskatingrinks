@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Skateland Pasadena",
+    "slug": "skateland-pasadena",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Pasadena",
+    "lat": 34.1478,
+    "lng": -118.1445,
+    "type": "roller",
+    "description": "Classic roller skating rink with arcade, DJ weekends, and birthday party facilities. Family-friendly atmosphere perfect for kids of all ages.",
+    "amenities": [
+      "Roller skating",
+      "Skate rentals",
+      "Arcade games",
+      "Birthday party rooms",
+      "DJ on weekends",
+      "Lessons available",
+      "Snack bar",
+      "Group bookings"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Glide Ice Skating",
+    "slug": "glide-ice-skating",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "Dallas",
+    "lat": 32.7767,
+    "lng": -96.797,
+    "type": "ice",
+    "description": "Premier ice skating facility with professional instructors, hockey leagues, and figure skating programs. Open year-round with family skating sessions.",
+    "amenities": [
+      "Ice skating",
+      "Skate rentals",
+      "Professional lessons",
+      "Birthday parties",
+      "Hockey leagues",
+      "Figure skating programs",
+      "Warming lounge",
+      "Concessions"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Roller Palace NYC",
+    "slug": "roller-palace-nyc",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "New York",
+    "lat": 40.7128,
+    "lng": -74.006,
+    "type": "roller",
+    "description": "Urban roller skating rink in the heart of Manhattan. High-energy atmosphere with DJ, arcade, and special themed skating nights for families.",
+    "amenities": [
+      "Roller skating",
+      "Skate rentals",
+      "Arcade",
+      "DJ and music",
+      "Birthday packages",
+      "Group rates",
+      "Laser light shows",
+      "Food court"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ice World Orlando",
+    "slug": "ice-world-orlando",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "Orlando",
+    "lat": 28.5421,
+    "lng": -81.3723,
+    "type": "ice",
+    "description": "Year-round indoor ice skating with beginner-friendly programs, holiday shows, and family skating nights. Perfect introduction to ice skating.",
+    "amenities": [
+      "Ice skating",
+      "Skate rentals",
+      "Beginner lessons",
+      "Birthday parties",
+      "Holiday shows",
+      "Family skating nights",
+      "Café",
+      "Locker rooms"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Rolling Thunder Rink",
+    "slug": "rolling-thunder-rink",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Detroit",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "type": "roller",
+    "description": "Vintage roller skating experience with modern amenities. Weekly family nights, arcade games, and professional birthday party packages.",
+    "amenities": [
+      "Roller skating",
+      "Skate rentals",
+      "Arcade games",
+      "Vintage atmosphere",
+      "Birthday packages",
+      "Family skating nights",
+      "Snack bar",
+      "Dance parties"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Peak Ice Arena",
+    "slug": "peak-ice-arena",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "Denver",
+    "lat": 39.7392,
+    "lng": -104.9903,
+    "type": "ice",
+    "description": "High-altitude ice skating in the Mile High City. Multi-level facility with hockey leagues, figure skating programs, and public skating sessions.",
+    "amenities": [
+      "Ice skating",
+      "Skate rentals",
+      "Figure skating lessons",
+      "Hockey leagues",
+      "Public sessions",
+      "Birthday parties",
+      "Pro shop",
+      "Restaurant"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Skate Express Columbus",
+    "slug": "skate-express-columbus",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Columbus",
+    "lat": 39.9612,
+    "lng": -82.9988,
+    "type": "roller",
+    "description": "Modern roller skating facility with LED light shows, bumper skating area for young kids, and special themed nights every weekend.",
+    "amenities": [
+      "Roller skating",
+      "Skate rentals",
+      "Bumper skating area",
+      "LED light shows",
+      "Themed nights",
+      "Birthday rooms",
+      "Arcade",
+      "Concession stand"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Atlanta Ice Center",
+    "slug": "atlanta-ice-center",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Atlanta",
+    "lat": 33.749,
+    "lng": -84.388,
+    "type": "ice",
+    "description": "Full-service ice skating center with multiple rinks, training programs, and recreational skating. Perfect for families learning to ice skate.",
+    "amenities": [
+      "Ice skating",
+      "Skate rentals",
+      "Training programs",
+      "Multiple rinks",
+      "Birthday parties",
+      "Recreational sessions",
+      "Pro shop",
+      "Lounge area"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Chicago Roller Dome",
+    "slug": "chicago-roller-dome",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chicago",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "type": "roller",
+    "description": "Legendary roller skating destination with energetic atmosphere, live DJ, arcade games, and family skating sessions throughout the week.",
+    "amenities": [
+      "Roller skating",
+      "Skate rentals",
+      "Live DJ",
+      "Arcade games",
+      "Birthday parties",
+      "Family nights",
+      "Snack bar",
+      "Group discounts"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Northgate Ice Skating",
+    "slug": "northgate-ice-skating",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Seattle",
+    "lat": 47.6062,
+    "lng": -122.3321,
+    "type": "ice",
+    "description": "Community ice skating rink with gentle learning programs, recreational sessions, and competitive figure skating options. Year-round operation.",
+    "amenities": [
+      "Ice skating",
+      "Skate rentals",
+      "Learn-to-skate programs",
+      "Figure skating",
+      "Birthday parties",
+      "Recreational sessions",
+      "Warm-up area",
+      "Parking available"
+    ]
+  }
+]
