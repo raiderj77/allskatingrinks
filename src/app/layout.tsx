@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Discover family-friendly roller skating and ice skating rinks near you. Find hours, amenities, birthday parties, and lessons at skating rinks across the USA.",
   keywords:
     "skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties",
-  canonical: "https://allskatingrinks.com",
+  alternates: { canonical: "https://allskatingrinks.com" },
   openGraph: {
     title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
     description:
@@ -22,9 +22,6 @@ export const metadata: Metadata = {
     title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
     description:
       "Discover family-friendly roller skating and ice skating rinks near you.",
-  },
-  alternates: {
-    canonical: "https://allskatingrinks.com",
   },
 };
 
