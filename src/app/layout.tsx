@@ -1,301 +1,89 @@
-import type { Metadata } from "next";
-import Script from "next/script";
+import type { Metadata } from 'next';
+import Script from 'next/script';
+import { Righteous, Nunito } from 'next/font/google';
+import './globals.css';
+
+const righteous = Righteous({ subsets: ['latin'], variable: '--font-display', display: 'swap', weight: '400' });
+const nunito = Nunito({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','600','700','800'] });
 
 export const metadata: Metadata = {
-  title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
-  description:
-    "Discover family-friendly roller skating and ice skating rinks near you. Find hours, amenities, birthday parties, and lessons at skating rinks across the USA.",
-  keywords:
-    "skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties",
-  alternates: { canonical: "https://allskatingrinks.com" },
-  verification: { google: "_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs" },
-  openGraph: {
-    title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
-    description:
-      "Discover family-friendly roller skating and ice skating rinks near you. Find hours, amenities, birthday parties, and lessons.",
-    url: "https://allskatingrinks.com",
-    siteName: "All Skating Rinks",
-    type: "website",
-    locale: "en_US",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "All Skating Rinks - Find Roller & Ice Skating Rinks Near You",
-    description:
-      "Discover family-friendly roller skating and ice skating rinks near you.",
-  },
+  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks — Find Roller & Ice Skating Rinks Across America' },
+  description: 'Discover roller skating and ice skating rinks near you. Family fun, lessons, birthday parties, and open skate sessions across all 50 states.',
+  keywords: 'skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties',
+  metadataBase: new URL('https://allskatingrinks.com'),
+  alternates: { canonical: 'https://allskatingrinks.com' },
+  robots: 'index, follow, max-snippet:-1',
+  verification: { google: '_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs' },
 };
 
-const HeaderNav = () => (
-  <header
-    style={{
-      backgroundColor: "#003d99",
-      color: "#ffffff",
-      padding: "0",
-      position: "sticky",
-      top: "0",
-      zIndex: 100,
-      boxShadow: "0 2px 8px rgba(0, 61, 153, 0.1)",
-    }}
-  >
-    <nav
-      style={{
-        maxWidth: "1200px",
-        margin: "0 auto",
-        padding: "1rem",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-      }}
-    >
-      <a
-        href="/"
-        style={{
-          fontSize: "1.5rem",
-          fontWeight: "bold",
-          textDecoration: "none",
-          color: "#ffffff",
-        }}
-      >
-        All Skating Rinks
-      </a>
-      <div style={{ display: "flex", gap: "2rem", alignItems: "center" }}>
-        <a
-          href="/"
-          style={{ color: "#ffffff", textDecoration: "none", fontSize: "0.95rem" }}
-        >
-          Home
-        </a>
-        <a
-          href="/about"
-          style={{ color: "#ffffff", textDecoration: "none", fontSize: "0.95rem" }}
-        >
-          About
-        </a>
-        <a
-          href="/contact"
-          style={{ color: "#ffffff", textDecoration: "none", fontSize: "0.95rem" }}
-        >
-          Contact
-        </a>
-      </div>
-    </nav>
-  </header>
-);
+const toolSites = [
+  { name: 'Fiber Tools', href: 'https://fibertools.app' }, { name: 'Mind Check Tools', href: 'https://mindchecktools.com' },
+  { name: 'Flip My Case', href: 'https://flipmycase.com' }, { name: 'Creator Revenue Calculator', href: 'https://creatorrevenuecalculator.com' },
+  { name: 'Contract Extract', href: 'https://contractextract.com' }, { name: 'Medical Bill Reader', href: 'https://medicalbillreader.com' },
+  { name: 'Tax Break Tools', href: 'https://taxbreaktools.com' }, { name: '524 Tracker', href: 'https://524tracker.com' },
+];
+const directorySites = [
+  { name: 'Public Boat Ramps', href: 'https://publicboatramps.com' }, { name: 'Find Swim Spots', href: 'https://findswimspots.com' },
+  { name: 'Craft Distillery Finder', href: 'https://craftdistilleryfinder.com' }, { name: 'Drive-In Tonight', href: 'https://driveintonight.com' },
+  { name: 'All Skate Parks', href: 'https://allskateparks.com' }, { name: 'Nearby Escape Rooms', href: 'https://nearbyescaperooms.com' },
+  { name: 'Rockhounding Finder', href: 'https://rockhoundingfinder.com' }, { name: 'Soak USA', href: 'https://soakusa.net' },
+];
 
-const FooterLinks = () => (
-  <footer
-    style={{
-      backgroundColor: "#f5f5f5",
-      borderTop: "3px solid #003d99",
-      padding: "2rem 1rem",
-      marginTop: "3rem",
-    }}
-  >
-    <div
-      style={{
-        maxWidth: "1200px",
-        margin: "0 auto",
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr",
-        gap: "2rem",
-      }}
-    >
-      <div>
-        <h3 style={{ fontSize: "1.1rem", marginBottom: "1rem", color: "#003d99" }}>
-          Directory Sites
-        </h3>
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://publicboatramps.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Public Boat Ramps
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://findswimspots.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Find Swim Spots
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://craftdistilleryfinder.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Craft Distillery Finder
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://driveintonight.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Drive-In Tonight
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://allskateparks.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              All Skate Parks
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://rockhoundingfinder.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Rockhounding Finder
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://nearbyescaperooms.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Nearby Escape Rooms
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://soakusa.net"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Soak USA
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h3 style={{ fontSize: "1.1rem", marginBottom: "1rem", color: "#003d99" }}>
-          Tool Sites
-        </h3>
-        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://fibertools.app"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Fiber Tools
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://mindchecktools.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Mind Check Tools
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://flipmycase.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Flip My Case
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://creatorrevenuecalculator.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Creator Revenue Calculator
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://contractextract.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Contract Extract
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://medicalbillreader.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Medical Bill Reader
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://taxbreaktools.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              Tax Break Tools
-            </a>
-          </li>
-          <li style={{ marginBottom: "0.5rem" }}>
-            <a
-              href="https://524tracker.com"
-              style={{ color: "#003d99", textDecoration: "none" }}
-            >
-              524 Tracker
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div
-      style={{
-        maxWidth: "1200px",
-        margin: "2rem auto 0",
-        paddingTop: "2rem",
-        borderTop: "1px solid #ddd",
-        textAlign: "center",
-        color: "#666",
-        fontSize: "0.9rem",
-      }}
-    >
-      <p>
-        <a
-          href="/privacy"
-          style={{ color: "#003d99", textDecoration: "none", marginRight: "1.5rem" }}
-        >
-          Privacy
-        </a>
-        <a
-          href="/terms"
-          style={{ color: "#003d99", textDecoration: "none" }}
-        >
-          Terms
-        </a>
-      </p>
-      <p style={{ marginTop: "0.5rem" }}>
-        © 2024 All Skating Rinks. All rights reserved.
-      </p>
-    </div>
-  </footer>
-);
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${righteous.variable} ${nunito.variable}`}>
       <head>
         <meta name="msvalidate.01" content="C4C9B6256BDEDED169E4DE01CA953390" />
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7171402107622932"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7171402107622932" strategy="afterInteractive" />
       </head>
-      <body style={{ margin: 0, fontFamily: "system-ui, -apple-system, sans-serif" }}>
-        <HeaderNav />
-        <main style={{ minHeight: "calc(100vh - 300px)" }}>{children}</main>
-        <FooterLinks />
+      <body>
+        <header style={{ background: 'linear-gradient(90deg, var(--dark) 0%, var(--mid-dark) 100%)', borderBottom: '3px solid var(--pink)', position: 'sticky', top: 0, zIndex: 1000, boxShadow: '0 2px 20px rgba(255,31,142,0.3)' }}>
+          <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.85rem 1.5rem' }}>
+            <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+              <span style={{ fontSize: '1.5rem', lineHeight: 1 }}>⛸️</span>
+              <span style={{ fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: '1.3rem', background: 'linear-gradient(90deg, var(--pink), var(--blue-lt))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>All Skating Rinks</span>
+            </a>
+            <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+              <a href="/" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>Home</a>
+              <a href="/browse-states" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>Browse</a>
+              <a href="/about" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>About</a>
+            </nav>
+          </div>
+        </header>
+
+        <main style={{ minHeight: 'calc(100vh - 340px)' }}>{children}</main>
+
+        <footer style={{ background: 'var(--dark)', borderTop: '3px solid var(--pink)', marginTop: '5rem', padding: '3rem 0 2rem' }}>
+          <div className="container">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginBottom: '2.5rem' }}>
+              <div>
+                <p style={{ fontFamily: 'var(--font-display)', background: 'linear-gradient(90deg, var(--pink), var(--blue-lt))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.1rem', marginBottom: '0.75rem' }}>⛸️ All Skating Rinks</p>
+                <p style={{ color: 'var(--mid)', fontSize: '0.875rem', lineHeight: 1.7 }}>Free directory of roller skating and ice skating rinks across the United States.</p>
+              </div>
+              <div>
+                <h4 style={{ color: 'var(--pink)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 800 }}>Directory Sites</h4>
+                <ul style={{ listStyle: 'none' }}>
+                  {directorySites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--mid)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
+                </ul>
+              </div>
+              <div>
+                <h4 style={{ color: 'var(--pink)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 800 }}>Tools</h4>
+                <ul style={{ listStyle: 'none' }}>
+                  {toolSites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--mid)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
+                </ul>
+              </div>
+            </div>
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
+              <p style={{ color: 'var(--charcoal)', fontSize: '0.85rem' }}>© 2026 All Skating Rinks. All rights reserved.</p>
+              <div style={{ display: 'flex', gap: '1.5rem' }}>
+                {[['Privacy', '/privacy'], ['Terms', '/terms'], ['Contact', '/contact'], ['About', '/about']].map(([l, h]) => (
+                  <a key={h} href={h} style={{ color: 'var(--charcoal)', fontSize: '0.85rem', textDecoration: 'none', fontFamily: 'var(--font-body)' }}>{l}</a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );

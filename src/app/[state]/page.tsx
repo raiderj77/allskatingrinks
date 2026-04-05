@@ -1,163 +1,135 @@
-import locations from "@/data/locations.json";
+/* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import locations from '@/data/locations.json';
 
 export const revalidate = 86400;
 
-const states = Array.from(new Set(locations.map((loc) => loc.stateSlug)));
+const stateList = [
+  { name: 'Alabama', slug: 'alabama' }, { name: 'Alaska', slug: 'alaska' },
+  { name: 'Arizona', slug: 'arizona' }, { name: 'Arkansas', slug: 'arkansas' },
+  { name: 'California', slug: 'california' }, { name: 'Colorado', slug: 'colorado' },
+  { name: 'Connecticut', slug: 'connecticut' }, { name: 'Delaware', slug: 'delaware' },
+  { name: 'Florida', slug: 'florida' }, { name: 'Georgia', slug: 'georgia' },
+  { name: 'Hawaii', slug: 'hawaii' }, { name: 'Idaho', slug: 'idaho' },
+  { name: 'Illinois', slug: 'illinois' }, { name: 'Indiana', slug: 'indiana' },
+  { name: 'Iowa', slug: 'iowa' }, { name: 'Kansas', slug: 'kansas' },
+  { name: 'Kentucky', slug: 'kentucky' }, { name: 'Louisiana', slug: 'louisiana' },
+  { name: 'Maine', slug: 'maine' }, { name: 'Maryland', slug: 'maryland' },
+  { name: 'Massachusetts', slug: 'massachusetts' }, { name: 'Michigan', slug: 'michigan' },
+  { name: 'Minnesota', slug: 'minnesota' }, { name: 'Mississippi', slug: 'mississippi' },
+  { name: 'Missouri', slug: 'missouri' }, { name: 'Montana', slug: 'montana' },
+  { name: 'Nebraska', slug: 'nebraska' }, { name: 'Nevada', slug: 'nevada' },
+  { name: 'New Hampshire', slug: 'new-hampshire' }, { name: 'New Jersey', slug: 'new-jersey' },
+  { name: 'New Mexico', slug: 'new-mexico' }, { name: 'New York', slug: 'new-york' },
+  { name: 'North Carolina', slug: 'north-carolina' }, { name: 'North Dakota', slug: 'north-dakota' },
+  { name: 'Ohio', slug: 'ohio' }, { name: 'Oklahoma', slug: 'oklahoma' },
+  { name: 'Oregon', slug: 'oregon' }, { name: 'Pennsylvania', slug: 'pennsylvania' },
+  { name: 'Rhode Island', slug: 'rhode-island' }, { name: 'South Carolina', slug: 'south-carolina' },
+  { name: 'South Dakota', slug: 'south-dakota' }, { name: 'Tennessee', slug: 'tennessee' },
+  { name: 'Texas', slug: 'texas' }, { name: 'Utah', slug: 'utah' },
+  { name: 'Vermont', slug: 'vermont' }, { name: 'Virginia', slug: 'virginia' },
+  { name: 'Washington', slug: 'washington' }, { name: 'West Virginia', slug: 'west-virginia' },
+  { name: 'Wisconsin', slug: 'wisconsin' }, { name: 'Wyoming', slug: 'wyoming' },
+];
 
-export async function generateStaticParams() {
-  return states.map((state) => ({
-    state,
-  }));
+function getStateName(slug: string) {
+  return stateList.find((s) => s.slug === slug)?.name ?? slug.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ');
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ state: string }>;
-}) {
-  const { state } = await params;
-  const stateName = state
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+export function generateStaticParams() {
+  return stateList.map((s) => ({ state: s.slug }));
+}
 
+export async function generateMetadata({ params }: { params: Promise<{ state: string }> }): Promise<Metadata> {
+  const { state } = await params;
+  const stateName = getStateName(state);
   return {
-    title: `Skating Rinks in ${stateName} - All Skating Rinks`,
-    description: `Find family-friendly roller skating and ice skating rinks in ${stateName}. Browse locations, hours, amenities, and birthday party options.`,
-    canonical: `https://allskatingrinks.com/${state}`,
-    openGraph: {
-      title: `Skating Rinks in ${stateName}`,
-      description: `Find skating rinks in ${stateName} - locations, hours, and amenities.`,
-      url: `https://allskatingrinks.com/${state}`,
-    },
+    title: `Skating Rinks in ${stateName}`,
+    description: `Find roller and ice skating rinks in ${stateName}. Open skate, birthday parties, lessons, and family fun near you.`,
+    alternates: { canonical: `https://allskatingrinks.com/${state}` },
   };
 }
 
-export default async function StatePage({
-  params,
-}: {
-  params: Promise<{ state: string }>;
-}) {
-  const { state } = await params;
-  const stateName = state
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+const IMG_KEYWORDS = ['roller+skating','ice+skating+rink','roller+rink','skating+rink','disco+skating','figure+skating','roller+derby','inline+skating'];
 
-  const rinks = locations.filter((loc) => loc.stateSlug === state);
+export default async function StatePage({ params }: { params: Promise<{ state: string }> }) {
+  const { state } = await params;
+  const stateName = getStateName(state);
+  const spots = locations.filter((l) => l.stateSlug === state);
 
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}>
-      <section
-        style={{
-          backgroundColor: "#003d99",
-          color: "#ffffff",
-          padding: "2rem 1rem",
-          textAlign: "center",
-        }}
-      >
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <h1 style={{ fontSize: "2rem", marginBottom: "0.5rem", fontWeight: "bold" }}>
-            Skating Rinks in {stateName}
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'BreadcrumbList',
+        itemListElement:[
+          { '@type':'ListItem',position:1,name:'Home',item:'https://allskatingrinks.com'},
+          { '@type':'ListItem',position:2,name:`Skating Rinks in ${stateName}`,item:`https://allskatingrinks.com/${state}`},
+        ],
+      }) }} />
+
+      {/* Hero */}
+      <section style={{ position: 'relative', background: 'linear-gradient(135deg, var(--dark) 0%, #1a0030 60%, #001a3a 100%)', overflow: 'hidden', padding: '4rem 1.5rem 3.5rem' }}>
+        <div aria-hidden style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle 300px at 10% 60%, rgba(255,31,142,0.1) 0%, transparent 70%), radial-gradient(circle 200px at 85% 30%, rgba(31,110,255,0.1) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+          <Link href="/" style={{ color: 'var(--pink-lt)', fontSize: '0.82rem', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginBottom: '1.5rem', fontWeight: 700, fontFamily: 'var(--font-body)', textDecoration: 'none' }}>← All States</Link>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem,4.5vw,3.2rem)', color: 'var(--white)', marginBottom: '0.75rem' }}>
+            SKATING RINKS IN <span style={{ color: 'var(--pink)', textShadow: '0 0 30px rgba(255,31,142,0.4)' }}>{stateName.toUpperCase()}</span>
           </h1>
-          <p style={{ fontSize: "1.1rem", marginTop: 0 }}>
-            Discover {rinks.length} skating rink{rinks.length !== 1 ? "s" : ""} in{" "}
-            {stateName}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+            <span className="chip chip-pink">{spots.length} {spots.length===1?'Rink':'Rinks'} Listed</span>
+            <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>Roller &amp; ice skating</span>
+          </div>
+        </div>
+        <svg aria-hidden viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
+          <path d="M0,20 C480,40 960,0 1440,20 L1440,40 L0,40 Z" fill="var(--ivory)" />
+        </svg>
+      </section>
+
+      {/* Grid */}
+      <section style={{ padding: '4rem 1.5rem' }}>
+        <div className="container">
+          {spots.length > 0 ? (
+            <div className="grid-3">
+              {spots.map((spot, i) => (
+                <Link key={spot.slug} href={`/${state}/${spot.slug}`} style={{ textDecoration: 'none' }}>
+                  <article className="card">
+                    <img src={`https://source.unsplash.com/800x500/?${IMG_KEYWORDS[i%IMG_KEYWORDS.length]}&sig=${i+40}`} alt={spot.name} className="card-img" loading="lazy" width={800} height={500} />
+                    <div className="card-body">
+                      <div className="card-meta"><span>📍</span><span>{spot.city ? `${spot.city}, ` : ''}{spot.state}</span></div>
+                      <h2 className="card-title">{spot.name}</h2>
+                      <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '1rem', fontFamily: 'var(--font-body)' }}>{spot.description.slice(0,100)}…</p>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
+                        {spot.amenities.slice(0,3).map((a) => <span key={a} className="chip">{a}</span>)}
+                      </div>
+                    </div>
+                  </article>
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '5rem 2rem', background: 'var(--white)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-card)' }}>
+              <p style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>⛸️</p>
+              <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--dark)', marginBottom: '0.75rem', fontSize: '2rem' }}>Coming Soon!</h2>
+              <p style={{ color: 'var(--mid)', fontFamily: 'var(--font-body)' }}>{"We're adding rinks in "}{stateName}{" — check back soon!"}</p>
+              <Link href="/" className="btn btn-pink" style={{ display: 'inline-flex', marginTop: '1.5rem' }}>Browse Other States</Link>
+            </div>
+          )}
+        </div>
+      </section>
+
+      {/* State info */}
+      <section style={{ background: 'var(--cream)', borderTop: '1px solid rgba(255,31,142,0.08)', padding: '4rem 1.5rem' }}>
+        <div className="container" style={{ maxWidth: '760px' }}>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dark)', marginBottom: '1rem' }}>Skating in {stateName}</h2>
+          <p style={{ lineHeight: 1.85, marginBottom: '1.1rem', color: '#445' }}>
+            {stateName} has a vibrant skating community with rinks ranging from classic neighborhood roller rinks to modern facilities offering laser nights, cosmic skating, and professional ice surfaces. Whether you're looking for a casual family outing or competitive league play, there's a rink for you.
+          </p>
+          <p style={{ lineHeight: 1.85, color: '#445' }}>
+            Most rinks offer skate rentals, so you don't need your own equipment. Check individual venue websites for current open skate hours, pricing, and any special events — sessions and rates change seasonally.
           </p>
         </div>
       </section>
-
-      <section style={{ padding: "2rem 1rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns:
-                "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "2rem",
-            }}
-          >
-            {rinks.map((rink) => (
-              <a
-                key={rink.slug}
-                href={`/${rink.stateSlug}/${rink.slug}`}
-                style={{
-                  textDecoration: "none",
-                  color: "inherit",
-                }}
-              >
-                <div
-                  style={{
-                    border: "1px solid #ddd",
-                    borderRadius: "8px",
-                    padding: "1.5rem",
-                    boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
-                    transition: "transform 0.2s, box-shadow 0.2s",
-                    cursor: "pointer",
-                  }}
-                >
-                  <div
-                    style={{
-                      display: "inline-block",
-                      backgroundColor:
-                        rink.amenities.includes("Ice skating") ? "#e6f2ff" : "#fff5e6",
-                      color: rink.amenities.includes("Ice skating") ? "#003d99" : "#ff6600",
-                      padding: "0.4rem 0.8rem",
-                      borderRadius: "4px",
-                      fontSize: "0.85rem",
-                      fontWeight: "600",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
-                  </div>
-                  <h2
-                    style={{
-                      fontSize: "1.3rem",
-                      marginBottom: "0.3rem",
-                      marginTop: "0.5rem",
-                      color: "#003d99",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    {rink.name}
-                  </h2>
-                  <p style={{ color: "#666", marginBottom: "1rem", margin: "0.3rem 0" }}>
-                    {rink.city}, {rink.state}
-                  </p>
-                  <p style={{ color: "#888", fontSize: "0.95rem", margin: 0 }}>
-                    {rink.description.substring(0, 100)}...
-                  </p>
-                </div>
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://allskatingrinks.com",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: stateName,
-                item: `https://allskatingrinks.com/${state}`,
-              },
-            ],
-          }),
-        }}
-      />
-    </main>
+    </>
   );
 }

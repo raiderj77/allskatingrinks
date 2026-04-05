@@ -1,306 +1,169 @@
-import locations from "@/data/locations.json";
+/* eslint-disable @next/next/no-img-element */
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import locations from '@/data/locations.json';
 
 export const revalidate = 86400;
 
-const allSlugs = locations.flatMap((loc) => ({
-  state: loc.stateSlug,
-  slug: loc.slug,
-}));
-
 export async function generateStaticParams() {
-  return allSlugs;
+  return locations.map((l) => ({ state: l.stateSlug, slug: l.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ state: string; slug: string }>;
-}) {
-  const { state, slug } = await params;
-  const rink = locations.find((loc) => loc.slug === slug && loc.stateSlug === state);
-
-  if (!rink) {
-    return { title: "Skating Rink Not Found" };
-  }
-
+export async function generateMetadata({ params }: { params: Promise<{ state: string; slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const loc = locations.find((l) => l.slug === slug);
+  if (!loc) return {};
   return {
-    title: `${rink.name} - Skating Rink in ${rink.city}, ${rink.state}`,
-    description: `${rink.name} - ${rink.amenities.includes("Ice skating") ? "Ice" : "Roller"} skating rink in ${rink.city}, ${rink.state}. ${rink.description}`,
-    alternates: { canonical: `https://allskatingrinks.com/${state}/${slug}` },
-    openGraph: {
-      title: `${rink.name} - ${rink.state}`,
-      description: rink.description,
-      url: `https://allskatingrinks.com/${state}/${slug}`,
-    },
+    title: `${loc.name} — Skating Rink in ${loc.state}`,
+    description: `${loc.description.slice(0, 155)}`,
+    alternates: { canonical: `https://allskatingrinks.com/${loc.stateSlug}/${loc.slug}` },
   };
 }
 
-export default async function RinkDetailPage({
-  params,
-}: {
-  params: Promise<{ state: string; slug: string }>;
-}) {
+const AMENITY_ICONS: Record<string, string> = {
+  'Skate rental': '⛸️', 'Roller skating': '🛼', 'Ice skating': '🧊',
+  'Lessons available': '🎓', 'Birthday parties': '🎂', 'Snack bar': '🍕',
+  'Arcade': '🎮', 'Locker rooms': '🔒', 'Parking': '🅿️',
+  'Wheelchair accessible': '♿', 'Pro shop': '🛍️', 'Hockey': '🏒',
+  'Figure skating': '⭐', 'Laser skating': '🔦', 'Family friendly': '👨‍👩‍👧',
+};
+
+const HERO_KEYWORDS = ['roller+skating','ice+skating+rink','roller+rink','skating+rink','disco+skating','figure+skating','roller+derby','inline+skating'];
+
+export default async function RinkPage({ params }: { params: Promise<{ state: string; slug: string }> }) {
   const { state, slug } = await params;
-  const rink = locations.find((loc) => loc.slug === slug && loc.stateSlug === state);
+  const loc = locations.find((l) => l.slug === slug && l.stateSlug === state);
+  if (!loc) notFound();
 
-  if (!rink) {
-    return (
-      <main style={{ padding: "2rem 1rem", textAlign: "center" }}>
-        <h1>Skating Rink Not Found</h1>
-        <p>The skating rink you're looking for could not be found.</p>
-      </main>
-    );
-  }
-
-  const stateName = state
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
+  const related = locations.filter((l) => l.stateSlug === state && l.slug !== slug).slice(0, 3);
+  const heroKw = HERO_KEYWORDS[Math.abs(slug.charCodeAt(0) - 97) % HERO_KEYWORDS.length];
 
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}>
-      <section
-        style={{
-          backgroundColor: "#003d99",
-          color: "#ffffff",
-          padding: "2rem 1rem",
-        }}
-      >
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <p style={{ margin: 0, marginBottom: "0.5rem" }}>
-            <a href="/" style={{ color: "#ffcccc", textDecoration: "none" }}>
-              Home
-            </a>
-            {" > "}
-            <a href={`/${state}`} style={{ color: "#ffcccc", textDecoration: "none" }}>
-              {stateName}
-            </a>
-            {" > "}
-            <span style={{ color: "#ffffff" }}>{rink.name}</span>
-          </p>
-          <h1 style={{ fontSize: "2rem", marginTop: "0.5rem", marginBottom: "0.5rem", fontWeight: "bold" }}>
-            {rink.name}
-          </h1>
-          <p style={{ fontSize: "1.1rem", margin: 0 }}>
-            {rink.city}, {rink.state}
-          </p>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'SportsActivityLocation',
+        name: loc.name,
+        description: loc.description,
+        address: { '@type':'PostalAddress', addressLocality: loc.city || '', addressRegion: loc.state, addressCountry:'US' },
+        ...(loc.lat && loc.lng ? { geo: { '@type':'GeoCoordinates', latitude: loc.lat, longitude: loc.lng } } : {}),
+        url: `https://allskatingrinks.com/${loc.stateSlug}/${loc.slug}`,
+      }) }} />
+
+      {/* Hero */}
+      <section style={{ position: 'relative', height: '440px', overflow: 'hidden' }}>
+        <img src={`https://source.unsplash.com/1400x600/?${heroKw}&sig=${slug.length}`} alt={loc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} width={1400} height={600} />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(13,13,26,0.92) 0%, rgba(13,13,26,0.55) 50%, rgba(13,13,26,0.2) 100%)' }} />
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(circle 300px at 80% 30%, rgba(255,31,142,0.1) 0%, transparent 70%)', pointerEvents: 'none' }} />
+        <div className="container" style={{ position: 'absolute', bottom: '2.5rem', left: '50%', transform: 'translateX(-50%)', width: '100%' }}>
+          <Link href={`/${state}`} style={{ color: 'var(--pink-lt)', fontSize: '0.82rem', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', marginBottom: '1rem', fontWeight: 700, fontFamily: 'var(--font-body)', textDecoration: 'none' }}>← {loc.state}</Link>
+          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.7rem,4vw,3rem)', color: 'var(--white)', marginBottom: '0.75rem', lineHeight: 1.1 }}>{loc.name}</h1>
+          <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap', alignItems: 'center' }}>
+            <span className="chip chip-white">📍 {loc.city ? `${loc.city}, ` : ''}{loc.state}</span>
+            {loc.amenities.slice(0,2).map((a) => <span key={a} className="chip chip-white">{a}</span>)}
+          </div>
         </div>
+        <svg aria-hidden viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
+          <path d="M0,20 C480,40 960,0 1440,20 L1440,40 L0,40 Z" fill="var(--ivory)" />
+        </svg>
       </section>
 
-      <section style={{ padding: "2rem 1rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "2fr 1fr",
-              gap: "2rem",
-            }}
-          >
+      {/* Content */}
+      <section style={{ padding: '4rem 1.5rem' }}>
+        <div className="container">
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: '2.5rem', alignItems: 'start' }}>
+
+            {/* Left */}
             <div>
-              <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>
-                About This Rink
-              </h2>
-              <p style={{ lineHeight: "1.8", color: "#333", marginBottom: "1.5rem" }}>
-                {rink.description}
-              </p>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', color: 'var(--dark)', marginBottom: '1rem' }}>About This Rink</h2>
+              <p style={{ lineHeight: 1.85, marginBottom: '1.5rem', color: '#445' }}>{loc.description}</p>
 
-              <h3 style={{ fontSize: "1.2rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>
-                Type
-              </h3>
-              <p style={{ color: "#555" }}>
-                {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
-              </p>
+              {loc.amenities.length > 0 && (
+                <div style={{ marginBottom: '2rem' }}>
+                  <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: 'var(--dark)', marginBottom: '0.9rem' }}>Features & Amenities</h3>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.6rem' }}>
+                    {loc.amenities.map((a) => (
+                      <div key={a} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', padding: '0.65rem 1rem', background: 'var(--white)', borderRadius: 'var(--radius-sm)', border: '2px solid rgba(255,31,142,0.1)', borderLeft: '3px solid var(--pink)', fontSize: '0.875rem', fontFamily: 'var(--font-body)', color: 'var(--dark)', fontWeight: 700 }}>
+                        <span>{AMENITY_ICONS[a] ?? '⛸️'}</span><span>{a}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
 
-              <h3 style={{ fontSize: "1.2rem", color: "#003d99", marginBottom: "1rem", marginTop: "1.5rem", fontWeight: "bold" }}>
-                Location
-              </h3>
-              <p style={{ color: "#555" }}>
-                {rink.city}, {rink.state}
-                <br />
-                <small style={{ color: "#999" }}>
-                  Coordinates: {rink.lat}, {rink.lng}
-                </small>
-              </p>
+              {/* Map */}
+              <div style={{ borderRadius: 'var(--radius)', overflow: 'hidden', border: '2px solid rgba(255,31,142,0.12)', marginBottom: '1.5rem' }}>
+                <div style={{ background: 'linear-gradient(135deg, var(--dark) 0%, #1a0030 100%)', height: '200px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.75rem' }}>
+                  <span style={{ fontSize: '2.5rem' }}>🗺️</span>
+                  <p style={{ color: 'var(--pink-lt)', fontFamily: 'var(--font-display)', fontSize: '1rem' }}>Location</p>
+                  <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.875rem', fontFamily: 'var(--font-body)' }}>{loc.city ? `${loc.city}, ` : ''}{loc.state}</p>
+                </div>
+                {loc.lat && loc.lng && (
+                  <a href={`https://www.google.com/maps?q=${loc.lat},${loc.lng}`} target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', padding: '0.85rem', background: 'var(--pink)', color: 'var(--white)', fontWeight: 700, fontSize: '0.875rem', fontFamily: 'var(--font-body)', textDecoration: 'none' }}>
+                    Get Directions →
+                  </a>
+                )}
+              </div>
 
-              <h3 style={{ fontSize: "1.2rem", color: "#003d99", marginBottom: "1rem", marginTop: "1.5rem", fontWeight: "bold" }}>
-                Amenities & Services
-              </h3>
-              <ul
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "repeat(2, 1fr)",
-                  gap: "0.5rem",
-                  listStyle: "none",
-                  padding: 0,
-                  margin: 0,
-                }}
-              >
-                {rink.amenities.map((amenity, idx) => (
-                  <li
-                    key={idx}
-                    style={{
-                      padding: "0.5rem 0",
-                      color: "#555",
-                    }}
-                  >
-                    ✓ {amenity}
-                  </li>
-                ))}
-              </ul>
-
-              <h3 style={{ fontSize: "1.2rem", color: "#003d99", marginBottom: "1rem", marginTop: "1.5rem", fontWeight: "bold" }}>
-                General Information
-              </h3>
-              <p style={{ color: "#666", lineHeight: "1.8" }}>
-                <strong>Hours of Operation:</strong> Please contact the rink
-                directly for current hours, as they vary by season.
-                <br />
-                <strong>Admission:</strong> Typical admission ranges from $8-$20
-                per person. Skate rentals usually add $3-$8.
-                <br />
-                <strong>Birthday Parties:</strong> Most skating rinks offer
-                birthday party packages with reserved seating, party rooms, and
-                catering options.
-                <br />
-                <strong>Lessons:</strong> Professional skating lessons are
-                available for beginners and advanced skaters.
-              </p>
+              {/* Tips */}
+              <div style={{ background: 'var(--blue-pale)', border: '2px solid rgba(31,110,255,0.15)', borderRadius: 'var(--radius)', padding: '1.25rem 1.5rem' }}>
+                <p style={{ fontFamily: 'var(--font-display)', color: 'var(--blue)', fontSize: '1rem', marginBottom: '0.5rem' }}>⛸️ Skater Tips</p>
+                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Arrive early to get rental skates fitted. Wear comfortable, flexible clothing and bring socks. Beginners should stay near the wall until you find your balance. Most rinks offer wrist guards and knee pads — use them!</p>
+              </div>
             </div>
 
-            <aside>
-              <div
-                style={{
-                  backgroundColor: "#f9f9f9",
-                  border: "1px solid #ddd",
-                  borderRadius: "8px",
-                  padding: "1.5rem",
-                  marginBottom: "1.5rem",
-                }}
-              >
-                <h3 style={{ fontSize: "1.1rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>
-                  Quick Facts
-                </h3>
-                <div style={{ fontSize: "0.95rem" }}>
-                  <div style={{ marginBottom: "1rem", paddingBottom: "1rem", borderBottom: "1px solid #ddd" }}>
-                    <p style={{ color: "#666", margin: "0 0 0.25rem 0" }}>
-                      <strong>Type:</strong>
-                    </p>
-                    <p style={{ margin: 0, color: "#333" }}>
-                      {rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating"}
-                    </p>
-                  </div>
-                  <div style={{ marginBottom: "1rem", paddingBottom: "1rem", borderBottom: "1px solid #ddd" }}>
-                    <p style={{ color: "#666", margin: "0 0 0.25rem 0" }}>
-                      <strong>City:</strong>
-                    </p>
-                    <p style={{ margin: 0, color: "#333" }}>{rink.city}</p>
-                  </div>
-                  <div style={{ marginBottom: "1rem", paddingBottom: "1rem", borderBottom: "1px solid #ddd" }}>
-                    <p style={{ color: "#666", margin: "0 0 0.25rem 0" }}>
-                      <strong>State:</strong>
-                    </p>
-                    <p style={{ margin: 0, color: "#333" }}>{rink.state}</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "#666", margin: "0 0 0.25rem 0" }}>
-                      <strong>Amenities:</strong>
-                    </p>
-                    <p style={{ margin: 0, color: "#333" }}>
-                      {rink.amenities.length} services available
-                    </p>
-                  </div>
+            {/* Right — sticky panel */}
+            <aside style={{ position: 'sticky', top: '5.5rem' }}>
+              <div style={{ background: 'var(--white)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-card)', overflow: 'hidden', border: '2px solid rgba(255,31,142,0.12)' }}>
+                <div style={{ background: 'linear-gradient(135deg, var(--dark), #1a0030)', padding: '1.25rem 1.5rem', borderBottom: '3px solid var(--pink)' }}>
+                  <p style={{ fontFamily: 'var(--font-display)', color: 'var(--pink-lt)', fontSize: '1.1rem', marginBottom: '0.25rem' }}>Rink Info</p>
+                  <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.8rem', fontFamily: 'var(--font-body)' }}>{loc.name}</p>
+                </div>
+                <div style={{ padding: '1.25rem 1.5rem' }}>
+                  {[
+                    { label: 'Location', value: `${loc.city ? `${loc.city}, ` : ''}${loc.state}` },
+                    { label: 'Type', value: loc.amenities.find((a) => a.toLowerCase().includes('roller') || a.toLowerCase().includes('ice')) ?? 'Skating Rink' },
+                    { label: 'Parties', value: loc.amenities.find((a) => a.toLowerCase().includes('birthday') || a.toLowerCase().includes('party')) ?? 'Check website' },
+                  ].map(({ label, value }) => (
+                    <div key={label} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', padding: '0.65rem 0', borderBottom: '1px solid rgba(255,31,142,0.07)' }}>
+                      <span style={{ fontSize: '0.8rem', color: 'var(--mid)', textTransform: 'uppercase', letterSpacing: '0.06em', fontFamily: 'var(--font-body)', fontWeight: 800, flexShrink: 0 }}>{label}</span>
+                      <span style={{ fontSize: '0.875rem', color: 'var(--dark)', fontFamily: 'var(--font-body)', textAlign: 'right' }}>{value}</span>
+                    </div>
+                  ))}
+                  <Link href={`/${state}`} className="btn btn-pink" style={{ display: 'flex', justifyContent: 'center', marginTop: '1.25rem', fontSize: '0.875rem', padding: '0.75rem 1.5rem' }}>More Rinks in {loc.state}</Link>
                 </div>
               </div>
 
-              <div
-                style={{
-                  backgroundColor: "#e6f2ff",
-                  border: "2px solid #003d99",
-                  borderRadius: "8px",
-                  padding: "1.5rem",
-                  textAlign: "center",
-                }}
-              >
-                <p style={{ fontSize: "0.9rem", color: "#666", margin: "0 0 1rem 0" }}>
-                  For the most up-to-date information about hours, pricing, and
-                  programs, please contact the rink directly.
-                </p>
-                <a
-                  href={`/${state}`}
-                  style={{
-                    display: "inline-block",
-                    backgroundColor: "#003d99",
-                    color: "#ffffff",
-                    padding: "0.75rem 1.5rem",
-                    borderRadius: "4px",
-                    textDecoration: "none",
-                    fontWeight: "500",
-                  }}
-                >
-                  Back to {stateName}
-                </a>
+              <div style={{ marginTop: '1rem', padding: '1rem 1.25rem', background: 'var(--cream)', borderRadius: 'var(--radius-sm)', border: '2px solid rgba(255,31,142,0.08)' }}>
+                <p style={{ fontSize: '0.775rem', color: 'var(--mid)', lineHeight: 1.65, fontFamily: 'var(--font-body)' }}>Hours, pricing, and availability change seasonally. Always verify with the rink directly before visiting.</p>
               </div>
             </aside>
           </div>
         </div>
       </section>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "SportsActivityLocation",
-            name: rink.name,
-            description: rink.description,
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: rink.city,
-              addressRegion: rink.state,
-              addressCountry: "US",
-            },
-            geo: {
-              "@type": "GeoCoordinates",
-              latitude: rink.lat,
-              longitude: rink.lng,
-            },
-            sportsActivityLocation: {
-              "@type": "SportsActivityLocation",
-              sportsActivity: rink.amenities.includes("Ice skating") ? "Ice Skating" : "Roller Skating",
-            },
-          }),
-        }}
-      />
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              {
-                "@type": "ListItem",
-                position: 1,
-                name: "Home",
-                item: "https://allskatingrinks.com",
-              },
-              {
-                "@type": "ListItem",
-                position: 2,
-                name: stateName,
-                item: `https://allskatingrinks.com/${state}`,
-              },
-              {
-                "@type": "ListItem",
-                position: 3,
-                name: rink.name,
-                item: `https://allskatingrinks.com/${state}/${slug}`,
-              },
-            ],
-          }),
-        }}
-      />
-    </main>
+      {/* Related */}
+      {related.length > 0 && (
+        <section style={{ background: 'var(--cream)', borderTop: '2px solid rgba(255,31,142,0.08)', padding: '4rem 1.5rem' }}>
+          <div className="container">
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', color: 'var(--dark)', marginBottom: '2rem' }}>More Rinks in {loc.state}</h2>
+            <div className="grid-3">
+              {related.map((r, i) => (
+                <Link key={r.slug} href={`/${r.stateSlug}/${r.slug}`} style={{ textDecoration: 'none' }}>
+                  <article className="card">
+                    <img src={`https://source.unsplash.com/800x500/?${HERO_KEYWORDS[i%HERO_KEYWORDS.length]}&sig=${i+80}`} alt={r.name} className="card-img" loading="lazy" width={800} height={500} />
+                    <div className="card-body">
+                      <div className="card-meta"><span>📍</span><span>{r.city ? `${r.city}, ` : ''}{r.state}</span></div>
+                      <h3 className="card-title">{r.name}</h3>
+                      <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.65, flex: 1, marginBottom: '0.75rem' }}>{r.description.slice(0,90)}…</p>
+                    </div>
+                  </article>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </>
   );
 }
