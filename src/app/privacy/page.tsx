@@ -24,7 +24,7 @@ export default function PrivacyPage() {
       <section style={{ padding: "2rem 1rem" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto", lineHeight: "1.8" }}>
           <p style={{ color: "#666", fontStyle: "italic" }}>
-            Last updated: April 2024
+            Last updated: April 2026
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
@@ -101,6 +101,26 @@ export default function PrivacyPage() {
               customer service.
             </li>
           </ul>
+
+          <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
+            Cookies and Advertising
+          </h2>
+          <p>
+            This site uses cookies to improve your experience and to serve relevant advertising. We work with
+            third-party advertising partners, including Google, who may use cookies to serve ads based on your
+            prior visits to this website or other websites.
+          </p>
+          <p>
+            You may opt out of personalized advertising by visiting your{" "}
+            <a href="https://ads.google.com/settings" target="_blank" rel="noopener noreferrer" style={{ color: "#003d99" }}>
+              Google Ads Settings
+            </a>{" "}
+            or the{" "}
+            <a href="https://optout.aboutads.info" target="_blank" rel="noopener noreferrer" style={{ color: "#003d99" }}>
+              Digital Advertising Alliance opt-out page
+            </a>
+            .
+          </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
             Security of Your Information
