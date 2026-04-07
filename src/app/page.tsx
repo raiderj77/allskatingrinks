@@ -31,7 +31,33 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'WebSite',url:'https://allskatingrinks.com',
         name:'All Skating Rinks',
+        dateModified:'2026-04-07',
         potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:'https://allskatingrinks.com/search?q={search_term_string}'},'query-input':'required name=search_term_string'},
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'Organization',
+        name:'All Skating Rinks',
+        url:'https://allskatingrinks.com',
+        description:'Directory of ice skating and roller skating rinks across the United States',
+        dateModified:'2026-04-07',
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'LocalBusiness',
+        name:'All Skating Rinks Directory',
+        url:'https://allskatingrinks.com',
+        description:'Find ice rinks and roller skating rinks near you across the United States',
+        areaServed:'United States',
+        dateModified:'2026-04-07',
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context':'https://schema.org','@type':'FAQPage',
+        mainEntity:[
+          { '@type':'Question', name:'How do I find a skating rink near me?', acceptedAnswer:{ '@type':'Answer', text:'Use the All Skating Rinks directory to search by city or state. Each listing specifies whether the rink is an ice skating or roller skating facility, includes hours of operation, admission prices, skate rental availability, and special session types like public skating, hockey, and figure skating.' } },
+          { '@type':'Question', name:'How much does it cost to go ice skating?', acceptedAnswer:{ '@type':'Answer', text:'Public ice skating sessions typically cost $8 to $15 per person for admission, plus $4 to $8 for skate rentals if needed. Prices vary by venue and session type — holiday and weekend sessions often cost more. Check individual listings for current pricing.' } },
+          { '@type':'Question', name:'Do skating rinks rent skates?', acceptedAnswer:{ '@type':'Answer', text:'Most public skating rinks offer skate rentals for both ice and roller skating. Rental skates are typically available in all sizes including children\'s sizes. Bringing your own skates can save $4 to $8 per visit and ensures a better fit for regular skaters.' } },
+          { '@type':'Question', name:'What should beginners know before visiting a skating rink?', acceptedAnswer:{ '@type':'Answer', text:'Beginners should dress in layers, wear gloves to protect hands during falls, and start near the wall or barrier for support. Most rinks offer beginner lessons separately from public skating sessions. Arrive during less busy weekday sessions for more space to practice.' } },
+          { '@type':'Question', name:'Are skating rinks open year-round?', acceptedAnswer:{ '@type':'Answer', text:'Indoor ice rinks and roller skating rinks are typically open year-round, though session hours vary by season. Outdoor ice rinks are seasonal — most open in November or December and close in February or March depending on climate. Check individual listings for current seasonal hours.' } },
+        ],
       }) }} />
 
       {/* Hero */}
@@ -177,6 +203,41 @@ export default function Home() {
               <Link key={s} href={`/${s.toLowerCase().replace(/\s+/g,'-')}`} className="state-link">{s}</Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* GEO Content */}
+      <section style={{ padding: '5rem 1.5rem', background: 'var(--cream)', borderTop: '1px solid rgba(255,31,142,0.08)' }}>
+        <div className="container" style={{ maxWidth: '860px' }}>
+
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--dark)', marginBottom: '0.75rem' }}>How to find the right skating rink for your visit</h2>
+          <p style={{ fontWeight: 700, lineHeight: 1.75, marginBottom: '0.85rem' }}>Search by city and filter by rink type — ice or roller. Check session schedules to find public skating times that match your availability, and verify skate rental availability if you do not own your own skates.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '0.85rem' }}>Matching the right session type to your visit makes a big difference. Public skating is the go-to for casual outings, while learn-to-skate programs are structured specifically for newcomers building fundamental skills. Hockey practice ice and figure skating sessions are separate session types with sport-specific rules, equipment requirements, and pricing.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '3rem' }}>There are approximately 1,800 indoor ice rinks and over 1,500 roller skating rinks operating across the United States, spread across every region and climate — so finding a nearby option is rarely difficult regardless of where you live.</p>
+
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--dark)', marginBottom: '0.75rem' }}>What is the difference between public skating and other rink sessions?</h2>
+          <p style={{ fontWeight: 700, lineHeight: 1.75, marginBottom: '0.85rem' }}>Public skating sessions are open to all skill levels and focus on recreational skating. Hockey sessions, figure skating practice ice, and learn-to-skate lessons are separate session types with different rules and admission structures.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '0.85rem' }}>Rinks manage different user groups by scheduling dedicated sessions throughout the day. Public sessions typically have slower speed rules and are family-oriented, while hockey and figure skating times require appropriate equipment and may restrict general access to keep the surface clear for sport-specific use.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '3rem' }}>Public sessions can fill quickly on weekend afternoons and during school holidays. Weekday morning and early afternoon sessions are generally quieter and better suited to beginners who want more space and a less crowded environment for learning. Ice skating is one of the most popular winter recreational activities in the U.S., with over 10 million Americans skating annually according to the Ice Skating Institute.</p>
+
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--dark)', marginBottom: '0.75rem' }}>What should I wear to a skating rink?</h2>
+          <p style={{ fontWeight: 700, lineHeight: 1.75, marginBottom: '0.85rem' }}>For ice skating, wear warm layers, gloves, and thick socks. For roller skating, comfortable athletic clothing works well. Avoid loose clothing that could catch on skates, and always wear socks — bare feet are not permitted in rental skates.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '0.85rem' }}>Safety gear is strongly recommended for children and beginners at both ice and roller rinks. Helmets protect against head injuries during falls, and wrist guards significantly reduce the risk of wrist fractures, which are among the most common skating injuries for new skaters. Many rinks sell or rent basic protective gear at the facility.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '3rem' }}>Long pants provide an additional layer of protection for the knees and shins during falls. Avoid jeans if possible — they restrict movement and take longer to dry. Athletic pants or leggings give you the flexibility needed to skate comfortably and safely.</p>
+
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--dark)', marginBottom: '0.75rem' }}>Are skating rinks good for birthday parties and group events?</h2>
+          <p style={{ fontWeight: 700, lineHeight: 1.75, marginBottom: '0.85rem' }}>Yes — most skating rinks offer private party packages including reserved seating, skate rentals, and food service. Birthday party packages typically range from $150 to $400 for groups of 10 to 20.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '0.85rem' }}>Group events at skating rinks work well for corporate outings, school field trips, and team celebrations in addition to birthday parties. Many rinks can accommodate larger groups with reserved rink time or private session rentals, which allow exclusive access to the skating surface for a set window.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2rem' }}>Booking well in advance is essential for weekend party rooms, particularly from October through March when demand is highest. The roller skating industry serves over 26 million participants annually in the United States, according to the Roller Skating Association International, making popular rinks especially busy during peak seasons.</p>
+
+          <p style={{ fontSize: '0.875rem', color: '#667', lineHeight: 1.75 }}>
+            <strong>Further reading:</strong>{' '}
+            <a href="https://www.skateisi.org" target="_blank" rel="noopener noreferrer nofollow" style={{ color: 'var(--pink)' }}>Ice Skating Institute</a>
+            {' · '}
+            <a href="https://www.rollerskating.com" target="_blank" rel="noopener noreferrer nofollow" style={{ color: 'var(--pink)' }}>Roller Skating Association International</a>
+            {' · '}
+            <a href="https://www.usfigureskating.org/skate/learn-to-skate" target="_blank" rel="noopener noreferrer nofollow" style={{ color: 'var(--pink)' }}>US Figure Skating — Learn to Skate</a>
+          </p>
         </div>
       </section>
 
