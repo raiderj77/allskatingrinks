@@ -7,9 +7,10 @@
     "city": "Skokie",
     "lat": 42.049122,
     "lng": -87.750045,
-    "description": "Skatium Ice Arena is a ice skating rink in Skokie, Illinois. Great for families, recreational skating, and group events.",
+    "description": "Skatium Ice Arena is a skating rink in Illinois.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -20,9 +21,10 @@
     "city": "",
     "lat": 29.591143,
     "lng": -95.61852,
-    "description": "Sugar Land Ice & Sports Center is a ice skating rink in Texas. Great for families, recreational skating, and group events.",
+    "description": "Sugar Land Ice & Sports Center is a skating rink in Texas.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -33,9 +35,10 @@
     "city": "",
     "lat": 34.173069,
     "lng": -84.159634,
-    "description": "The Ice is a ice skating rink in Georgia. Great for families, recreational skating, and group events.",
+    "description": "The Ice is a skating rink in Georgia.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -46,9 +49,10 @@
     "city": "",
     "lat": 45.023511,
     "lng": -93.475447,
-    "description": "Plymouth Ice Center is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Plymouth Ice Center is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -59,9 +63,10 @@
     "city": "",
     "lat": 43.668816,
     "lng": -92.969289,
-    "description": "Riverside Arena is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Riverside Arena is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -72,22 +77,10 @@
     "city": "San Diego",
     "lat": 32.870204,
     "lng": -117.209984,
-    "description": "UTC Ice is a ice skating rink in San Diego, California. Great for families, recreational skating, and group events.",
+    "description": "UTC Ice is a skating rink in California.",
     "amenities": [
-      "Ice skating"
-    ]
-  },
-  {
-    "name": "Al Paladini Community Centre",
-    "slug": "al-paladini-community-centre",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.816866,
-    "lng": -79.597445,
-    "description": "Al Paladini Community Centre is a ice skating rink in New York. Great for families, recreational skating, and group events.",
-    "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -98,11 +91,11 @@
     "city": "Portland",
     "lat": 45.532539,
     "lng": -122.653577,
-    "description": "Lloyd Center Ice Rink is a ice skating rink in Portland, Oregon. Great for families, recreational skating, and group events.",
+    "description": "Lloyd Center Ice Rink is a skating rink in Oregon.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://lloydice.com"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Can Lan Ice Sports",
@@ -112,22 +105,10 @@
     "city": "",
     "lat": 39.513698,
     "lng": -75.063497,
-    "description": "Can Lan Ice Sports is a ice skating rink in Delaware. Great for families, recreational skating, and group events.",
+    "description": "Can Lan Ice Sports is a skating rink in Delaware.",
     "amenities": [
-      "Ice skating"
-    ]
-  },
-  {
-    "name": "Circle at the Centre Rink",
-    "slug": "circle-at-the-centre-rink",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 44.390808,
-    "lng": -79.686035,
-    "description": "Circle at the Centre Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
-    "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -138,9 +119,10 @@
     "city": "",
     "lat": 43.21658,
     "lng": -77.46903,
-    "description": "Webster Ice Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Webster Ice Arena is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -151,9 +133,10 @@
     "city": "",
     "lat": 42.595445,
     "lng": -71.585425,
-    "description": "O'Brien Rink is a ice skating rink in Massachusetts. Great for families, recreational skating, and group events.",
+    "description": "O'Brien Rink is a skating rink in Massachusetts.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -164,22 +147,10 @@
     "city": "",
     "lat": 42.595304,
     "lng": -71.586294,
-    "description": "Pratt Rink is a ice skating rink in Massachusetts. Great for families, recreational skating, and group events.",
+    "description": "Pratt Rink is a skating rink in Massachusetts.",
     "amenities": [
-      "Ice skating"
-    ]
-  },
-  {
-    "name": "Glen Abbey Recreation Centre",
-    "slug": "glen-abbey-recreation-centre",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.436351,
-    "lng": -79.738554,
-    "description": "Glen Abbey Recreation Centre is a ice skating rink in New York. Great for families, recreational skating, and group events.",
-    "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -190,9 +161,10 @@
     "city": "",
     "lat": 43.007219,
     "lng": -71.344493,
-    "description": "Auburn Skating Rinks is a ice skating rink in New Hampshire. Great for families, recreational skating, and group events.",
+    "description": "Auburn Skating Rinks is a skating rink in New Hampshire.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -203,9 +175,10 @@
     "city": "",
     "lat": 44.08706,
     "lng": -103.225106,
-    "description": "Ice Arena is a ice skating rink in South Dakota. Great for families, recreational skating, and group events.",
+    "description": "Ice Arena is a skating rink in South Dakota.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -216,11 +189,11 @@
     "city": "",
     "lat": 43.050863,
     "lng": -76.152906,
-    "description": "Clinton Square Ice Rink (Seasonal) is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Clinton Square Ice Rink (Seasonal) is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "http://www.syracuse.ny.us/parks/clintonsquarerink.html"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "UPMC Lemieux Sports Complex",
@@ -230,9 +203,10 @@
     "city": "Cranberry Township",
     "lat": 40.687922,
     "lng": -80.094353,
-    "description": "UPMC Lemieux Sports Complex is a ice skating rink in Cranberry Township, Pennsylvania. Great for families, recreational skating, and group events.",
+    "description": "UPMC Lemieux Sports Complex is a skating rink in Pennsylvania.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -243,11 +217,11 @@
     "city": "",
     "lat": 46.781891,
     "lng": -92.098124,
-    "description": "Duluth Curling Club is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Duluth Curling Club is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://duluthcurlingclub.org/"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Hockey Rink",
@@ -257,24 +231,25 @@
     "city": "",
     "lat": 40.688133,
     "lng": -73.659869,
-    "description": "Hockey Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Hockey Rink is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
     "name": "Bucks County Curling Club",
     "slug": "bucks-county-curling-club",
-    "state": "Pennsylvania",
-    "stateSlug": "pennsylvania",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
     "city": "Warminster",
     "lat": 40.224393,
     "lng": -75.095409,
-    "description": "Bucks County Curling Club is a ice skating rink in Warminster, Pennsylvania. Great for families, recreational skating, and group events.",
+    "description": "Bucks County Curling Club is a skating rink in New Jersey.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://www.buckscountycurlingclub.org/"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Kennedy Arena",
@@ -284,9 +259,10 @@
     "city": "",
     "lat": 43.219466,
     "lng": -75.463726,
-    "description": "Kennedy Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Kennedy Arena is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -297,9 +273,10 @@
     "city": "",
     "lat": 40.406847,
     "lng": -74.12533,
-    "description": "Ice Arena is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "description": "Ice Arena is a skating rink in New Jersey.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -310,36 +287,39 @@
     "city": "",
     "lat": 40.753665,
     "lng": -73.983671,
-    "description": "The Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "description": "The Rink is a skating rink in New Jersey.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://bryantpark.org/activities/bank-of-america-winter-village-at-bryant-park"
+      "Ice skating",
+      "Skate rental",
+      "Free access"
+    ]
   },
   {
     "name": "Olympic Arena",
     "slug": "olympic-arena",
-    "state": "West Virginia",
-    "stateSlug": "west-virginia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
     "city": "",
     "lat": 40.518858,
     "lng": -80.149852,
-    "description": "Olympic Arena is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "description": "Olympic Arena is a skating rink in Pennsylvania.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
     "name": "84 Lumber Arena",
     "slug": "84-lumber-arena",
-    "state": "West Virginia",
-    "stateSlug": "west-virginia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
     "city": "",
     "lat": 40.51905,
     "lng": -80.150458,
-    "description": "84 Lumber Arena is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "description": "84 Lumber Arena is a skating rink in Pennsylvania.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -350,11 +330,11 @@
     "city": "",
     "lat": 40.747731,
     "lng": -74.010555,
-    "description": "Sky Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "description": "Sky Rink is a skating rink in New Jersey.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "http://venues.chelseapiers.com/sr/"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "The Standard Ice Rink",
@@ -364,9 +344,10 @@
     "city": "",
     "lat": 40.740882,
     "lng": -74.007913,
-    "description": "The Standard Ice Rink is a ice skating rink in New Jersey. Great for families, recreational skating, and group events.",
+    "description": "The Standard Ice Rink is a skating rink in New Jersey.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -377,9 +358,10 @@
     "city": "",
     "lat": 33.47859,
     "lng": -111.999225,
-    "description": "Arcadia Ice Arena is a ice skating rink in Arizona. Great for families, recreational skating, and group events.",
+    "description": "Arcadia Ice Arena is a skating rink in Arizona.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -390,9 +372,10 @@
     "city": "",
     "lat": 44.877628,
     "lng": -91.908036,
-    "description": "Dunn County Ice Arena is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Dunn County Ice Arena is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -403,9 +386,10 @@
     "city": "",
     "lat": 39.190035,
     "lng": -106.825282,
-    "description": "Aspen Ice Garden is a ice skating rink in Colorado. Great for families, recreational skating, and group events.",
+    "description": "Aspen Ice Garden is a skating rink in Colorado.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -416,9 +400,10 @@
     "city": "Wilmette",
     "lat": 42.069422,
     "lng": -87.734276,
-    "description": "Centennial Ice Rink is a ice skating rink in Wilmette, Illinois. Great for families, recreational skating, and group events.",
+    "description": "Centennial Ice Rink is a skating rink in Illinois.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -429,38 +414,25 @@
     "city": "",
     "lat": 39.891569,
     "lng": -105.068455,
-    "description": "Ice Centre At the Promenade is a ice skating rink in Colorado. Great for families, recreational skating, and group events.",
+    "description": "Ice Centre At the Promenade is a skating rink in Colorado.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://www.icecentre.com/"
-  },
-  {
-    "name": "Valley Park Arena",
-    "slug": "valley-park-arena",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.192577,
-    "lng": -79.797633,
-    "description": "Valley Park Arena is a ice skating rink in New York. Great for families, recreational skating, and group events.",
-    "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
     "name": "Kenyon Arena",
     "slug": "kenyon-arena",
-    "state": "Vermont",
-    "stateSlug": "vermont",
+    "state": "New York",
+    "stateSlug": "new-york",
     "city": "",
     "lat": 44.002965,
     "lng": -73.177807,
-    "description": "Kenyon Arena is a ice skating rink in Vermont. Great for families, recreational skating, and group events.",
+    "description": "Kenyon Arena is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://athletics.middlebury.edu/facilities/kenyonarena"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Sno-King Ice Arena",
@@ -470,11 +442,11 @@
     "city": "Kirkland",
     "lat": 47.730399,
     "lng": -122.173728,
-    "description": "Sno-King Ice Arena is a ice skating rink in Kirkland, Washington. Great for families, recreational skating, and group events.",
+    "description": "Sno-King Ice Arena is a skating rink in Washington.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "http://snokingkirkland.com"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Columbia Ice Arena",
@@ -484,9 +456,10 @@
     "city": "",
     "lat": 39.209999,
     "lng": -76.844007,
-    "description": "Columbia Ice Arena is a ice skating rink in Maryland. Great for families, recreational skating, and group events.",
+    "description": "Columbia Ice Arena is a skating rink in Maryland.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -497,9 +470,10 @@
     "city": "",
     "lat": 43.564083,
     "lng": -76.118206,
-    "description": "Haldane Center is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Haldane Center is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -510,22 +484,24 @@
     "city": "Duluth",
     "lat": 33.979218,
     "lng": -84.09062,
-    "description": "Atlanta IceForum is a ice skating rink in Duluth, Georgia. Great for families, recreational skating, and group events.",
+    "description": "Atlanta IceForum is a skating rink in Georgia.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
     "name": "Woodbury Community Ice Rink",
     "slug": "woodbury-community-ice-rink",
-    "state": "Vermont",
-    "stateSlug": "vermont",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
     "city": "",
     "lat": 44.440143,
     "lng": -72.415806,
-    "description": "Woodbury Community Ice Rink is a ice skating rink in Vermont. Great for families, recreational skating, and group events.",
+    "description": "Woodbury Community Ice Rink is a skating rink in New Hampshire.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -536,9 +512,10 @@
     "city": "Cheboygan",
     "lat": 45.637691,
     "lng": -84.474588,
-    "description": "Ralph G. Cantile Arena is a ice skating rink in Cheboygan, Michigan. Great for families, recreational skating, and group events.",
+    "description": "Ralph G. Cantile Arena is a skating rink in Michigan.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -549,22 +526,10 @@
     "city": "Luverne",
     "lat": 43.644373,
     "lng": -96.218326,
-    "description": "Blue Mound Ice Arena is a ice skating rink in Luverne, Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Blue Mound Ice Arena is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
-    ]
-  },
-  {
-    "name": "Chestnut Hill Developments Recreation Complex",
-    "slug": "chestnut-hill-developments-recreation-complex",
-    "state": "New York",
-    "stateSlug": "new-york",
-    "city": "",
-    "lat": 43.839452,
-    "lng": -79.079744,
-    "description": "Chestnut Hill Developments Recreation Complex is a ice skating rink in New York. Great for families, recreational skating, and group events.",
-    "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -575,11 +540,11 @@
     "city": "",
     "lat": 32.679236,
     "lng": -97.128769,
-    "description": "Ice at The Parks is a ice skating rink in Texas. Great for families, recreational skating, and group events.",
+    "description": "Ice at The Parks is a skating rink in Texas.",
     "amenities": [
-      "Ice skating"
-    ],
-    "website": "https://www.iceattheparks.net/Site/Home.html"
+      "Ice skating",
+      "Skate rental"
+    ]
   },
   {
     "name": "Riverview Icehouse",
@@ -589,9 +554,10 @@
     "city": "",
     "lat": 42.272464,
     "lng": -89.088043,
-    "description": "Riverview Icehouse is a ice skating rink in Illinois. Great for families, recreational skating, and group events.",
+    "description": "Riverview Icehouse is a skating rink in Illinois.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -602,9 +568,10 @@
     "city": "",
     "lat": 42.768872,
     "lng": -78.613042,
-    "description": "Blue Cross Healthy Zone Rink is a ice skating rink in New York. Great for families, recreational skating, and group events.",
+    "description": "Blue Cross Healthy Zone Rink is a skating rink in New York.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -615,9 +582,10 @@
     "city": "",
     "lat": 44.290445,
     "lng": -94.719707,
-    "description": "Sleepy Eye Outdoor Rink is a ice skating rink in Minnesota. Great for families, recreational skating, and group events.",
+    "description": "Sleepy Eye Outdoor Rink is a skating rink in Minnesota.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -628,22 +596,24 @@
     "city": "",
     "lat": 37.984701,
     "lng": -121.290796,
-    "description": "Oak Park Ice Arena is a ice skating rink in California. Great for families, recreational skating, and group events.",
+    "description": "Oak Park Ice Arena is a skating rink in California.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
     "name": "Hickory Hockey Rink",
     "slug": "hickory-hockey-rink",
-    "state": "West Virginia",
-    "stateSlug": "west-virginia",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
     "city": "",
     "lat": 40.294484,
     "lng": -80.313866,
-    "description": "Hickory Hockey Rink is a ice skating rink in West Virginia. Great for families, recreational skating, and group events.",
+    "description": "Hickory Hockey Rink is a skating rink in Pennsylvania.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
     ]
   },
   {
@@ -654,9 +624,4883 @@
     "city": "Plano",
     "lat": 33.010551,
     "lng": -96.771922,
-    "description": "Dr Pepper Starcenter is a ice skating rink in Plano, Texas. Great for families, recreational skating, and group events.",
+    "description": "Dr Pepper Starcenter is a skating rink in Texas.",
     "amenities": [
-      "Ice skating"
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Glen Burnie Outdoor Ice Skating",
+    "slug": "glen-burnie-outdoor-ice-skating",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Glen Burnie",
+    "lat": 39.164864,
+    "lng": -76.624286,
+    "description": "Glen Burnie Outdoor Ice Skating is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Dublin Iceland",
+    "slug": "dublin-iceland",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.703755,
+    "lng": -121.937879,
+    "description": "Dublin Iceland is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Plex HiWire Family Fun & Sports Center",
+    "slug": "plex-hiwire-family-fun-sports-center",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 34.140527,
+    "lng": -81.238252,
+    "description": "Plex HiWire Family Fun & Sports Center is a skating rink in Georgia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bolton Ice Palace",
+    "slug": "bolton-ice-palace",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "Bolton",
+    "lat": 41.785805,
+    "lng": -72.439843,
+    "description": "Bolton Ice Palace is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Southwest Skyline Skating Rink",
+    "slug": "southwest-skyline-skating-rink",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 39.74835,
+    "lng": -104.995436,
+    "description": "Southwest Skyline Skating Rink is a skating rink in Colorado.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sno-King Renton",
+    "slug": "sno-king-renton",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Renton",
+    "lat": 47.48983,
+    "lng": -122.121216,
+    "description": "Sno-King Renton is a skating rink in Washington.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Forest Lake Cycle & Skate SKATE STORE",
+    "slug": "forest-lake-cycle-skate-skate-store",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.24562,
+    "lng": -92.994608,
+    "description": "Forest Lake Cycle & Skate SKATE STORE is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "LONG BARN ICE SKATING RINK",
+    "slug": "long-barn-ice-skating-rink",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.091465,
+    "lng": -120.136016,
+    "description": "LONG BARN ICE SKATING RINK is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bandits Rink",
+    "slug": "bandits-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Wayne",
+    "lat": 40.964669,
+    "lng": -74.228097,
+    "description": "Bandits Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Belmont Hill School Ice Rink",
+    "slug": "belmont-hill-school-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.406186,
+    "lng": -71.184928,
+    "description": "Belmont Hill School Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hutchinson Civic / Burich Arena",
+    "slug": "hutchinson-civic-burich-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Hutchinson",
+    "lat": 44.878439,
+    "lng": -94.381491,
+    "description": "Hutchinson Civic / Burich Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hibbing Curling Club",
+    "slug": "hibbing-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 47.423302,
+    "lng": -92.936463,
+    "description": "Hibbing Curling Club is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mountain Top Ice Rink",
+    "slug": "mountain-top-ice-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 41.135825,
+    "lng": -75.904971,
+    "description": "Mountain Top Ice Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Pine City Civic Center",
+    "slug": "pine-city-civic-center",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.81261,
+    "lng": -92.972125,
+    "description": "Pine City Civic Center is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mountain View Ice Arena",
+    "slug": "mountain-view-ice-arena",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "",
+    "lat": 45.616824,
+    "lng": -122.525127,
+    "description": "Mountain View Ice Arena is a skating rink in Oregon.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Roller Skating Rink",
+    "slug": "roller-skating-rink",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 46.56516,
+    "lng": -120.48373,
+    "description": "Roller Skating Rink is a skating rink in Washington.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink At Campus Martius",
+    "slug": "the-rink-at-campus-martius",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Detroit",
+    "lat": 42.331841,
+    "lng": -83.046554,
+    "description": "The Rink At Campus Martius is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skatetown Ice Arena",
+    "slug": "skatetown-ice-arena",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Roseville",
+    "lat": 38.727534,
+    "lng": -121.285595,
+    "description": "Skatetown Ice Arena is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Pond",
+    "slug": "the-pond",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.730413,
+    "lng": -93.133375,
+    "description": "The Pond is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Washington Harbor",
+    "slug": "washington-harbor",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 38.901509,
+    "lng": -77.060084,
+    "description": "Washington Harbor is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Champions Skating Center",
+    "slug": "champions-skating-center",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.614336,
+    "lng": -72.709585,
+    "description": "Champions Skating Center is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Snyder Rink",
+    "slug": "snyder-rink",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.551309,
+    "lng": -72.660888,
+    "description": "Snyder Rink is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kendall Ice Arena",
+    "slug": "kendall-ice-arena",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 25.671174,
+    "lng": -80.440684,
+    "description": "Kendall Ice Arena is a skating rink in Florida.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "John F. MacMorran Field House",
+    "slug": "john-f-macmorran-field-house",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 43.445282,
+    "lng": -71.586692,
+    "description": "John F. MacMorran Field House is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Evergreen Curling Club",
+    "slug": "evergreen-curling-club",
+    "state": "Oregon",
+    "stateSlug": "oregon",
+    "city": "Beaverton",
+    "lat": 45.482962,
+    "lng": -122.790438,
+    "description": "Evergreen Curling Club is a skating rink in Oregon.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Chavez Center Skating Rink",
+    "slug": "chavez-center-skating-rink",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "city": "Santa Fe",
+    "lat": 35.641727,
+    "lng": -105.993161,
+    "description": "Chavez Center Skating Rink is a skating rink in New Mexico.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "George Gipp Arena",
+    "slug": "george-gipp-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Laurium",
+    "lat": 47.234968,
+    "lng": -88.434456,
+    "description": "George Gipp Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Edward J. Murray Memorial Skating Center",
+    "slug": "edward-j-murray-memorial-skating-center",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Yonkers",
+    "lat": 40.952194,
+    "lng": -73.857217,
+    "description": "Edward J. Murray Memorial Skating Center is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Christina Potters Outdoor Ice Rink",
+    "slug": "christina-potters-outdoor-ice-rink",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Ketchum",
+    "lat": 43.681286,
+    "lng": -114.371606,
+    "description": "Christina Potters Outdoor Ice Rink is a skating rink in Idaho.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Vacaville Ice Sports",
+    "slug": "vacaville-ice-sports",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.353212,
+    "lng": -121.981972,
+    "description": "Vacaville Ice Sports is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kotler Ice Arena",
+    "slug": "kotler-ice-arena",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "Victor",
+    "lat": 43.594822,
+    "lng": -111.10354,
+    "description": "Kotler Ice Arena is a skating rink in Idaho.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hallock Ice Arena",
+    "slug": "hallock-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 48.779919,
+    "lng": -96.946025,
+    "description": "Hallock Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Windy City Curling Club",
+    "slug": "windy-city-curling-club",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Villa Park",
+    "lat": 41.862055,
+    "lng": -87.982332,
+    "description": "Windy City Curling Club is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Harris Pavilion Ice Rink",
+    "slug": "harris-pavilion-ice-rink",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Manassas",
+    "lat": 38.750553,
+    "lng": -77.473818,
+    "description": "Harris Pavilion Ice Rink is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "MHS Ice Rink",
+    "slug": "mhs-ice-rink",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.267847,
+    "lng": -76.625468,
+    "description": "MHS Ice Rink is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lake Forest College Ice Rink",
+    "slug": "lake-forest-college-ice-rink",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 42.244239,
+    "lng": -87.829031,
+    "description": "Lake Forest College Ice Rink is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bronco Arena",
+    "slug": "bronco-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 48.593364,
+    "lng": -93.425211,
+    "description": "Bronco Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Helena Ice Rink",
+    "slug": "helena-ice-rink",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 46.588826,
+    "lng": -111.971904,
+    "description": "Helena Ice Rink is a skating rink in Idaho.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kerry Park Arena",
+    "slug": "kerry-park-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 48.59252,
+    "lng": -93.408464,
+    "description": "Kerry Park Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at Brookfield Place with Gregory & Petukhov",
+    "slug": "the-rink-at-brookfield-place-with-gregory-petukhov",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "New York",
+    "lat": 40.712317,
+    "lng": -74.015619,
+    "description": "The Rink at Brookfield Place with Gregory & Petukhov is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Dodge Park Ice Rink",
+    "slug": "dodge-park-ice-rink",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.592393,
+    "lng": -83.010411,
+    "description": "Dodge Park Ice Rink is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Flo Fabrizio Ice Center",
+    "slug": "flo-fabrizio-ice-center",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Erie",
+    "lat": 42.096745,
+    "lng": -80.079112,
+    "description": "Flo Fabrizio Ice Center is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Presque Isle Roller Skating Rink",
+    "slug": "presque-isle-roller-skating-rink",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Erie",
+    "lat": 42.103554,
+    "lng": -80.158101,
+    "description": "Presque Isle Roller Skating Rink is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Glacier Ice Rink",
+    "slug": "glacier-ice-rink",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 46.847428,
+    "lng": -114.017644,
+    "description": "Glacier Ice Rink is a skating rink in Idaho.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Power Play Rinks",
+    "slug": "power-play-rinks",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Exrton",
+    "lat": 40.070169,
+    "lng": -75.672476,
+    "description": "Power Play Rinks is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Palace Hawaii",
+    "slug": "ice-palace-hawaii",
+    "state": "",
+    "stateSlug": "",
+    "city": "Honolulu",
+    "lat": 21.366029,
+    "lng": -157.926873,
+    "description": "Ice Palace Hawaii is a skating rink in the United States.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Ice Rink at MGM Plaza",
+    "slug": "the-ice-rink-at-mgm-plaza",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 42.098852,
+    "lng": -72.585774,
+    "description": "The Ice Rink at MGM Plaza is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ford Ice Center Bellevue",
+    "slug": "ford-ice-center-bellevue",
+    "state": "Tennessee",
+    "stateSlug": "tennessee",
+    "city": "Nashville",
+    "lat": 36.081251,
+    "lng": -86.95112,
+    "description": "Ford Ice Center Bellevue is a skating rink in Tennessee.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at Thompson's Point",
+    "slug": "the-rink-at-thompsons-point",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "",
+    "lat": 43.649629,
+    "lng": -70.291984,
+    "description": "The Rink at Thompson's Point is a skating rink in Maine.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mercyhurst Ice Center",
+    "slug": "mercyhurst-ice-center",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Erie",
+    "lat": 42.102726,
+    "lng": -80.055099,
+    "description": "Mercyhurst Ice Center is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Athletic Park Ice Rink",
+    "slug": "athletic-park-ice-rink",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.714869,
+    "lng": -92.448577,
+    "description": "Athletic Park Ice Rink is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate Rental and Sharpening",
+    "slug": "skate-rental-and-sharpening",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.326109,
+    "lng": -80.0187,
+    "description": "Skate Rental and Sharpening is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "South Park Ice Skating Rink",
+    "slug": "south-park-ice-skating-rink",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.325843,
+    "lng": -80.018206,
+    "description": "South Park Ice Skating Rink is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mountain View Ice Arena",
+    "slug": "mountain-view-ice-arena-2",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Iron Mountain",
+    "lat": 45.820391,
+    "lng": -88.058677,
+    "description": "Mountain View Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Buffalo Curling Club",
+    "slug": "buffalo-curling-club",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.870166,
+    "lng": -78.825771,
+    "description": "Buffalo Curling Club is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Coyotes Curling Club",
+    "slug": "coyotes-curling-club",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Tempe",
+    "lat": 33.418217,
+    "lng": -111.972157,
+    "description": "Coyotes Curling Club is a skating rink in Arizona.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lake Tahoe Epic Curling",
+    "slug": "lake-tahoe-epic-curling",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.966476,
+    "lng": -119.930963,
+    "description": "Lake Tahoe Epic Curling is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Chesapeake Curling Club",
+    "slug": "chesapeake-curling-club",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 38.826096,
+    "lng": -76.062105,
+    "description": "Chesapeake Curling Club is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Brian's Park",
+    "slug": "brians-park",
+    "state": "Colorado",
+    "stateSlug": "colorado",
+    "city": "",
+    "lat": 38.708411,
+    "lng": -105.142051,
+    "description": "Brian's Park is a skating rink in Colorado.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Nutmeg Curling Club",
+    "slug": "nutmeg-curling-club",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "Bridgeport",
+    "lat": 41.205582,
+    "lng": -73.188044,
+    "description": "Nutmeg Curling Club is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mayfield Curling Club",
+    "slug": "mayfield-curling-club",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "",
+    "lat": 41.425424,
+    "lng": -81.516063,
+    "description": "Mayfield Curling Club is a skating rink in Ohio.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mankato Curling Club",
+    "slug": "mankato-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.168594,
+    "lng": -93.974826,
+    "description": "Mankato Curling Club is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Cook County Curling Club",
+    "slug": "cook-county-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 47.756318,
+    "lng": -90.338209,
+    "description": "Cook County Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Capital Curling Club",
+    "slug": "capital-curling-club",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "city": "",
+    "lat": 46.821471,
+    "lng": -100.795483,
+    "description": "Capital Curling Club is a skating rink in North Dakota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Minot Curling Club",
+    "slug": "minot-curling-club",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "city": "",
+    "lat": 48.232882,
+    "lng": -101.262115,
+    "description": "Minot Curling Club is a skating rink in North Dakota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Williston Basin Curling Club",
+    "slug": "williston-basin-curling-club",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "city": "",
+    "lat": 48.195221,
+    "lng": -103.612612,
+    "description": "Williston Basin Curling Club is a skating rink in North Dakota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Williston Basin Skating Club",
+    "slug": "williston-basin-skating-club",
+    "state": "North Dakota",
+    "stateSlug": "north-dakota",
+    "city": "",
+    "lat": 48.19524,
+    "lng": -103.612066,
+    "description": "Williston Basin Skating Club is a skating rink in North Dakota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sentry Curling Center",
+    "slug": "sentry-curling-center",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 44.449785,
+    "lng": -89.519408,
+    "description": "Sentry Curling Center is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Wauwatosa Curling Club",
+    "slug": "wauwatosa-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.046201,
+    "lng": -88.004613,
+    "description": "Wauwatosa Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Blackhawk Curling Club",
+    "slug": "blackhawk-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.691094,
+    "lng": -89.006361,
+    "description": "Blackhawk Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kalamazoo Curling Club",
+    "slug": "kalamazoo-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.254427,
+    "lng": -85.535629,
+    "description": "Kalamazoo Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Palisades Center Ice Rink",
+    "slug": "palisades-center-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "West Nyack",
+    "lat": 41.09624,
+    "lng": -73.953356,
+    "description": "Palisades Center Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rapid Fire Arena",
+    "slug": "rapid-fire-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Moriches",
+    "lat": 40.809635,
+    "lng": -72.824032,
+    "description": "Rapid Fire Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "SUNY Broome Ice Center",
+    "slug": "suny-broome-ice-center",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Binghamton",
+    "lat": 42.13518,
+    "lng": -75.912377,
+    "description": "SUNY Broome Ice Center is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mentor Civic Arena",
+    "slug": "mentor-civic-arena",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Mentor",
+    "lat": 41.698459,
+    "lng": -81.332139,
+    "description": "Mentor Civic Arena is a skating rink in Ohio.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Joe Marmo/Wayne Lehto Ice Arena",
+    "slug": "joe-marmowayne-lehto-ice-arena",
+    "state": "Idaho",
+    "stateSlug": "idaho",
+    "city": "",
+    "lat": 43.472017,
+    "lng": -112.040569,
+    "description": "Joe Marmo/Wayne Lehto Ice Arena is a skating rink in Idaho.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "[CLOSED]",
+    "slug": "closed",
+    "state": "Alabama",
+    "stateSlug": "alabama",
+    "city": "",
+    "lat": 33.185224,
+    "lng": -86.246097,
+    "description": "[CLOSED] is a skating rink in Alabama.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Arena",
+    "slug": "arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 43.453938,
+    "lng": -76.54217,
+    "description": "Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "LA Kings Ice",
+    "slug": "la-kings-ice",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 33.772539,
+    "lng": -118.373308,
+    "description": "LA Kings Ice is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rockett Arena",
+    "slug": "rockett-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.505359,
+    "lng": -70.895286,
+    "description": "Rockett Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Wharf Ice Rink",
+    "slug": "the-wharf-ice-rink",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Washington",
+    "lat": 38.879859,
+    "lng": -77.026735,
+    "description": "The Wharf Ice Rink is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mt. Lebanon Ice Center",
+    "slug": "mt-lebanon-ice-center",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.374085,
+    "lng": -80.055439,
+    "description": "Mt. Lebanon Ice Center is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hart Center Rink",
+    "slug": "hart-center-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.234944,
+    "lng": -71.806682,
+    "description": "Hart Center Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Olympia Ice Center Rink 1",
+    "slug": "olympia-ice-center-rink-1",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.138238,
+    "lng": -72.620259,
+    "description": "Olympia Ice Center Rink 1 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Olympia Ice Center Rink 2",
+    "slug": "olympia-ice-center-rink-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.138136,
+    "lng": -72.619663,
+    "description": "Olympia Ice Center Rink 2 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Olympia Ice Center Rink 3",
+    "slug": "olympia-ice-center-rink-3",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.13885,
+    "lng": -72.619493,
+    "description": "Olympia Ice Center Rink 3 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "MassMutual Center Ice Rink",
+    "slug": "massmutual-center-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.102165,
+    "lng": -72.586999,
+    "description": "MassMutual Center Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mullins Center Rink",
+    "slug": "mullins-center-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.389364,
+    "lng": -72.533345,
+    "description": "Mullins Center Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Boys & Girls Club of the Berkshires Ice Rink",
+    "slug": "boys-girls-club-of-the-berkshires-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.452209,
+    "lng": -73.251714,
+    "description": "Boys & Girls Club of the Berkshires Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Class of 1993 Ice Rink",
+    "slug": "class-of-1993-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.544642,
+    "lng": -72.609443,
+    "description": "Class of 1993 Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Gray Rink",
+    "slug": "gray-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.257976,
+    "lng": -71.796383,
+    "description": "Gray Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Blue Rink",
+    "slug": "blue-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.258337,
+    "lng": -71.796395,
+    "description": "Blue Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "DCU Center Rink/Arena",
+    "slug": "dcu-center-rinkarena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.264955,
+    "lng": -71.798951,
+    "description": "DCU Center Rink/Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink C",
+    "slug": "rink-c",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.286399,
+    "lng": -71.620486,
+    "description": "Rink C is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink A",
+    "slug": "rink-a",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.286704,
+    "lng": -71.620306,
+    "description": "Rink A is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink B",
+    "slug": "rink-b",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.286954,
+    "lng": -71.620207,
+    "description": "Rink B is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Gardner Hockey Rink",
+    "slug": "gardner-hockey-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.310947,
+    "lng": -71.529554,
+    "description": "Gardner Hockey Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 1",
+    "slug": "rink-1",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.365334,
+    "lng": -71.595843,
+    "description": "Rink 1 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 6",
+    "slug": "rink-6",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.365626,
+    "lng": -71.595741,
+    "description": "Rink 6 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 3",
+    "slug": "rink-3",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.36564,
+    "lng": -71.596355,
+    "description": "Rink 3 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 4",
+    "slug": "rink-4",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.365005,
+    "lng": -71.596779,
+    "description": "Rink 4 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 2",
+    "slug": "rink-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.36493,
+    "lng": -71.596108,
+    "description": "Rink 2 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 5",
+    "slug": "rink-5",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.364665,
+    "lng": -71.596288,
+    "description": "Rink 5 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 7",
+    "slug": "rink-7",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.364306,
+    "lng": -71.596784,
+    "description": "Rink 7 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 8",
+    "slug": "rink-8",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.364421,
+    "lng": -71.597135,
+    "description": "Rink 8 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 10",
+    "slug": "rink-10",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.364393,
+    "lng": -71.59743,
+    "description": "Rink 10 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 9",
+    "slug": "rink-9",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.365671,
+    "lng": -71.596068,
+    "description": "Rink 9 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 1",
+    "slug": "rink-1-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.442848,
+    "lng": -71.425972,
+    "description": "Rink 1 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 2",
+    "slug": "rink-2-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.443352,
+    "lng": -71.426132,
+    "description": "Rink 2 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 3",
+    "slug": "rink-3-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.477502,
+    "lng": -71.491314,
+    "description": "Rink 3 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Gold Rink",
+    "slug": "gold-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.764663,
+    "lng": -71.112307,
+    "description": "Gold Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Blue Rink",
+    "slug": "blue-rink-2",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.764984,
+    "lng": -71.112269,
+    "description": "Blue Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Methuen High School Ice Rink",
+    "slug": "methuen-high-school-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Methuen",
+    "lat": 42.733273,
+    "lng": -71.171647,
+    "description": "Methuen High School Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Brooks School Rink",
+    "slug": "brooks-school-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.709119,
+    "lng": -71.086627,
+    "description": "Brooks School Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate 3 Blue Rink",
+    "slug": "skate-3-blue-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.689267,
+    "lng": -71.430934,
+    "description": "Skate 3 Blue Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate 3 Red Rink",
+    "slug": "skate-3-red-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.688894,
+    "lng": -71.431471,
+    "description": "Skate 3 Red Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate 3 White Rink",
+    "slug": "skate-3-white-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.688636,
+    "lng": -71.431302,
+    "description": "Skate 3 White Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lawler Rink",
+    "slug": "lawler-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.667909,
+    "lng": -71.120097,
+    "description": "Lawler Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Gallant Arena",
+    "slug": "gallant-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.667622,
+    "lng": -71.120506,
+    "description": "Gallant Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Tsongas Center Ice Rink",
+    "slug": "tsongas-center-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.65034,
+    "lng": -71.313177,
+    "description": "Tsongas Center Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Harrison Rink",
+    "slug": "harrison-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.642413,
+    "lng": -71.12953,
+    "description": "Harrison Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Gurry Rink",
+    "slug": "gurry-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.64168,
+    "lng": -71.129349,
+    "description": "Gurry Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Pollard Family Rink in Meehan Auditorium",
+    "slug": "pollard-family-rink-in-meehan-auditorium",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.831393,
+    "lng": -71.398966,
+    "description": "Pollard Family Rink in Meehan Auditorium is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hat Trick Training Center",
+    "slug": "hat-trick-training-center",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Middleton",
+    "lat": 42.606438,
+    "lng": -71.028321,
+    "description": "Hat Trick Training Center is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 1",
+    "slug": "rink-1-3",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.596071,
+    "lng": -70.980454,
+    "description": "Rink 1 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 2",
+    "slug": "rink-2-3",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.596383,
+    "lng": -70.980306,
+    "description": "Rink 2 is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mass Bay Hockey Center",
+    "slug": "mass-bay-hockey-center",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Peabody",
+    "lat": 42.546144,
+    "lng": -70.985857,
+    "description": "Mass Bay Hockey Center is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "MarketStreet Rink",
+    "slug": "marketstreet-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.516126,
+    "lng": -71.034686,
+    "description": "MarketStreet Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Travis Roy '95 Ice Rink",
+    "slug": "travis-roy-95-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.709554,
+    "lng": -70.767875,
+    "description": "Travis Roy '95 Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Patrick M. Butler Skating Rink",
+    "slug": "patrick-m-butler-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.653321,
+    "lng": -70.292776,
+    "description": "Patrick M. Butler Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lt. Joseph P. Kennedy Jr. Memorial Skating Rink",
+    "slug": "lt-joseph-p-kennedy-jr-memorial-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.653675,
+    "lng": -70.292878,
+    "description": "Lt. Joseph P. Kennedy Jr. Memorial Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lydon P. Lorusso Rink",
+    "slug": "lydon-p-lorusso-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.613939,
+    "lng": -70.608641,
+    "description": "Lydon P. Lorusso Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Winter Skate at Patriot Place",
+    "slug": "winter-skate-at-patriot-place",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.093401,
+    "lng": -71.264431,
+    "description": "Winter Skate at Patriot Place is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Norwell Skating Rink",
+    "slug": "norwell-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.144827,
+    "lng": -70.80182,
+    "description": "Norwell Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Valicenti Rink",
+    "slug": "valicenti-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.185228,
+    "lng": -71.011278,
+    "description": "Valicenti Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Connell Rink",
+    "slug": "connell-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.218275,
+    "lng": -70.954636,
+    "description": "Connell Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Milton Academy Ice Rink",
+    "slug": "milton-academy-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.258021,
+    "lng": -71.07319,
+    "description": "Milton Academy Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "MacDowell Arena",
+    "slug": "macdowell-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.322848,
+    "lng": -71.326167,
+    "description": "MacDowell Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Pratt Memorial Rink",
+    "slug": "pratt-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.500087,
+    "lng": -71.368418,
+    "description": "Pratt Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hennessy Rink",
+    "slug": "hennessy-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.27643,
+    "lng": -71.158546,
+    "description": "Hennessy Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Edward T. Barry Ice Rink",
+    "slug": "edward-t-barry-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.315262,
+    "lng": -71.039965,
+    "description": "Edward T. Barry Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at 401 Park",
+    "slug": "the-rink-at-401-park",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.343993,
+    "lng": -71.102858,
+    "description": "The Rink at 401 Park is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Walter Brown Arena",
+    "slug": "walter-brown-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.353961,
+    "lng": -71.120353,
+    "description": "Walter Brown Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "TRIA Rink",
+    "slug": "tria-rink",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.947113,
+    "lng": -93.095154,
+    "description": "TRIA Rink is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hatfield Ice Green Rink",
+    "slug": "hatfield-ice-green-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.280131,
+    "lng": -75.256594,
+    "description": "Hatfield Ice Green Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "North Park Ice Arena",
+    "slug": "north-park-ice-arena",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Elyria",
+    "lat": 41.386472,
+    "lng": -82.072176,
+    "description": "North Park Ice Arena is a skating rink in Ohio.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "KeyBank Rink at Harborcenter",
+    "slug": "keybank-rink-at-harborcenter",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.876218,
+    "lng": -78.876873,
+    "description": "KeyBank Rink at Harborcenter is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "New Wave Energy Rink",
+    "slug": "new-wave-energy-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.876691,
+    "lng": -78.87654,
+    "description": "New Wave Energy Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "RiverWorks Outdoor Ice Rink 1",
+    "slug": "riverworks-outdoor-ice-rink-1",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.870269,
+    "lng": -78.872819,
+    "description": "RiverWorks Outdoor Ice Rink 1 is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "RiverWorks Outdoor Ice Rink 2",
+    "slug": "riverworks-outdoor-ice-rink-2",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.870387,
+    "lng": -78.872394,
+    "description": "RiverWorks Outdoor Ice Rink 2 is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Ice at Canalside (Seasonal)",
+    "slug": "the-ice-at-canalside-seasonal",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.878146,
+    "lng": -78.877847,
+    "description": "The Ice at Canalside (Seasonal) is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Reuben \u201cBud\u201d Bakewell Ice Rink",
+    "slug": "reuben-bud-bakewell-ice-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.955781,
+    "lng": -78.909332,
+    "description": "Reuben \u201cBud\u201d Bakewell Ice Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Humboldt Basin (seasonal)",
+    "slug": "humboldt-basin-seasonal",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.904825,
+    "lng": -78.84097,
+    "description": "Humboldt Basin (seasonal) is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Buffalo State Ice Arena",
+    "slug": "buffalo-state-ice-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.934619,
+    "lng": -78.885535,
+    "description": "Buffalo State Ice Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Michael B. Picotte Field House Ice Rink",
+    "slug": "michael-b-picotte-field-house-ice-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.646615,
+    "lng": -73.789181,
+    "description": "Michael B. Picotte Field House Ice Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Fraser Figure Skating Club",
+    "slug": "fraser-figure-skating-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Fraser",
+    "lat": 42.549087,
+    "lng": -82.955961,
+    "description": "Fraser Figure Skating Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Dewey Rink",
+    "slug": "dewey-rink",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 43.389521,
+    "lng": -72.088559,
+    "description": "Dewey Rink is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Griff's IceHouse",
+    "slug": "griffs-icehouse",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Grand Rapids",
+    "lat": 42.98122,
+    "lng": -85.665256,
+    "description": "Griff's IceHouse is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Port Angeles Winter Ice Village Skating Rink",
+    "slug": "port-angeles-winter-ice-village-skating-rink",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "",
+    "lat": 48.120611,
+    "lng": -123.433428,
+    "description": "Port Angeles Winter Ice Village Skating Rink is a skating rink in Washington.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Brentwood Ice Rink",
+    "slug": "brentwood-ice-rink",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Brentwood",
+    "lat": 38.616344,
+    "lng": -90.349934,
+    "description": "Brentwood Ice Rink is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Den Chandler",
+    "slug": "ice-den-chandler",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Chandler",
+    "lat": 33.314985,
+    "lng": -111.967213,
+    "description": "Ice Den Chandler is a skating rink in Arizona.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lakeside Skating Rink",
+    "slug": "lakeside-skating-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Burlington",
+    "lat": 44.45949,
+    "lng": -73.219967,
+    "description": "Lakeside Skating Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Benny Magiera Ice rink",
+    "slug": "benny-magiera-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.707535,
+    "lng": -71.515283,
+    "description": "Benny Magiera Ice rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Dimond Ice Chalet",
+    "slug": "dimond-ice-chalet",
+    "state": "Alaska",
+    "stateSlug": "alaska",
+    "city": "",
+    "lat": 61.142516,
+    "lng": -149.866874,
+    "description": "Dimond Ice Chalet is a skating rink in Alaska.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Chester Skateland",
+    "slug": "chester-skateland",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "",
+    "lat": 37.356782,
+    "lng": -77.409127,
+    "description": "Chester Skateland is a skating rink in Virginia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Affton Ice Rink",
+    "slug": "affton-ice-rink",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Affton",
+    "lat": 38.543017,
+    "lng": -90.347037,
+    "description": "Affton Ice Rink is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sub-Zero Ice Center",
+    "slug": "sub-zero-ice-center",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Madison",
+    "lat": 43.076851,
+    "lng": -89.419769,
+    "description": "Sub-Zero Ice Center is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Traverse City Curling Club",
+    "slug": "traverse-city-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Traverse City",
+    "lat": 44.736105,
+    "lng": -85.596978,
+    "description": "Traverse City Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hockey Outlet",
+    "slug": "hockey-outlet",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Wheatfield",
+    "lat": 43.076979,
+    "lng": -78.859422,
+    "description": "Hockey Outlet is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Jack Kelley Rink",
+    "slug": "jack-kelley-rink",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "",
+    "lat": 44.568198,
+    "lng": -69.663971,
+    "description": "Jack Kelley Rink is a skating rink in Maine.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "West Valley Acord Ice Center",
+    "slug": "west-valley-acord-ice-center",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "West Valley City",
+    "lat": 40.703263,
+    "lng": -112.018896,
+    "description": "West Valley Acord Ice Center is a skating rink in Utah.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "World Ice Arena",
+    "slug": "world-ice-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Flushing",
+    "lat": 40.751911,
+    "lng": -73.837446,
+    "description": "World Ice Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hippodrome",
+    "slug": "hippodrome",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.089229,
+    "lng": -93.012341,
+    "description": "Hippodrome is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 2",
+    "slug": "rink-2-4",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 42.994496,
+    "lng": -70.967438,
+    "description": "Rink 2 is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rink 1",
+    "slug": "rink-1-4",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 42.994173,
+    "lng": -70.968221,
+    "description": "Rink 1 is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Georgetown Hockey",
+    "slug": "georgetown-hockey",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.923746,
+    "lng": -85.901207,
+    "description": "Georgetown Hockey is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Iceoplex",
+    "slug": "iceoplex",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "Simi Valley",
+    "lat": 34.28085,
+    "lng": -118.80194,
+    "description": "Iceoplex is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ronald. B. Stafford Ice Arena",
+    "slug": "ronald-b-stafford-ice-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 44.685216,
+    "lng": -73.476472,
+    "description": "Ronald. B. Stafford Ice Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "South Lake Tahoe Ice Arena",
+    "slug": "south-lake-tahoe-ice-arena",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "South Lake Tahoe",
+    "lat": 38.941264,
+    "lng": -119.974275,
+    "description": "South Lake Tahoe Ice Arena is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bethlehem YMCA Ice Rink",
+    "slug": "bethlehem-ymca-ice-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.607185,
+    "lng": -73.869524,
+    "description": "Bethlehem YMCA Ice Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Carolina Ice Palace",
+    "slug": "carolina-ice-palace",
+    "state": "South Carolina",
+    "stateSlug": "south-carolina",
+    "city": "",
+    "lat": 32.940153,
+    "lng": -80.048691,
+    "description": "Carolina Ice Palace is a skating rink in South Carolina.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Tate Ice Rink",
+    "slug": "tate-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 41.385566,
+    "lng": -73.965554,
+    "description": "Tate Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Keene Ice",
+    "slug": "keene-ice",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "",
+    "lat": 42.924813,
+    "lng": -72.263894,
+    "description": "Keene Ice is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at Massanutten Resort",
+    "slug": "the-rink-at-massanutten-resort",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "McGaheysville",
+    "lat": 38.408231,
+    "lng": -78.749716,
+    "description": "The Rink at Massanutten Resort is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Greensboro Ice House",
+    "slug": "greensboro-ice-house",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 36.050462,
+    "lng": -79.898793,
+    "description": "Greensboro Ice House is a skating rink in North Carolina.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Staten Island Skating Pavilion",
+    "slug": "staten-island-skating-pavilion",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.543852,
+    "lng": -74.232288,
+    "description": "Staten Island Skating Pavilion is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Domino Park Ice Rink",
+    "slug": "domino-park-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Brooklyn",
+    "lat": 40.713746,
+    "lng": -73.967774,
+    "description": "Domino Park Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Nations Tobin Ice Rink",
+    "slug": "nations-tobin-ice-rink",
+    "state": "New Mexico",
+    "stateSlug": "new-mexico",
+    "city": "",
+    "lat": 31.866242,
+    "lng": -106.411973,
+    "description": "Nations Tobin Ice Rink is a skating rink in New Mexico.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Clearwater Ice Arena",
+    "slug": "clearwater-ice-arena",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 27.898588,
+    "lng": -82.715888,
+    "description": "Clearwater Ice Arena is a skating rink in Florida.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ober Ice Rink",
+    "slug": "ober-ice-rink",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "",
+    "lat": 35.703088,
+    "lng": -83.557735,
+    "description": "Ober Ice Rink is a skating rink in North Carolina.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Central Park Ice Rink",
+    "slug": "central-park-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.819958,
+    "lng": -74.438867,
+    "description": "Central Park Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Alpha Ice Complex",
+    "slug": "alpha-ice-complex",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.539861,
+    "lng": -79.834765,
+    "description": "Alpha Ice Complex is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Days",
+    "slug": "ice-days",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 33.666403,
+    "lng": -84.016751,
+    "description": "Ice Days is a skating rink in Georgia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Richmond Ice Zone",
+    "slug": "richmond-ice-zone",
+    "state": "Virginia",
+    "stateSlug": "virginia",
+    "city": "North Chesterfield",
+    "lat": 37.503555,
+    "lng": -77.59405,
+    "description": "Richmond Ice Zone is a skating rink in Virginia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice & Field at The Crossover",
+    "slug": "ice-field-at-the-crossover",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "",
+    "lat": 30.548234,
+    "lng": -97.813896,
+    "description": "Ice & Field at The Crossover is a skating rink in Texas.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at Stine Community Park",
+    "slug": "the-rink-at-stine-community-park",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Troy",
+    "lat": 42.567153,
+    "lng": -83.153283,
+    "description": "The Rink at Stine Community Park is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Palm Beach Ice Works",
+    "slug": "palm-beach-ice-works",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "West Palm Beach",
+    "lat": 26.700314,
+    "lng": -80.075813,
+    "description": "Palm Beach Ice Works is a skating rink in Florida.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Twin Ponds Arena",
+    "slug": "twin-ponds-arena",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "Harrisburg",
+    "lat": 40.273832,
+    "lng": -76.823648,
+    "description": "Twin Ponds Arena is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Evans on Ice",
+    "slug": "evans-on-ice",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "Evans",
+    "lat": 33.543468,
+    "lng": -82.130713,
+    "description": "Evans on Ice is a skating rink in Georgia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Astro Skate",
+    "slug": "astro-skate",
+    "state": "Florida",
+    "stateSlug": "florida",
+    "city": "",
+    "lat": 28.534399,
+    "lng": -81.286827,
+    "description": "Astro Skate is a skating rink in Florida.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Frog Pond",
+    "slug": "frog-pond",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.356087,
+    "lng": -71.065812,
+    "description": "Frog Pond is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Leddy Park Arena",
+    "slug": "leddy-park-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Burlington",
+    "lat": 44.502785,
+    "lng": -73.25338,
+    "description": "Leddy Park Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "SLICE - Stateline Ice & Community Expo",
+    "slug": "slice---stateline-ice-community-expo",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Monroe",
+    "lat": 42.59519,
+    "lng": -89.660837,
+    "description": "SLICE - Stateline Ice & Community Expo is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Verona Ice Arena",
+    "slug": "verona-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.991921,
+    "lng": -89.526391,
+    "description": "Verona Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Yerba Buena Ice Skating Center",
+    "slug": "yerba-buena-ice-skating-center",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.783063,
+    "lng": -122.400484,
+    "description": "Yerba Buena Ice Skating Center is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Schenley Park Ice Skating Rink",
+    "slug": "schenley-park-ice-skating-rink",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.431752,
+    "lng": -79.945253,
+    "description": "Schenley Park Ice Skating Rink is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ben Boeke Ice Arena",
+    "slug": "ben-boeke-ice-arena",
+    "state": "Alaska",
+    "stateSlug": "alaska",
+    "city": "Anchorage",
+    "lat": 61.204323,
+    "lng": -149.872992,
+    "description": "Ben Boeke Ice Arena is a skating rink in Alaska.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sprinker Ice Arena",
+    "slug": "sprinker-ice-arena",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Tacoma",
+    "lat": 47.122568,
+    "lng": -122.438632,
+    "description": "Sprinker Ice Arena is a skating rink in Washington.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Phillips Academy Ice Rinks",
+    "slug": "phillips-academy-ice-rinks",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Andover",
+    "lat": 42.642027,
+    "lng": -71.129423,
+    "description": "Phillips Academy Ice Rinks is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Francis L. Murphy Skating Rink",
+    "slug": "francis-l-murphy-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "South Boston",
+    "lat": 42.336923,
+    "lng": -71.024014,
+    "description": "Francis L. Murphy Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ulin Memorial Rink",
+    "slug": "ulin-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Milton",
+    "lat": 42.243734,
+    "lng": -71.09343,
+    "description": "Ulin Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Allied Veterans Memorial Rink",
+    "slug": "allied-veterans-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Everett",
+    "lat": 42.412538,
+    "lng": -71.043367,
+    "description": "Allied Veterans Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bliss Omni and Flood Rink",
+    "slug": "bliss-omni-and-flood-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Dedham",
+    "lat": 42.260533,
+    "lng": -71.187835,
+    "description": "Bliss Omni and Flood Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bajko Memorial Rink",
+    "slug": "bajko-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Hyde Park",
+    "lat": 42.249282,
+    "lng": -71.137727,
+    "description": "Bajko Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Warrior Ice Arena",
+    "slug": "warrior-ice-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Brighton",
+    "lat": 42.357485,
+    "lng": -71.144055,
+    "description": "Warrior Ice Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Emmons Horrigan O'Neil Memorial Rink",
+    "slug": "emmons-horrigan-oneil-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Charlestown",
+    "lat": 42.374095,
+    "lng": -71.066443,
+    "description": "Emmons Horrigan O'Neil Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Flynn Rink",
+    "slug": "flynn-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Medford",
+    "lat": 42.443113,
+    "lng": -71.094653,
+    "description": "Flynn Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kasabuski Rink",
+    "slug": "kasabuski-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Saugus",
+    "lat": 42.482514,
+    "lng": -71.026589,
+    "description": "Kasabuski Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Reilly Memorial Rink",
+    "slug": "reilly-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Brighton",
+    "lat": 42.336469,
+    "lng": -71.152444,
+    "description": "Reilly Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bright-Landry Hockey Center",
+    "slug": "bright-landry-hockey-center",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Boston",
+    "lat": 42.368362,
+    "lng": -71.127241,
+    "description": "Bright-Landry Hockey Center is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Simoni Skating Rink",
+    "slug": "simoni-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Cambridge",
+    "lat": 42.373013,
+    "lng": -71.084584,
+    "description": "Simoni Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Steriti Memorial Rink",
+    "slug": "steriti-memorial-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Boston",
+    "lat": 42.368312,
+    "lng": -71.057179,
+    "description": "Steriti Memorial Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Connery Skating Rink",
+    "slug": "connery-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Lynn",
+    "lat": 42.457421,
+    "lng": -70.952838,
+    "description": "Connery Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Robert M. Devine Skating Rink",
+    "slug": "robert-m-devine-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Dorchester",
+    "lat": 42.288624,
+    "lng": -71.04499,
+    "description": "Robert M. Devine Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Porrazzo Skating Rink",
+    "slug": "porrazzo-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "East Boston",
+    "lat": 42.382362,
+    "lng": -71.011777,
+    "description": "Porrazzo Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Stoneham Arena",
+    "slug": "stoneham-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Stoneham",
+    "lat": 42.48136,
+    "lng": -71.11331,
+    "description": "Stoneham Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Shea Memorial Skating Rink",
+    "slug": "shea-memorial-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Quincy",
+    "lat": 42.23462,
+    "lng": -71.029196,
+    "description": "Shea Memorial Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hockeytown USA",
+    "slug": "hockeytown-usa",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Saugus",
+    "lat": 42.472179,
+    "lng": -71.025474,
+    "description": "Hockeytown USA is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Burbank Ice Arena",
+    "slug": "burbank-ice-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Reading",
+    "lat": 42.541205,
+    "lng": -71.084839,
+    "description": "Burbank Ice Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Malden Valley Forum",
+    "slug": "malden-valley-forum",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Malden",
+    "lat": 42.426754,
+    "lng": -71.06306,
+    "description": "Malden Valley Forum is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Jim Roche Community Arena",
+    "slug": "jim-roche-community-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "West Roxbury",
+    "lat": 42.276364,
+    "lng": -71.173214,
+    "description": "Jim Roche Community Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skip Viglirolo Skating Rink",
+    "slug": "skip-viglirolo-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Belmont",
+    "lat": 42.39527,
+    "lng": -71.170077,
+    "description": "Skip Viglirolo Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Quincy Youth Arena",
+    "slug": "quincy-youth-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Quincy",
+    "lat": 42.259585,
+    "lng": -70.993825,
+    "description": "Quincy Youth Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Daly Rink",
+    "slug": "daly-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Newton",
+    "lat": 42.358487,
+    "lng": -71.170305,
+    "description": "Daly Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "LoConte Ice Rink",
+    "slug": "loconte-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Medford",
+    "lat": 42.407458,
+    "lng": -71.094626,
+    "description": "LoConte Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Cronin Memorial Skating Arena",
+    "slug": "cronin-memorial-skating-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Revere",
+    "lat": 42.40316,
+    "lng": -71.015696,
+    "description": "Cronin Memorial Skating Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mark Edward Freitas Ice Forum",
+    "slug": "mark-edward-freitas-ice-forum",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "",
+    "lat": 41.800249,
+    "lng": -72.254706,
+    "description": "Mark Edward Freitas Ice Forum is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mullins Center Community Ice Rink",
+    "slug": "mullins-center-community-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Amherst",
+    "lat": 42.390488,
+    "lng": -72.533998,
+    "description": "Mullins Center Community Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Utah Olympic Oval",
+    "slug": "utah-olympic-oval",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "",
+    "lat": 40.647863,
+    "lng": -112.008846,
+    "description": "Utah Olympic Oval is a skating rink in Utah.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Arena",
+    "slug": "ice-arena-3",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Rochester",
+    "lat": 43.124094,
+    "lng": -77.63444,
+    "description": "Ice Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mediacom Ice Park",
+    "slug": "mediacom-ice-park",
+    "state": "Missouri",
+    "stateSlug": "missouri",
+    "city": "",
+    "lat": 37.210703,
+    "lng": -93.284626,
+    "description": "Mediacom Ice Park is a skating rink in Missouri.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Oakland Ice Center",
+    "slug": "oakland-ice-center",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.80742,
+    "lng": -122.271436,
+    "description": "Oakland Ice Center is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Eccles Ice Center",
+    "slug": "eccles-ice-center",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "Logan",
+    "lat": 41.783386,
+    "lng": -111.829886,
+    "description": "Eccles Ice Center is a skating rink in Utah.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Johnny's Ice House",
+    "slug": "johnnys-ice-house",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chicago",
+    "lat": 41.881813,
+    "lng": -87.661815,
+    "description": "Johnny's Ice House is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Harding Arena",
+    "slug": "harding-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.95969,
+    "lng": -93.0384,
+    "description": "Harding Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "OhioHealth Chiller North",
+    "slug": "ohiohealth-chiller-north",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Lewis Center",
+    "lat": 40.168756,
+    "lng": -83.015558,
+    "description": "OhioHealth Chiller North is a skating rink in Ohio.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Earl E. Schaffer Bethlehem Municipal Ice Rink",
+    "slug": "earl-e-schaffer-bethlehem-municipal-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Bethlehem",
+    "lat": 40.640186,
+    "lng": -75.384563,
+    "description": "Earl E. Schaffer Bethlehem Municipal Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Guidant John Rose Minnesota Oval",
+    "slug": "guidant-john-rose-minnesota-oval",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.021588,
+    "lng": -93.151287,
+    "description": "Guidant John Rose Minnesota Oval is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bentley Arena",
+    "slug": "bentley-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Waltham",
+    "lat": 42.384728,
+    "lng": -71.220546,
+    "description": "Bentley Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Cary Ice House",
+    "slug": "cary-ice-house",
+    "state": "North Carolina",
+    "stateSlug": "north-carolina",
+    "city": "Raleigh",
+    "lat": 35.765494,
+    "lng": -78.745479,
+    "description": "Cary Ice House is a skating rink in North Carolina.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Pilgrim Skating Arena",
+    "slug": "pilgrim-skating-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Hingham",
+    "lat": 42.175943,
+    "lng": -70.906459,
+    "description": "Pilgrim Skating Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Thompson Arena",
+    "slug": "thompson-arena",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "Hanover",
+    "lat": 43.701037,
+    "lng": -72.280191,
+    "description": "Thompson Arena is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Anoka Area Ice Arena",
+    "slug": "anoka-area-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Anoka",
+    "lat": 45.227725,
+    "lng": -93.378998,
+    "description": "Anoka Area Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Breck School Anderson Ice Arena",
+    "slug": "breck-school-anderson-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Golden Valley",
+    "lat": 44.984974,
+    "lng": -93.332944,
+    "description": "Breck School Anderson Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Steel Ice Center",
+    "slug": "steel-ice-center",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.613825,
+    "lng": -75.373868,
+    "description": "Steel Ice Center is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kent Valley Ice Centre",
+    "slug": "kent-valley-ice-centre",
+    "state": "Washington",
+    "stateSlug": "washington",
+    "city": "Kent",
+    "lat": 47.385939,
+    "lng": -122.258167,
+    "description": "Kent Valley Ice Centre is a skating rink in Washington.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "McFarland Community Ice Arena",
+    "slug": "mcfarland-community-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.029165,
+    "lng": -89.286889,
+    "description": "McFarland Community Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Boss Ice Arena",
+    "slug": "boss-ice-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.48391,
+    "lng": -71.537969,
+    "description": "Boss Ice Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Talbot Rink",
+    "slug": "talbot-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.628944,
+    "lng": -70.672922,
+    "description": "Talbot Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Gardens Ice House",
+    "slug": "the-gardens-ice-house",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.078507,
+    "lng": -76.921746,
+    "description": "The Gardens Ice House is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Wendell A. Barwood Arena",
+    "slug": "wendell-a-barwood-arena",
+    "state": "New Hampshire",
+    "stateSlug": "new-hampshire",
+    "city": "White River Junction",
+    "lat": 43.658464,
+    "lng": -72.32136,
+    "description": "Wendell A. Barwood Arena is a skating rink in New Hampshire.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hobey Baker Memorial Ice Rink",
+    "slug": "hobey-baker-memorial-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.342894,
+    "lng": -74.657798,
+    "description": "Hobey Baker Memorial Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Fairbanks Curling Club",
+    "slug": "fairbanks-curling-club",
+    "state": "Alaska",
+    "stateSlug": "alaska",
+    "city": "Fairbanks",
+    "lat": 64.842206,
+    "lng": -147.759232,
+    "description": "Fairbanks Curling Club is a skating rink in Alaska.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "West Saint Paul Ice Arena",
+    "slug": "west-saint-paul-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "West St Paul",
+    "lat": 44.902535,
+    "lng": -93.087471,
+    "description": "West Saint Paul Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Owens Recreation Center",
+    "slug": "owens-recreation-center",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 40.740719,
+    "lng": -89.608487,
+    "description": "Owens Recreation Center is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Rink at Rockefeller Center",
+    "slug": "the-rink-at-rockefeller-center",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "New York",
+    "lat": 40.758642,
+    "lng": -73.978419,
+    "description": "The Rink at Rockefeller Center is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "OhioHealth Chiller Easton",
+    "slug": "ohiohealth-chiller-easton",
+    "state": "Ohio",
+    "stateSlug": "ohio",
+    "city": "Columbus",
+    "lat": 40.054608,
+    "lng": -82.925589,
+    "description": "OhioHealth Chiller Easton is a skating rink in Ohio.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Reston Town Center Pavilion",
+    "slug": "reston-town-center-pavilion",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Reston",
+    "lat": 38.958365,
+    "lng": -77.356908,
+    "description": "Reston Town Center Pavilion is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Rockville Ice Arena",
+    "slug": "rockville-ice-arena",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Rockville",
+    "lat": 39.10351,
+    "lng": -77.129333,
+    "description": "Rockville Ice Arena is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "East Rink",
+    "slug": "east-rink",
+    "state": "Alaska",
+    "stateSlug": "alaska",
+    "city": "",
+    "lat": 61.140278,
+    "lng": -149.778597,
+    "description": "East Rink is a skating rink in Alaska.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Edge Sports Center",
+    "slug": "edge-sports-center",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Bedford",
+    "lat": 42.478146,
+    "lng": -71.293547,
+    "description": "Edge Sports Center is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Amelia Park Arena",
+    "slug": "amelia-park-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Westfield",
+    "lat": 42.112618,
+    "lng": -72.748644,
+    "description": "Amelia Park Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Line Quad Rinks",
+    "slug": "ice-line-quad-rinks",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "West Chester",
+    "lat": 39.983152,
+    "lng": -75.584509,
+    "description": "Ice Line Quad Rinks is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "John A. Ryan Skating Arena",
+    "slug": "john-a-ryan-skating-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Watertown",
+    "lat": 42.365127,
+    "lng": -71.209189,
+    "description": "John A. Ryan Skating Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skatium",
+    "slug": "skatium",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Havertown",
+    "lat": 39.976924,
+    "lng": -75.304299,
+    "description": "Skatium is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Winter Garden Ice Arena",
+    "slug": "winter-garden-ice-arena",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "Ridgefield",
+    "lat": 41.277691,
+    "lng": -73.488152,
+    "description": "Winter Garden Ice Arena is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Lancaster Ice Rink",
+    "slug": "lancaster-ice-rink",
+    "state": "Pennsylvania",
+    "stateSlug": "pennsylvania",
+    "city": "",
+    "lat": 40.074005,
+    "lng": -76.326799,
+    "description": "Lancaster Ice Rink is a skating rink in Pennsylvania.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Appleton Arena",
+    "slug": "appleton-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Canton",
+    "lat": 44.58636,
+    "lng": -75.166017,
+    "description": "Appleton Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Atlantic City Skate Zone",
+    "slug": "atlantic-city-skate-zone",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 39.357319,
+    "lng": -74.458235,
+    "description": "Atlantic City Skate Zone is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "John E. Carlson Coliseum",
+    "slug": "john-e-carlson-coliseum",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.901685,
+    "lng": -96.791842,
+    "description": "John E. Carlson Coliseum is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "H.A. Thompson & Sons Arena",
+    "slug": "ha-thompson-sons-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.901661,
+    "lng": -96.792591,
+    "description": "H.A. Thompson & Sons Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mount Pleasant Ice Arena",
+    "slug": "mount-pleasant-ice-arena",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Baltimore",
+    "lat": 39.368827,
+    "lng": -76.577759,
+    "description": "Mount Pleasant Ice Arena is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Medford Curling Club",
+    "slug": "medford-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 45.133785,
+    "lng": -90.34502,
+    "description": "Medford Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bloomington Ice Gardens",
+    "slug": "bloomington-ice-gardens",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.827899,
+    "lng": -93.32387,
+    "description": "Bloomington Ice Gardens is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ice Valley Centre Ice Arena",
+    "slug": "ice-valley-centre-ice-arena",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "",
+    "lat": 41.095246,
+    "lng": -87.847549,
+    "description": "Ice Valley Centre Ice Arena is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Buffone Skating Arena",
+    "slug": "buffone-skating-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Worcester",
+    "lat": 42.261996,
+    "lng": -71.754784,
+    "description": "Buffone Skating Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Slice of Ice",
+    "slug": "slice-of-ice",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.043127,
+    "lng": -87.910081,
+    "description": "Slice of Ice is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental",
+      "Free access"
+    ]
+  },
+  {
+    "name": "Bob Suter's Legacy20 Arena Middleton",
+    "slug": "bob-suters-legacy20-arena-middleton",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Middleton",
+    "lat": 43.104693,
+    "lng": -89.537304,
+    "description": "Bob Suter's Legacy20 Arena Middleton is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Northeast Ice Arena",
+    "slug": "northeast-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Minneapolis",
+    "lat": 45.001067,
+    "lng": -93.24846,
+    "description": "Northeast Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Wheaton Ice Arena",
+    "slug": "wheaton-ice-arena",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Wheaton",
+    "lat": 39.049348,
+    "lng": -77.03382,
+    "description": "Wheaton Ice Arena is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ashburn Ice House",
+    "slug": "ashburn-ice-house",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.019597,
+    "lng": -77.467737,
+    "description": "Ashburn Ice House is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Young Arena",
+    "slug": "young-arena",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "",
+    "lat": 42.498973,
+    "lng": -92.343649,
+    "description": "Young Arena is a skating rink in Iowa.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Metro Ice Sports Facility",
+    "slug": "metro-ice-sports-facility",
+    "state": "Iowa",
+    "stateSlug": "iowa",
+    "city": "Urbandale",
+    "lat": 41.65422,
+    "lng": -93.718167,
+    "description": "Metro Ice Sports Facility is a skating rink in Iowa.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Line Creek Community Center and Ice Arena",
+    "slug": "line-creek-community-center-and-ice-arena",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Kansas City",
+    "lat": 39.202705,
+    "lng": -94.609838,
+    "description": "Line Creek Community Center and Ice Arena is a skating rink in Kansas.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Angels Arena",
+    "slug": "angels-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Fargo",
+    "lat": 46.881861,
+    "lng": -96.801432,
+    "description": "Angels Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Madison Ice Arena",
+    "slug": "madison-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Madison",
+    "lat": 43.048398,
+    "lng": -89.486477,
+    "description": "Madison Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Empire State Plaza Ice Rink (seasonal)",
+    "slug": "empire-state-plaza-ice-rink-seasonal",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "",
+    "lat": 42.651117,
+    "lng": -73.758929,
+    "description": "Empire State Plaza Ice Rink (seasonal) is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Drake Arena",
+    "slug": "drake-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.925733,
+    "lng": -93.174159,
+    "description": "Drake Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "STMA Hockey Arena",
+    "slug": "stma-hockey-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.237631,
+    "lng": -93.659944,
+    "description": "STMA Hockey Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sawyer Arena",
+    "slug": "sawyer-arena",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "Bangor",
+    "lat": 44.802602,
+    "lng": -68.788673,
+    "description": "Sawyer Arena is a skating rink in Maine.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Peachtree Curling Center",
+    "slug": "peachtree-curling-center",
+    "state": "Georgia",
+    "stateSlug": "georgia",
+    "city": "",
+    "lat": 33.963494,
+    "lng": -84.408094,
+    "description": "Peachtree Curling Center is a skating rink in Georgia.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Frear Park Ice Arena",
+    "slug": "frear-park-ice-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Troy",
+    "lat": 42.745383,
+    "lng": -73.670575,
+    "description": "Frear Park Ice Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hartmeyer Ice Arena",
+    "slug": "hartmeyer-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Madison",
+    "lat": 43.107228,
+    "lng": -89.360414,
+    "description": "Hartmeyer Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Yack Arena",
+    "slug": "yack-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Wyandotte",
+    "lat": 42.201555,
+    "lng": -83.152627,
+    "description": "Yack Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Redwood Empire Ice Arena (Snoopy's Home Ice)",
+    "slug": "redwood-empire-ice-arena-snoopys-home-ice",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 38.460904,
+    "lng": -122.734385,
+    "description": "Redwood Empire Ice Arena (Snoopy's Home Ice) is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Patriot Ice Center",
+    "slug": "the-patriot-ice-center",
+    "state": "Delaware",
+    "stateSlug": "delaware",
+    "city": "",
+    "lat": 39.681969,
+    "lng": -75.72846,
+    "description": "The Patriot Ice Center is a skating rink in Delaware.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Poppy Waterman Ice Arena",
+    "slug": "poppy-waterman-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Lake Delton",
+    "lat": 43.580875,
+    "lng": -89.783816,
+    "description": "Poppy Waterman Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Providence Rink",
+    "slug": "the-providence-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.825066,
+    "lng": -71.412889,
+    "description": "The Providence Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Saint Paul Curling Club",
+    "slug": "saint-paul-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Saint Paul",
+    "lat": 44.946251,
+    "lng": -93.119982,
+    "description": "Saint Paul Curling Club is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Two Harbors Curling Club",
+    "slug": "two-harbors-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 47.02702,
+    "lng": -91.664483,
+    "description": "Two Harbors Curling Club is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Oscar Johnson Arena",
+    "slug": "oscar-johnson-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Saint Paul",
+    "lat": 44.972616,
+    "lng": -93.165318,
+    "description": "Oscar Johnson Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "AZ Ice Gilbert",
+    "slug": "az-ice-gilbert",
+    "state": "Arizona",
+    "stateSlug": "arizona",
+    "city": "Gilbert",
+    "lat": 33.327178,
+    "lng": -111.740831,
+    "description": "AZ Ice Gilbert is a skating rink in Arizona.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate 3 Ice Arena",
+    "slug": "skate-3-ice-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Tyngsboro",
+    "lat": 42.688809,
+    "lng": -71.431307,
+    "description": "Skate 3 Ice Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Wollman Rink",
+    "slug": "wollman-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "",
+    "lat": 40.767742,
+    "lng": -73.97447,
+    "description": "Wollman Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hayes Park Arena",
+    "slug": "hayes-park-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "Apple Valley",
+    "lat": 44.738142,
+    "lng": -93.235698,
+    "description": "Hayes Park Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Spirit Ice Arena",
+    "slug": "spirit-ice-arena",
+    "state": "Texas",
+    "stateSlug": "texas",
+    "city": "College Station",
+    "lat": 30.617263,
+    "lng": -96.309536,
+    "description": "Spirit Ice Arena is a skating rink in Texas.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Benny Magiera Memorial Ice Rink",
+    "slug": "benny-magiera-memorial-ice-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 41.707334,
+    "lng": -71.51532,
+    "description": "Benny Magiera Memorial Ice Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Knickerbacker Ice Skating Arena",
+    "slug": "knickerbacker-ice-skating-arena",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Troy",
+    "lat": 42.758921,
+    "lng": -73.675737,
+    "description": "Knickerbacker Ice Skating Arena is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ron Castellano Ice Arena",
+    "slug": "ron-castellano-ice-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 47.707925,
+    "lng": -91.949446,
+    "description": "Ron Castellano Ice Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Silver Spring Ice Skating at Veterans Plaza",
+    "slug": "silver-spring-ice-skating-at-veterans-plaza",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Silver Spring",
+    "lat": 38.996935,
+    "lng": -77.024832,
+    "description": "Silver Spring Ice Skating at Veterans Plaza is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Jon and Ruth Ann Wefald Pavilion",
+    "slug": "jon-and-ruth-ann-wefald-pavilion",
+    "state": "Kansas",
+    "stateSlug": "kansas",
+    "city": "Manhattan",
+    "lat": 39.182218,
+    "lng": -96.573979,
+    "description": "Jon and Ruth Ann Wefald Pavilion is a skating rink in Kansas.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Danbury Ice Arena",
+    "slug": "danbury-ice-arena",
+    "state": "Connecticut",
+    "stateSlug": "connecticut",
+    "city": "Danbury",
+    "lat": 41.395187,
+    "lng": -73.450381,
+    "description": "Danbury Ice Arena is a skating rink in Connecticut.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Salt Lake County Ice Center",
+    "slug": "salt-lake-county-ice-center",
+    "state": "Utah",
+    "stateSlug": "utah",
+    "city": "",
+    "lat": 40.657829,
+    "lng": -111.885311,
+    "description": "Salt Lake County Ice Center is a skating rink in Utah.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ristuccia Memorial Arena",
+    "slug": "ristuccia-memorial-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Wilmington",
+    "lat": 42.558178,
+    "lng": -71.178995,
+    "description": "Ristuccia Memorial Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Midway Plaisance Ice Rink",
+    "slug": "midway-plaisance-ice-rink",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Chicago",
+    "lat": 41.786827,
+    "lng": -87.598933,
+    "description": "Midway Plaisance Ice Rink is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Kennedy Recreation Center",
+    "slug": "kennedy-recreation-center",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Trenton",
+    "lat": 42.139039,
+    "lng": -83.204972,
+    "description": "Kennedy Recreation Center is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Madison Curling Club",
+    "slug": "madison-curling-club",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.030922,
+    "lng": -89.287221,
+    "description": "Madison Curling Club is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Grant Rink",
+    "slug": "grant-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "",
+    "lat": 42.60253,
+    "lng": -71.563845,
+    "description": "Grant Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Bear Mountain Ice Rink",
+    "slug": "bear-mountain-ice-rink",
+    "state": "New Jersey",
+    "stateSlug": "new-jersey",
+    "city": "Bear Mountain",
+    "lat": 41.311349,
+    "lng": -73.991252,
+    "description": "Bear Mountain Ice Rink is a skating rink in New Jersey.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Hagerstown Ice and Sports Complex",
+    "slug": "hagerstown-ice-and-sports-complex",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Hagerstown",
+    "lat": 39.64605,
+    "lng": -77.705314,
+    "description": "Hagerstown Ice and Sports Complex is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Travis Roy Ice Arena",
+    "slug": "travis-roy-ice-arena",
+    "state": "Maine",
+    "stateSlug": "maine",
+    "city": "",
+    "lat": 43.797565,
+    "lng": -70.187079,
+    "description": "Travis Roy Ice Arena is a skating rink in Maine.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Burlington Ice Palace",
+    "slug": "burlington-ice-palace",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Burlington",
+    "lat": 42.483012,
+    "lng": -71.18248,
+    "description": "Burlington Ice Palace is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Curry Village Ice Skating Rink",
+    "slug": "curry-village-ice-skating-rink",
+    "state": "California",
+    "stateSlug": "california",
+    "city": "",
+    "lat": 37.738539,
+    "lng": -119.573509,
+    "description": "Curry Village Ice Skating Rink is a skating rink in California.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Smead Arena",
+    "slug": "smead-arena",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Springfield",
+    "lat": 42.129607,
+    "lng": -72.547215,
+    "description": "Smead Arena is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Skate Frederick",
+    "slug": "skate-frederick",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "",
+    "lat": 39.44548,
+    "lng": -77.388975,
+    "description": "Skate Frederick is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Frederic Ice Rink (Ice Skating/Hockey)",
+    "slug": "frederic-ice-rink-ice-skatinghockey",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 45.665201,
+    "lng": -92.459876,
+    "description": "Frederic Ice Rink (Ice Skating/Hockey) is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Mullet Ice Center",
+    "slug": "mullet-ice-center",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 43.116919,
+    "lng": -88.344208,
+    "description": "Mullet Ice Center is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Frogtown Curling Club",
+    "slug": "frogtown-curling-club",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 44.963649,
+    "lng": -93.116827,
+    "description": "Frogtown Curling Club is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Sunnycrest Ice Rink",
+    "slug": "sunnycrest-ice-rink",
+    "state": "New York",
+    "stateSlug": "new-york",
+    "city": "Syracuse",
+    "lat": 43.058204,
+    "lng": -76.117079,
+    "description": "Sunnycrest Ice Rink is a skating rink in New York.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Metropolis Skating Rink",
+    "slug": "metropolis-skating-rink",
+    "state": "Massachusetts",
+    "stateSlug": "massachusetts",
+    "city": "Canton",
+    "lat": 42.191015,
+    "lng": -71.117073,
+    "description": "Metropolis Skating Rink is a skating rink in Massachusetts.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Glacier Ice Arena",
+    "slug": "the-glacier-ice-arena",
+    "state": "Illinois",
+    "stateSlug": "illinois",
+    "city": "Vernon Hills",
+    "lat": 42.236034,
+    "lng": -87.956051,
+    "description": "The Glacier Ice Arena is a skating rink in Illinois.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Merrifield Ice Rink",
+    "slug": "merrifield-ice-rink",
+    "state": "Indiana",
+    "stateSlug": "indiana",
+    "city": "",
+    "lat": 41.667673,
+    "lng": -86.165706,
+    "description": "Merrifield Ice Rink is a skating rink in Indiana.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Cabin John Ice Rink",
+    "slug": "cabin-john-ice-rink",
+    "state": "Maryland",
+    "stateSlug": "maryland",
+    "city": "Potomac",
+    "lat": 39.030705,
+    "lng": -77.148321,
+    "description": "Cabin John Ice Rink is a skating rink in Maryland.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "The Icebox",
+    "slug": "the-icebox",
+    "state": "Nebraska",
+    "stateSlug": "nebraska",
+    "city": "Lincoln",
+    "lat": 40.832871,
+    "lng": -96.697247,
+    "description": "The Icebox is a skating rink in Nebraska.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Moorhead Youth Hockey Arena",
+    "slug": "moorhead-youth-hockey-arena",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.86771,
+    "lng": -96.746197,
+    "description": "Moorhead Youth Hockey Arena is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Morningside Rink",
+    "slug": "morningside-rink",
+    "state": "Minnesota",
+    "stateSlug": "minnesota",
+    "city": "",
+    "lat": 46.868337,
+    "lng": -96.744593,
+    "description": "Morningside Rink is a skating rink in Minnesota.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Naga-Waukee Ice Arena",
+    "slug": "naga-waukee-ice-arena",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "Delafield",
+    "lat": 43.054738,
+    "lng": -88.374856,
+    "description": "Naga-Waukee Ice Arena is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
+    ]
+  },
+  {
+    "name": "Ann\u00a0Arbor Ice\u00a0Cube",
+    "slug": "ann-arbor-ice-cube",
+    "state": "Michigan",
+    "stateSlug": "michigan",
+    "city": "",
+    "lat": 42.25421,
+    "lng": -83.778214,
+    "description": "Ann\u00a0Arbor Ice\u00a0Cube is a skating rink in Michigan.",
+    "amenities": [
+      "Ice skating",
+      "Skate rental"
     ]
   }
 ]
