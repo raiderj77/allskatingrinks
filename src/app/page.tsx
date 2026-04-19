@@ -41,6 +41,15 @@ export default function Home() {
 
   return (
     <>
+      <div style={{ background: '#1e1b4b', borderBottom: '3px solid #f59e0b', padding: '0.875rem 1.5rem', textAlign: 'center', fontSize: '0.875rem' }}>
+        <strong style={{ color: '#f59e0b' }}>This directory is paused for editorial enrichment.</strong>{' '}
+        Visit our active sites:{' '}
+        <a href="https://soakusa.net" style={{ color: '#93c5fd', textDecoration: 'underline' }}>soakusa.net</a>
+        {' | '}
+        <a href="https://publicboatramps.com" style={{ color: '#93c5fd', textDecoration: 'underline' }}>publicboatramps.com</a>
+        {' | '}
+        <a href="https://fibertools.app" style={{ color: '#93c5fd', textDecoration: 'underline' }}>fibertools.app</a>
+      </div>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'WebSite',url:'https://allskatingrinks.com',
         name:'All Skating Rinks',

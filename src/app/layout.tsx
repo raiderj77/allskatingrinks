@@ -13,7 +13,11 @@ export const metadata: Metadata = {
   keywords: 'skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties',
   metadataBase: new URL('https://allskatingrinks.com'),
   alternates: { canonical: 'https://allskatingrinks.com' },
-  robots: 'index, follow, max-snippet:-1',
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: { index: false, follow: true },
+  },
   verification: { google: '_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs' },
 };
 
