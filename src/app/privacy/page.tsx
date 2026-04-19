@@ -133,6 +133,39 @@ export default function PrivacyPage() {
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
+            MODPA (Maryland Online Data Privacy Act) — Consumer Rights
+          </h2>
+          <p>
+            All Skating Rinks complies with the Maryland Online Data Privacy Act (MODPA), effective April 1, 2026. Under MODPA, you have the following rights with respect to your personal data:
+          </p>
+          <ul style={{ color: "#555" }}>
+            <li>
+              <strong>Right to Access:</strong> You have the right to request what personal data we have collected about you.
+            </li>
+            <li>
+              <strong>Right to Correct:</strong> You have the right to request that we correct any inaccurate or incomplete personal data.
+            </li>
+            <li>
+              <strong>Right to Delete:</strong> You have the right to request deletion of your personal data, subject to certain exceptions.
+            </li>
+            <li>
+              <strong>Right to Opt-Out of Sale or Targeted Advertising:</strong> You have the right to opt out of the sale or sharing of your personal data for targeted advertising. All Skating Rinks does not sell personal data and honors Global Privacy Control (GPC) signals as a universal opt-out mechanism.
+            </li>
+            <li>
+              <strong>Right to Data Portability:</strong> You have the right to receive your personal data in a portable format.
+            </li>
+          </ul>
+          <p>
+            To exercise these rights, submit a request to <strong>privacy@allskatingrinks.com</strong>. We will respond to your request within 45 days of receipt. Please note that certain data may be exempt from deletion if required to be retained by law or for legitimate business purposes.
+          </p>
+          <p>
+            <strong>Global Privacy Control (GPC):</strong> All Skating Rinks honors Global Privacy Control (GPC) signals transmitted via browsers or browser extensions. If you enable GPC, we treat it as a universal opt-out request for sale, sharing, and targeted advertising of your personal data.
+          </p>
+          <p>
+            <strong>Data Sales:</strong> All Skating Rinks does not sell or share personal data for targeted advertising purposes.
+          </p>
+
+          <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
             Contact Us
           </h2>
           <p>
