@@ -53,7 +53,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'WebSite',url:'https://allskatingrinks.com',
         name:'All Skating Rinks',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
         potentialAction:{'@type':'SearchAction',target:{'@type':'EntryPoint',urlTemplate:'https://allskatingrinks.com/search?q={search_term_string}'},'query-input':'required name=search_term_string'},
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -61,7 +61,7 @@ export default function Home() {
         name:'All Skating Rinks',
         url:'https://allskatingrinks.com',
         description:'Directory of ice skating and roller skating rinks across the United States',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'LocalBusiness',
@@ -69,7 +69,7 @@ export default function Home() {
         url:'https://allskatingrinks.com',
         description:'Find ice rinks and roller skating rinks near you across the United States',
         areaServed:'United States',
-        dateModified:'2026-04-07',
+        dateModified:new Date().toISOString().substring(0,10),
       }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context':'https://schema.org','@type':'FAQPage',
