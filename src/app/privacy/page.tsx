@@ -133,7 +133,7 @@ export default function PrivacyPage() {
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
-            MODPA (Maryland Online Data Privacy Act) — Consumer Rights
+            MODPA (Maryland Online Data Privacy Act) ,  Consumer Rights
           </h2>
           <p>
             All Skating Rinks complies with the Maryland Online Data Privacy Act (MODPA), effective April 1, 2026. Under MODPA, you have the following rights with respect to your personal data:

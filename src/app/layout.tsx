@@ -8,7 +8,7 @@ const righteous = Righteous({ subsets: ['latin'], variable: '--font-display', di
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','600','700','800'] });
 
 export const metadata: Metadata = {
-  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks — Find Roller & Ice Skating Rinks Across America' },
+  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks ,  Find Roller & Ice Skating Rinks Across America' },
   description: 'Discover roller skating and ice skating rinks near you. Family fun, lessons, birthday parties, and open skate sessions across all 50 states.',
   keywords: 'skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties',
   metadataBase: new URL('https://allskatingrinks.com'),

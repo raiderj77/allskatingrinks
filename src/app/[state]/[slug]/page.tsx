@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const loc = locations.find((l) => l.slug === slug);
   if (!loc) return {};
   return {
-    title: `${loc.name} — Skating Rink in ${loc.state}`,
+    title: `${loc.name} ,  Skating Rink in ${loc.state}`,
     description: `${loc.description.slice(0, 155)}`,
     alternates: { canonical: `https://allskatingrinks.com/${loc.stateSlug}/${loc.slug}` },
   };
@@ -124,11 +124,11 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
               {/* Tips */}
               <div style={{ background: 'var(--blue-pale)', border: '2px solid rgba(31,110,255,0.15)', borderRadius: 'var(--radius)', padding: '1.25rem 1.5rem' }}>
                 <p style={{ fontFamily: 'var(--font-display)', color: 'var(--blue)', fontSize: '1rem', marginBottom: '0.5rem' }}>⛸️ Skater Tips</p>
-                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Arrive early to get rental skates fitted. Wear comfortable, flexible clothing and bring socks. Beginners should stay near the wall until you find your balance. Most rinks offer wrist guards and knee pads — use them!</p>
+                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Arrive early to get rental skates fitted. Wear comfortable, flexible clothing and bring socks. Beginners should stay near the wall until you find your balance. Most rinks offer wrist guards and knee pads ,  use them!</p>
               </div>
             </div>
 
-            {/* Right — sticky panel */}
+            {/* Right ,  sticky panel */}
             <aside style={{ position: 'sticky', top: '5.5rem' }}>
               <div style={{ background: 'var(--white)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-card)', overflow: 'hidden', border: '2px solid rgba(255,31,142,0.12)' }}>
                 <div style={{ background: 'linear-gradient(135deg, var(--dark), #1a0030)', padding: '1.25rem 1.5rem', borderBottom: '3px solid var(--pink)' }}>

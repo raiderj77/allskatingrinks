@@ -124,7 +124,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
             <div style={{ textAlign: 'center', padding: '5rem 2rem', background: 'var(--white)', borderRadius: 'var(--radius)', boxShadow: 'var(--shadow-card)' }}>
               <p style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>⛸️</p>
               <h2 style={{ fontFamily: 'var(--font-display)', color: 'var(--dark)', marginBottom: '0.75rem', fontSize: '2rem' }}>Coming Soon!</h2>
-              <p style={{ color: 'var(--mid)', fontFamily: 'var(--font-body)' }}>{"We're adding rinks in "}{stateName}{" — check back soon!"}</p>
+              <p style={{ color: 'var(--mid)', fontFamily: 'var(--font-body)' }}>{"We're adding rinks in "}{stateName}{" ,  check back soon!"}</p>
               <Link href="/" className="btn btn-pink" style={{ display: 'inline-flex', marginTop: '1.5rem' }}>Browse Other States</Link>
             </div>
           )}
@@ -139,7 +139,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
             {stateName} has a vibrant skating community with rinks ranging from classic neighborhood roller rinks to modern facilities offering laser nights, cosmic skating, and professional ice surfaces. Whether you're looking for a casual family outing or competitive league play, there's a rink for you.
           </p>
           <p style={{ lineHeight: 1.85, color: '#445' }}>
-            Most rinks offer skate rentals, so you don't need your own equipment. Check individual venue websites for current open skate hours, pricing, and any special events — sessions and rates change seasonally.
+            Most rinks offer skate rentals, so you don't need your own equipment. Check individual venue websites for current open skate hours, pricing, and any special events ,  sessions and rates change seasonally.
           </p>
         </div>
       </section>

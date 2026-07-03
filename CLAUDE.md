@@ -1,4 +1,4 @@
-﻿# All Skating Rinks — CLAUDE.md
+﻿# All Skating Rinks ,  CLAUDE.md
 
 > Source of truth for Claude Code on this project. Last updated: 2026-04-30
 
@@ -26,11 +26,11 @@
 - Reserve explicit width/height on ad containers (prevents CLS)
 - Google Consent Mode v2: configure all 6 parameters
 
-## 2. SEO — Google Search Essentials
+## 2. SEO ,  Google Search Essentials
 
 - Use SSR or SSG for all public pages
 - Each rink page: address, hours, rink type (ice/roller/inline), admission prices if available, rental availability
-- Seasonal content: ice rinks often have limited seasons — reflect current open/closed status
+- Seasonal content: ice rinks often have limited seasons ,  reflect current open/closed status
 
 ## 3. Core Web Vitals
 
@@ -40,7 +40,7 @@
 
 ## 4. E-E-A-T Content Standards
 
-- Attribution: "Built by an experienced web developer" — NEVER use personal name
+- Attribution: "Built by an experienced web developer" ,  NEVER use personal name
 - About page with mission and data sourcing methodology
 - Contact page accessible from all pages
 
