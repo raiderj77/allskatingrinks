@@ -28,224 +28,42 @@ export default function ContactPage() {
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div
             style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "2rem",
+              backgroundColor: "#f9f9f9",
+              border: "1px solid #ddd",
+              borderRadius: "8px",
+              padding: "2rem",
+              textAlign: "center",
               marginBottom: "2rem",
             }}
           >
-            {/* Contact Form Section */}
-            <div>
-              <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginBottom: "1.5rem", fontWeight: "bold" }}>
-                Send Us a Message
-              </h2>
-              <form
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  gap: "1rem",
-                }}
-              >
-                <div>
-                  <label
-                    htmlFor="name"
-                    style={{
-                      display: "block",
-                      marginBottom: "0.5rem",
-                      fontWeight: "600",
-                      color: "#333",
-                    }}
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem",
-                      border: "1px solid #ddd",
-                      borderRadius: "4px",
-                      fontFamily: "inherit",
-                      boxSizing: "border-box",
-                    }}
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="email"
-                    style={{
-                      display: "block",
-                      marginBottom: "0.5rem",
-                      fontWeight: "600",
-                      color: "#333",
-                    }}
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem",
-                      border: "1px solid #ddd",
-                      borderRadius: "4px",
-                      fontFamily: "inherit",
-                      boxSizing: "border-box",
-                    }}
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="subject"
-                    style={{
-                      display: "block",
-                      marginBottom: "0.5rem",
-                      fontWeight: "600",
-                      color: "#333",
-                    }}
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem",
-                      border: "1px solid #ddd",
-                      borderRadius: "4px",
-                      fontFamily: "inherit",
-                      boxSizing: "border-box",
-                    }}
-                    required
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    style={{
-                      display: "block",
-                      marginBottom: "0.5rem",
-                      fontWeight: "600",
-                      color: "#333",
-                    }}
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    style={{
-                      width: "100%",
-                      padding: "0.75rem",
-                      border: "1px solid #ddd",
-                      borderRadius: "4px",
-                      fontFamily: "inherit",
-                      boxSizing: "border-box",
-                      resize: "vertical",
-                    }}
-                    required
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  style={{
-                    backgroundColor: "#003d99",
-                    color: "#ffffff",
-                    padding: "0.75rem 1.5rem",
-                    border: "none",
-                    borderRadius: "4px",
-                    fontWeight: "600",
-                    cursor: "pointer",
-                    fontSize: "1rem",
-                  }}
-                >
-                  Send Message
-                </button>
-              </form>
-              <p
-                style={{
-                  color: "#999",
-                  fontSize: "0.9rem",
-                  marginTop: "1rem",
-                }}
-              >
-                Please note: This is a static form. To submit messages, you may
-                email us directly at the address below.
+            <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>
+              Get in Touch
+            </h2>
+            <p style={{ color: "#666", marginBottom: "1.5rem", fontSize: "1rem", lineHeight: 1.6 }}>
+              Have questions about a skating rink? Want to suggest a venue? Need more information? Contact us directly via email.
+            </p>
+            <div
+              style={{
+                display: "inline-block",
+                backgroundColor: "#ffffff",
+                border: "2px solid #003d99",
+                borderRadius: "8px",
+                padding: "1.5rem 2rem",
+              }}
+            >
+              <p style={{ margin: "0 0 0.5rem 0", color: "#333", fontSize: "0.9rem", fontWeight: "600" }}>
+                Email Us
               </p>
+              <a
+                href="mailto:contact@allskatingrinks.com"
+                style={{ color: "#003d99", textDecoration: "none", fontSize: "1.2rem", fontWeight: "bold" }}
+              >
+                contact@allskatingrinks.com
+              </a>
             </div>
-
-            {/* Contact Information Section */}
-            <div>
-              <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginBottom: "1.5rem", fontWeight: "bold" }}>
-                Contact Information
-              </h2>
-
-              <div
-                style={{
-                  backgroundColor: "#f9f9f9",
-                  border: "1px solid #ddd",
-                  borderRadius: "8px",
-                  padding: "1.5rem",
-                  marginBottom: "1.5rem",
-                }}
-              >
-                <h3 style={{ fontSize: "1.1rem", color: "#003d99", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Email
-                </h3>
-                <p style={{ margin: 0, color: "#333" }}>
-                  <a
-                    href="mailto:contact@allskatingrinks.com"
-                    style={{ color: "#003d99", textDecoration: "none" }}
-                  >
-                    contact@allskatingrinks.com
-                  </a>
-                </p>
-              </div>
-
-              <div
-                style={{
-                  backgroundColor: "#f9f9f9",
-                  border: "1px solid #ddd",
-                  borderRadius: "8px",
-                  padding: "1.5rem",
-                  marginBottom: "1.5rem",
-                }}
-              >
-                <h3 style={{ fontSize: "1.1rem", color: "#003d99", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  Response Time
-                </h3>
-                <p style={{ margin: 0, color: "#555" }}>
-                  We typically respond to inquiries within 1-2 business days.
-                </p>
-              </div>
-
-              <div
-                style={{
-                  backgroundColor: "#f9f9f9",
-                  border: "1px solid #ddd",
-                  borderRadius: "8px",
-                  padding: "1.5rem",
-                }}
-              >
-                <h3 style={{ fontSize: "1.1rem", color: "#003d99", marginBottom: "0.5rem", fontWeight: "bold" }}>
-                  How Can We Help?
-                </h3>
-                <p style={{ color: "#555" }}>
-                  Have questions about a specific skating rink? Want to suggest
-                  a venue? Need more information? Feel free to reach out using
-                  any of the methods above.
-                </p>
-              </div>
-            </div>
+            <p style={{ color: "#999", fontSize: "0.9rem", marginTop: "1rem" }}>
+              We typically respond to inquiries within 1-2 business days.
+            </p>
           </div>
 
           <div
@@ -255,7 +73,6 @@ export default function ContactPage() {
               borderRadius: "8px",
               padding: "2rem",
               textAlign: "center",
-              marginTop: "2rem",
             }}
           >
             <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>

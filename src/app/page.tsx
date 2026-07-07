@@ -139,7 +139,7 @@ export default function Home() {
             {featured.map((loc, i) => (
               <Link key={loc.slug} href={`/${loc.stateSlug}/${loc.slug}`} style={{ textDecoration: 'none' }}>
                 <article className="card">
-                  <img src={getMapboxImage(loc.lat ?? 0, loc.lng ?? 0)} alt={loc.name} className="card-img" loading="lazy" width={800} height={500} />
+                  <img src={getMapboxImage(loc.lat ?? 0, loc.lng ?? 0)} alt={loc.city ? `Satellite view of skating rink in ${loc.city}, ${loc.state}` : `Satellite view of skating rink in ${loc.state}`} className="card-img" loading="lazy" width={800} height={500} />
                   <div className="card-body">
                     <div className="card-meta"><span>📍</span><span>{loc.city ? `${loc.city}, ` : ''}{loc.state}</span></div>
                     <h3 className="card-title">{loc.name}</h3>

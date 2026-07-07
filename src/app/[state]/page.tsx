@@ -107,7 +107,7 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
               {spots.map((spot, i) => (
                 <Link key={spot.slug} href={`/${state}/${spot.slug}`} style={{ textDecoration: 'none' }}>
                   <article className="card">
-                    <img src={getMapboxImage(spot.lat ?? 0, spot.lng ?? 0)} alt={spot.name} className="card-img" loading="lazy" width={800} height={500} />
+                    <img src={getMapboxImage(spot.lat ?? 0, spot.lng ?? 0)} alt={spot.city ? `Satellite view of skating rink in ${spot.city}, ${spot.state}` : `Satellite view of skating rink in ${spot.state}`} className="card-img" loading="lazy" width={800} height={500} />
                     <div className="card-body">
                       <div className="card-meta"><span>📍</span><span>{spot.city ? `${spot.city}, ` : ''}{spot.state}</span></div>
                       <h2 className="card-title">{spot.name}</h2>
