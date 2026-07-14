@@ -24,7 +24,7 @@ export default function PrivacyPage() {
       <section style={{ padding: "2rem 1rem" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto", lineHeight: "1.8" }}>
           <p style={{ color: "#666", fontStyle: "italic" }}>
-            Last updated: April 2026
+            Last updated: July 13, 2026
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
@@ -40,29 +40,24 @@ export default function PrivacyPage() {
             Information We Collect
           </h2>
           <p>
-            We may collect information about you in a variety of ways. The
-            information we may collect on the site includes:
+            The directory does not offer user accounts or accept payments. We
+            collect information you choose to send by email. Our hosting and
+            security providers may process request metadata needed to deliver and
+            protect the Site.
           </p>
           <ul style={{ color: "#555" }}>
             <li>
-              <strong>Personal Data:</strong> Personally identifiable information,
-              such as your name, shipping address, email address, and telephone
-              number, and demographic information, such as age, gender, hometown,
-              and interests, that you voluntarily give to us when you register with
-              the site or when you choose to participate in various activities
-              related to the site.
+              <strong>Contact data:</strong> Your email address and message when
+              you contact us.
             </li>
             <li>
-              <strong>Derivative Data:</strong> Information our servers
-              automatically collect when you access the site, such as your IP
-              address, your access times, your browser type and language, and the
-              pages you have viewed.
+              <strong>Service and security data:</strong> IP address, browser type,
+              requested page, and timestamp may be processed in infrastructure
+              logs. Retention depends on provider terms and our service settings.
             </li>
             <li>
-              <strong>Financial Data:</strong> Financial information, such as
-              data related to your payment method (such as a valid credit card
-              number, card brand, expiration date) that we may collect when you
-              purchase products or services from the site.
+              <strong>Optional tracking:</strong> Google Analytics, Microsoft
+              Clarity, and Google AdSense are not currently enabled.
             </li>
           </ul>
 
@@ -75,11 +70,9 @@ export default function PrivacyPage() {
             information collected about you via the site to:
           </p>
           <ul style={{ color: "#555" }}>
-            <li>Generate a personal profile about you</li>
             <li>Increase the efficiency and operation of the site</li>
-            <li>Monitor and analyze usage and trends to improve your experience</li>
             <li>Notify you of updates to the site</li>
-            <li>Process your transactions and send related information</li>
+            <li>Respond to messages and protect the Site from abuse</li>
           </ul>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
@@ -103,23 +96,18 @@ export default function PrivacyPage() {
           </ul>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
-            Cookies and Advertising
+            Cookies, Analytics, and Advertising
           </h2>
           <p>
-            This site uses cookies to improve your experience and to serve relevant advertising. We work with
-            third-party advertising partners, including Google, who may use cookies to serve ads based on your
-            prior visits to this website or other websites.
+            The Site does not currently load Google AdSense, Google Analytics,
+            or Microsoft Clarity and does not set optional advertising or analytics
+            cookies. A publisher identifier may remain in public metadata or
+            ads.txt solely for ownership verification.
           </p>
           <p>
-            You may opt out of personalized advertising by visiting your{" "}
-            <a href="https://ads.google.com/settings" target="_blank" rel="noopener noreferrer" style={{ color: "#003d99" }}>
-              Google Ads Settings
-            </a>{" "}
-            or the{" "}
-            <a href="https://optout.aboutads.info" target="_blank" rel="noopener noreferrer" style={{ color: "#003d99" }}>
-              Digital Advertising Alliance opt-out page
-            </a>
-            .
+            If optional tracking or advertising is enabled later, we will update
+            this policy and implement any consent and opt-out controls required at
+            that time.
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>
@@ -149,7 +137,7 @@ export default function PrivacyPage() {
               <strong>Right to Delete:</strong> You have the right to request deletion of your personal data, subject to certain exceptions.
             </li>
             <li>
-              <strong>Right to Opt-Out of Sale or Targeted Advertising:</strong> You have the right to opt out of the sale or sharing of your personal data for targeted advertising. All Skating Rinks does not sell personal data and honors Global Privacy Control (GPC) signals as a universal opt-out mechanism.
+              <strong>Right to Opt-Out of Sale or Targeted Advertising:</strong> You have the right to opt out of the sale or sharing of your personal data for targeted advertising. All Skating Rinks does not sell personal data or currently run targeted advertising.
             </li>
             <li>
               <strong>Right to Data Portability:</strong> You have the right to receive your personal data in a portable format.
@@ -159,7 +147,7 @@ export default function PrivacyPage() {
             To exercise these rights, submit a request to <strong>privacy@allskatingrinks.com</strong>. We will respond to your request within 45 days of receipt. Please note that certain data may be exempt from deletion if required to be retained by law or for legitimate business purposes.
           </p>
           <p>
-            <strong>Global Privacy Control (GPC):</strong> All Skating Rinks honors Global Privacy Control (GPC) signals transmitted via browsers or browser extensions. If you enable GPC, we treat it as a universal opt-out request for sale, sharing, and targeted advertising of your personal data.
+            <strong>Global Privacy Control (GPC):</strong> There is currently no sale, sharing, or targeted-advertising processing to opt out of. If that changes, we will honor applicable GPC signals and add any additional required controls.
           </p>
           <p>
             <strong>Data Sales:</strong> All Skating Rinks does not sell or share personal data for targeted advertising purposes.
