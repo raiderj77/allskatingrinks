@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://allskatingrinks.com'),
   alternates: { canonical: 'https://allskatingrinks.com' },
   robots: {
-    index: false,
+    index: true,
     follow: true,
-    googleBot: { index: false, follow: true },
+    googleBot: { index: true, follow: true },
   },
   verification: { google: '_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs' },
 };
