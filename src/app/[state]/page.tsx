@@ -63,6 +63,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `Skating Rinks in ${stateName}`,
     description: `Find roller and ice skating rinks in ${stateName}. Open skate, birthday parties, lessons, and family fun near you.`,
     alternates: { canonical: `https://allskatingrinks.com/${state}` },
+    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
 }
 
