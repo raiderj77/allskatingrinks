@@ -114,7 +114,7 @@ export default function Home() {
 
       {/* Stats */}
       <section style={{ background: 'var(--white)', borderBottom: '1px solid rgba(255,31,142,0.08)' }}>
-        <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+        <div className="container stats-grid">
           {[
             { n:`${locations.length}+`, l:'Skating Rinks' },
             { n:`${statesWithData}`, l:'States Covered' },
