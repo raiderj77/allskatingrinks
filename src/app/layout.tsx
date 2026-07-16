@@ -6,9 +6,9 @@ const righteous = Righteous({ subsets: ['latin'], variable: '--font-display', di
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','600','700','800'] });
 
 export const metadata: Metadata = {
-  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks ,  Find Roller & Ice Skating Rinks Across America' },
-  description: 'Discover roller skating and ice skating rinks near you. Family fun, lessons, birthday parties, and open skate sessions across all 50 states.',
-  keywords: 'skating rinks, roller skating, ice skating, family activities, kids skating, skating lessons, birthday parties',
+  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks - Legacy Rink Directory Rebuild' },
+  description: 'Browse legacy skating-rink location records and learn what to verify before visiting.',
+  keywords: 'skating rink directory, ice rink records, roller rink records',
   metadataBase: new URL('https://allskatingrinks.com'),
   alternates: { canonical: 'https://allskatingrinks.com' },
   robots: {
@@ -40,28 +40,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body>
-        <header style={{ background: 'linear-gradient(90deg, var(--dark) 0%, var(--mid-dark) 100%)', borderBottom: '3px solid var(--pink)', position: 'sticky', top: 0, zIndex: 1000, boxShadow: '0 2px 20px rgba(255,31,142,0.3)' }}>
-          <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.85rem 1.5rem' }}>
+        <a className="skip-link" href="#main-content">Skip to main content</a>
+        <header className="site-header" style={{ background: 'linear-gradient(90deg, var(--dark) 0%, var(--mid-dark) 100%)', borderBottom: '3px solid var(--pink)', position: 'sticky', top: 0, zIndex: 1000, boxShadow: '0 2px 20px rgba(255,31,142,0.3)' }}>
+          <div className="container header-inner" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0.85rem 1.5rem' }}>
             <a href="/" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
               <span style={{ fontSize: '1.5rem', lineHeight: 1 }}>⛸️</span>
               <span style={{ fontFamily: 'var(--font-display)', fontWeight: 400, fontSize: '1.3rem', background: 'linear-gradient(90deg, var(--pink), var(--blue-lt))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text' }}>All Skating Rinks</span>
             </a>
-            <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+            <nav aria-label="Primary navigation" className="primary-nav" style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
               <a href="/" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>Home</a>
-              <a href="/browse-states" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>Browse</a>
+              <a href="/#browse-regions" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>Browse</a>
               <a href="/about" style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: 700, textDecoration: 'none', fontFamily: 'var(--font-body)' }}>About</a>
             </nav>
           </div>
         </header>
 
-        <main style={{ minHeight: 'calc(100vh - 340px)' }}>{children}</main>
+        <main id="main-content" style={{ minHeight: 'calc(100vh - 340px)' }}>{children}</main>
 
         <footer style={{ background: 'var(--dark)', borderTop: '3px solid var(--pink)', marginTop: '5rem', padding: '3rem 0 2rem' }}>
           <div className="container">
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem', marginBottom: '2.5rem' }}>
               <div>
                 <p style={{ fontFamily: 'var(--font-display)', background: 'linear-gradient(90deg, var(--pink), var(--blue-lt))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.1rem', marginBottom: '0.75rem' }}>⛸️ All Skating Rinks</p>
-                <p style={{ color: 'var(--mid)', fontSize: '0.875rem', lineHeight: 1.7 }}>Free directory of roller skating and ice skating rinks across the United States.</p>
+                <p style={{ color: 'var(--mid)', fontSize: '0.875rem', lineHeight: 1.7 }}>Legacy skating-rink location records undergoing source and editorial review.</p>
               </div>
               <div>
                 <h4 style={{ color: 'var(--pink)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 800 }}>Directory Sites</h4>

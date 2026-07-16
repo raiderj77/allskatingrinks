@@ -10,12 +10,8 @@ function getMapboxImage(lat: number, lng: number, width = 800, height = 500): st
 }
 
 function getSkatingRinkPreview(d: { name: string; state: string; city: string; amenities: string[]; description: string }): string {
-  const amenityCount = d.amenities.length;
   const location = d.city ? `${d.city}, ${d.state}` : d.state;
-  if (amenityCount >= 2) {
-    return `Skating rink in ${location} with ${d.amenities.slice(0, 2).join(' and ').toLowerCase()}.`;
-  }
-  return `Skating rink in ${location}. Open for public skating sessions.`;
+  return `Legacy skating-location record in ${location}. Verify the venue and visit details directly.`;
 }
 
 export const revalidate = 86400;
@@ -26,6 +22,7 @@ const stateList = [
   { name: 'California', slug: 'california' }, { name: 'Colorado', slug: 'colorado' },
   { name: 'Connecticut', slug: 'connecticut' }, { name: 'Delaware', slug: 'delaware' },
   { name: 'Florida', slug: 'florida' }, { name: 'Georgia', slug: 'georgia' },
+  { name: 'District of Columbia', slug: 'district-of-columbia' },
   { name: 'Hawaii', slug: 'hawaii' }, { name: 'Idaho', slug: 'idaho' },
   { name: 'Illinois', slug: 'illinois' }, { name: 'Indiana', slug: 'indiana' },
   { name: 'Iowa', slug: 'iowa' }, { name: 'Kansas', slug: 'kansas' },
@@ -41,6 +38,7 @@ const stateList = [
   { name: 'Ohio', slug: 'ohio' }, { name: 'Oklahoma', slug: 'oklahoma' },
   { name: 'Oregon', slug: 'oregon' }, { name: 'Pennsylvania', slug: 'pennsylvania' },
   { name: 'Rhode Island', slug: 'rhode-island' }, { name: 'South Carolina', slug: 'south-carolina' },
+  { name: 'Puerto Rico', slug: 'pr' },
   { name: 'South Dakota', slug: 'south-dakota' }, { name: 'Tennessee', slug: 'tennessee' },
   { name: 'Texas', slug: 'texas' }, { name: 'Utah', slug: 'utah' },
   { name: 'Vermont', slug: 'vermont' }, { name: 'Virginia', slug: 'virginia' },
@@ -61,7 +59,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
   const stateName = getStateName(state);
   return {
     title: `Skating Rinks in ${stateName}`,
-    description: `Find roller and ice skating rinks in ${stateName}. Open skate, birthday parties, lessons, and family fun near you.`,
+    description: `Browse legacy skating-location records in ${stateName}. Verify each venue and current visit details directly.`,
     alternates: { canonical: `https://allskatingrinks.com/${state}` },
     robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
@@ -91,8 +89,8 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
             SKATING RINKS IN <span style={{ color: 'var(--pink)', textShadow: '0 0 30px rgba(255,31,142,0.4)' }}>{stateName.toUpperCase()}</span>
           </h1>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-            <span className="chip chip-pink">{spots.length} {spots.length===1?'Rink':'Rinks'} Listed</span>
-            <span style={{ color: 'rgba(255,255,255,0.5)', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>Roller &amp; ice skating</span>
+            <span className="chip chip-pink">{spots.length} legacy {spots.length===1?'record':'records'}</span>
+            <span style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>Not live-verified</span>
           </div>
         </div>
         <svg aria-hidden viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
@@ -135,12 +133,12 @@ export default async function StatePage({ params }: { params: Promise<{ state: s
       {/* State info */}
       <section style={{ background: 'var(--cream)', borderTop: '1px solid rgba(255,31,142,0.08)', padding: '4rem 1.5rem' }}>
         <div className="container" style={{ maxWidth: '760px' }}>
-          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dark)', marginBottom: '1rem' }}>Skating in {stateName}</h2>
+          <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', color: 'var(--dark)', marginBottom: '1rem' }}>About these {stateName} records</h2>
           <p style={{ lineHeight: 1.85, marginBottom: '1.1rem', color: '#445' }}>
-            {stateName} has a vibrant skating community with rinks ranging from classic neighborhood roller rinks to modern facilities offering laser nights, cosmic skating, and professional ice surfaces. Whether you're looking for a casual family outing or competitive league play, there's a rink for you.
+            These legacy entries contain a recorded name, state, and map coordinates. Some also contain a city. The repository does not record their original source or collection date, so this page does not establish that a venue is open or available to the public.
           </p>
           <p style={{ lineHeight: 1.85, color: '#445' }}>
-            Most rinks offer skate rentals, so you don't need your own equipment. Check individual venue websites for current open skate hours, pricing, and any special events ,  sessions and rates change seasonally.
+            Before visiting, find a current official venue or operator page and confirm the address, session type, hours, admission, rental options, accessibility, age rules, and reservation requirements.
           </p>
         </div>
       </section>

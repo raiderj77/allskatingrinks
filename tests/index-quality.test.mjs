@@ -38,3 +38,41 @@ test('Googlebot can crawl pages to observe route-level noindex rules', () => {
   const robots = read('public/robots.txt');
   assert.match(robots, /User-agent:\s*Googlebot[\s\S]*?Allow:\s*\//i);
 });
+
+test('legacy records are not presented as verified venue profiles', () => {
+  const home = read('src/app/page.tsx');
+  const state = read('src/app/[state]/page.tsx');
+  const detail = read('src/app/[state]/[slug]/page.tsx');
+  const llms = read('public/llms.txt');
+
+  assert.match(home, /legacy map records, not live-verified venue profiles/i);
+  assert.match(home, /0[\s\S]*Live-verified profiles/);
+  assert.match(state, /original source or collection date/i);
+  assert.match(detail, /does not record the original source or collection date/i);
+  assert.doesNotMatch(detail, /SportsActivityLocation/);
+  assert.match(llms, /Bulk legacy pages are not monetization-ready/);
+});
+
+test('unsupported price, program, and availability claims stay retired', () => {
+  const home = read('src/app/page.tsx');
+  const about = read('src/app/about/page.tsx');
+  const contact = read('src/app/contact/page.tsx');
+
+  for (const source of [home, about]) {
+    assert.doesNotMatch(source, /\$8 to \$15|\$150 to \$400|10 million|26 million|1,800 indoor ice rinks/i);
+    assert.doesNotMatch(source, /Most (?:public )?(?:skating )?rinks (?:offer|rent|welcome)/i);
+  }
+  assert.doesNotMatch(contact, /respond.+1-2 business days/i);
+});
+
+test('navigation points to a real browse target and supports keyboard users', () => {
+  const layout = read('src/app/layout.tsx');
+  const home = read('src/app/page.tsx');
+  const css = read('src/app/globals.css');
+
+  assert.match(layout, /href="\/#browse-regions"/);
+  assert.match(home, /id="browse-regions"/);
+  assert.match(layout, /Skip to main content/);
+  assert.match(css, /:focus-visible/);
+  assert.doesNotMatch(layout, /href="\/browse-states"/);
+});

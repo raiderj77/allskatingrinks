@@ -61,8 +61,8 @@ export default function ContactPage() {
                 contact@allskatingrinks.com
               </a>
             </div>
-            <p style={{ color: "#999", fontSize: "0.9rem", marginTop: "1rem" }}>
-              We typically respond to inquiries within 1-2 business days.
+            <p style={{ color: "#666", fontSize: "0.9rem", marginTop: "1rem" }}>
+              For a listing correction, include the record URL and a current official source when possible. Submissions are reviewed before publication.
             </p>
           </div>
 
