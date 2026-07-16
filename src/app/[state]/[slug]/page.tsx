@@ -11,12 +11,8 @@ function getMapboxImage(lat: number, lng: number, width = 800, height = 500): st
 }
 
 function getSkatingRinkPreview(d: { name: string; state: string; city: string; amenities: string[]; description: string }): string {
-  const amenityCount = d.amenities.length;
   const location = d.city ? `${d.city}, ${d.state}` : d.state;
-  if (amenityCount >= 2) {
-    return `Skating rink in ${location} with ${d.amenities.slice(0, 2).join(' and ').toLowerCase()}.`;
-  }
-  return `Skating rink in ${location}. Open for public skating sessions.`;
+  return `Legacy skating-location record in ${location}. Verify the venue and visit details directly.`;
 }
 
 export const revalidate = 86400;
@@ -26,8 +22,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ state: string; slug: string }> }): Promise<Metadata> {
-  const { slug } = await params;
-  const loc = locations.find((l) => l.slug === slug);
+  const { state, slug } = await params;
+  const loc = locations.find((l) => l.stateSlug === state && l.slug === slug);
   if (!loc) return {};
   return {
     title: `${loc.name} ,  Skating Rink in ${loc.state}`,
@@ -36,14 +32,6 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
   };
 }
-
-const AMENITY_ICONS: Record<string, string> = {
-  'Skate rental': '⛸️', 'Roller skating': '🛼', 'Ice skating': '🧊',
-  'Lessons available': '🎓', 'Birthday parties': '🎂', 'Snack bar': '🍕',
-  'Arcade': '🎮', 'Locker rooms': '🔒', 'Parking': '🅿️',
-  'Wheelchair accessible': '♿', 'Pro shop': '🛍️', 'Hockey': '🏒',
-  'Figure skating': '⭐', 'Laser skating': '🔦', 'Family friendly': '👨‍👩‍👧',
-};
 
 export default async function RinkPage({ params }: { params: Promise<{ state: string; slug: string }> }) {
   const { state, slug } = await params;
@@ -54,15 +42,6 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        '@context':'https://schema.org','@type':'SportsActivityLocation',
-        name: loc.name,
-        description: loc.description,
-        address: { '@type':'PostalAddress', addressLocality: loc.city || '', addressRegion: loc.state, addressCountry:'US' },
-        ...(loc.lat && loc.lng ? { geo: { '@type':'GeoCoordinates', latitude: loc.lat, longitude: loc.lng } } : {}),
-        url: `https://allskatingrinks.com/${loc.stateSlug}/${loc.slug}`,
-      }) }} />
-
       {/* Hero */}
       <section style={{ position: 'relative', height: '440px', overflow: 'hidden', background: 'linear-gradient(160deg, var(--dark) 0%, var(--mid-dark) 100%)' }}>
         <img src={getMapboxImage(loc.lat ?? 0, loc.lng ?? 0, 1400, 600)} alt={loc.name} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', opacity: 0.85 }} width={1400} height={600} />
@@ -73,7 +52,7 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.7rem,4vw,3rem)', color: 'var(--white)', marginBottom: '0.75rem', lineHeight: 1.1 }}>{loc.name}</h1>
           <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap', alignItems: 'center' }}>
             <span className="chip chip-white">📍 {loc.city ? `${loc.city}, ` : ''}{loc.state}</span>
-            {loc.amenities.slice(0,2).map((a) => <span key={a} className="chip chip-white">{a}</span>)}
+            <span className="chip chip-white">Legacy record</span>
           </div>
         </div>
         <svg aria-hidden viewBox="0 0 1440 40" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', display: 'block' }} preserveAspectRatio="none">
@@ -90,23 +69,13 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
             <div>
               <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', color: 'var(--dark)', marginBottom: '1rem' }}>About This Rink</h2>
               <p style={{ lineHeight: 1.85, marginBottom: '1.5rem', color: '#445' }}>
-                {loc.name} is a skating rink located in {loc.city ? `${loc.city}, ` : ''}{loc.state}.{' '}
-                {loc.amenities.length > 0 ? `Skaters can enjoy ${loc.amenities.slice(0, 2).join(' and ').toLowerCase()}.` : 'Open for public skating sessions and private events.'}{' '}
-                Check with the rink directly for current hours and session times.
+                This legacy record stores the name {loc.name}, map coordinates, and {loc.city ? `the city and state ${loc.city}, ${loc.state}` : `the state ${loc.state}`}. The repository does not record the original source or collection date. Confirm that the venue exists and check all visit details with a current official source.
               </p>
 
-              {loc.amenities.length > 0 && (
-                <div style={{ marginBottom: '2rem' }}>
-                  <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: 'var(--dark)', marginBottom: '0.9rem' }}>Features & Amenities</h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.6rem' }}>
-                    {loc.amenities.map((a) => (
-                      <div key={a} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', padding: '0.65rem 1rem', background: 'var(--white)', borderRadius: 'var(--radius-sm)', border: '2px solid rgba(255,31,142,0.1)', borderLeft: '3px solid var(--pink)', fontSize: '0.875rem', fontFamily: 'var(--font-body)', color: 'var(--dark)', fontWeight: 700 }}>
-                        <span>{AMENITY_ICONS[a] ?? '⛸️'}</span><span>{a}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
+              <div style={{ marginBottom: '2rem' }}>
+                <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color: 'var(--dark)', marginBottom: '0.9rem' }}>What this record does not confirm</h3>
+                <p style={{ lineHeight: 1.8, color: '#445' }}>Rink type, public access, operating status, hours, pricing, rentals, lessons, parties, accessibility, parking, and safety policies are not present in the dataset.</p>
+              </div>
 
               {/* Map */}
               <div style={{ borderRadius: 'var(--radius)', overflow: 'hidden', border: '2px solid rgba(255,31,142,0.12)', marginBottom: '1.5rem' }}>
@@ -124,8 +93,8 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
 
               {/* Tips */}
               <div style={{ background: 'var(--blue-pale)', border: '2px solid rgba(31,110,255,0.15)', borderRadius: 'var(--radius)', padding: '1.25rem 1.5rem' }}>
-                <p style={{ fontFamily: 'var(--font-display)', color: 'var(--blue)', fontSize: '1rem', marginBottom: '0.5rem' }}>⛸️ Skater Tips</p>
-                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Arrive early to get rental skates fitted. Wear comfortable, flexible clothing and bring socks. Beginners should stay near the wall until you find your balance. Most rinks offer wrist guards and knee pads ,  use them!</p>
+                <p style={{ fontFamily: 'var(--font-display)', color: 'var(--blue)', fontSize: '1rem', marginBottom: '0.5rem' }}>Before you go</p>
+                <p style={{ fontSize: '0.875rem', color: '#445', lineHeight: 1.7, fontFamily: 'var(--font-body)' }}>Confirm the exact address, public-session schedule, admission, rentals, required equipment, age rules, waivers, and accessibility directly with the venue or operator.</p>
               </div>
             </div>
 
@@ -139,8 +108,8 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
                 <div style={{ padding: '1.25rem 1.5rem' }}>
                   {[
                     { label: 'Location', value: `${loc.city ? `${loc.city}, ` : ''}${loc.state}` },
-                    { label: 'Type', value: loc.amenities.find((a) => a.toLowerCase().includes('roller') || a.toLowerCase().includes('ice')) ?? 'Skating Rink' },
-                    { label: 'Parties', value: loc.amenities.find((a) => a.toLowerCase().includes('birthday') || a.toLowerCase().includes('party')) ?? 'Check website' },
+                    { label: 'Record type', value: 'Legacy location' },
+                    { label: 'Current status', value: 'Not verified' },
                   ].map(({ label, value }) => (
                     <div key={label} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '1rem', padding: '0.65rem 0', borderBottom: '1px solid rgba(255,31,142,0.07)' }}>
                       <span style={{ fontSize: '0.8rem', color: 'var(--mid)', textTransform: 'uppercase', letterSpacing: '0.06em', fontFamily: 'var(--font-body)', fontWeight: 800, flexShrink: 0 }}>{label}</span>
@@ -152,7 +121,7 @@ export default async function RinkPage({ params }: { params: Promise<{ state: st
               </div>
 
               <div style={{ marginTop: '1rem', padding: '1rem 1.25rem', background: 'var(--cream)', borderRadius: 'var(--radius-sm)', border: '2px solid rgba(255,31,142,0.08)' }}>
-                <p style={{ fontSize: '0.775rem', color: 'var(--mid)', lineHeight: 1.65, fontFamily: 'var(--font-body)' }}>Hours, pricing, and availability change seasonally. Always verify with the rink directly before visiting.</p>
+                <p style={{ fontSize: '0.775rem', color: 'var(--mid)', lineHeight: 1.65, fontFamily: 'var(--font-body)' }}>This page is excluded from search indexing while the record awaits traceable sources and current venue facts.</p>
               </div>
             </aside>
           </div>

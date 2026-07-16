@@ -1,167 +1,38 @@
+import Link from 'next/link';
+
 export const metadata = {
-  title: "About All Skating Rinks - Find Skating Rinks Near You",
-  description:
-    "About All Skating Rinks - your comprehensive directory for finding family-friendly roller skating and ice skating rinks across the USA.",
+  title: 'About the All Skating Rinks Rebuild',
+  description: 'How All Skating Rinks handles legacy records, source verification, corrections, and publication decisions.',
 };
 
 export default function AboutPage() {
   return (
-    <main style={{ fontFamily: "system-ui, -apple-system, sans-serif" }}>
-      <section
-        style={{
-          backgroundColor: "#003d99",
-          color: "#ffffff",
-          padding: "2rem 1rem",
-          textAlign: "center",
-        }}
-      >
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <h1 style={{ fontSize: "2rem", marginBottom: "0.5rem", fontWeight: "bold" }}>
-            About All Skating Rinks
-          </h1>
-          <p style={{ fontSize: "1.1rem", marginTop: 0 }}>
-            Your guide to family-friendly skating venues across America
-          </p>
+    <div>
+      <section className="home-hero" style={{ padding: '4.5rem 1.5rem' }}>
+        <div className="container" style={{ maxWidth: '820px', position: 'relative', zIndex: 1 }}>
+          <p className="section-label" style={{ color: 'var(--pink-lt)' }}>About the directory</p>
+          <h1 style={{ color: 'var(--white)', fontSize: 'clamp(2rem,5vw,3.5rem)', marginBottom: '1rem' }}>A LEGACY DATASET UNDER REVIEW</h1>
+          <p className="hero-copy" style={{ margin: 0 }}>All Skating Rinks is being rebuilt as a source-transparent venue directory. Current legacy records remain useful as discovery leads, but they are not presented as live-verified venue profiles.</p>
         </div>
       </section>
 
-      <section style={{ padding: "2rem 1rem" }}>
-        <div
-          style={{
-            maxWidth: "900px",
-            margin: "0 auto",
-            lineHeight: "1.8",
-            color: "#333",
-          }}
-        >
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginBottom: "1rem", fontWeight: "bold" }}>
-            Our Mission
-          </h2>
-          <p>
-            All Skating Rinks is dedicated to helping families discover and enjoy
-            the best roller skating and ice skating rinks across the United States.
-            We believe that skating is a wonderful activity for kids and families,
-            combining fun, fitness, and quality time together. Our mission is to
-            make it easy for you to find family-friendly skating venues in your
-            area.
-          </p>
+      <section style={{ padding: '4rem 1.5rem' }}>
+        <div className="container" style={{ maxWidth: '820px' }}>
+          <h2 className="section-title">What the current data contains</h2>
+          <p style={{ lineHeight: 1.85, marginBottom: '1rem' }}>The repository contains 1,263 records with a name, state label, latitude, and longitude. Of those, 576 contain a city field and 687 do not. Every record has only the generic amenity value <em>Skating</em>.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>The repository does not document the dataset's original source or collection date. It also does not contain current hours, prices, rink type, rentals, lessons, parties, accessibility, contact information, or operating status.</p>
 
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            What We Do
-          </h2>
-          <p>
-            We maintain a comprehensive directory of roller skating and ice skating
-            rinks across all 50 states. Each listing includes essential information
-            such as:
-          </p>
-          <ul style={{ color: "#555" }}>
-            <li>Location and contact information</li>
-            <li>Type of skating (roller or ice)</li>
-            <li>Available amenities and services</li>
-            <li>Information about lessons and programs</li>
-            <li>Details about birthday parties and group bookings</li>
-            <li>General pricing and hours information</li>
-          </ul>
+          <h2 className="section-title">What that means for visitors</h2>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Use a record only as a starting point. Before traveling, confirm the venue and its current details through an official venue, operator, municipal, or other primary source. State and record pages are excluded from search indexing while this evidence is missing.</p>
 
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            Why Skating Rinks Matter
-          </h2>
-          <p>
-            Skating rinks serve as vital community gathering places where families
-            can spend quality time together. Whether it's roller skating with its
-            vibrant music and arcade games, or ice skating with its graceful
-            elegance, skating rinks provide:
-          </p>
-          <ul style={{ color: "#555" }}>
-            <li>
-              <strong>Physical Activity:</strong> Skating improves balance, strength,
-              coordination, and cardiovascular health.
-            </li>
-            <li>
-              <strong>Social Development:</strong> Children build confidence, make
-              friends, and develop social skills.
-            </li>
-            <li>
-              <strong>Family Bonding:</strong> Parents and children create lasting
-              memories together in a fun, supervised environment.
-            </li>
-            <li>
-              <strong>Skill Development:</strong> Skating lessons and programs help
-              skaters of all levels improve their abilities.
-            </li>
-            <li>
-              <strong>Entertainment:</strong> Skating rinks offer games, food, and
-              entertainment options for the whole family.
-            </li>
-          </ul>
+          <h2 className="section-title">Publication standard</h2>
+          <p style={{ lineHeight: 1.85, marginBottom: '1rem' }}>A future indexable venue profile must identify a current primary source, record what was checked and when, and clearly separate sourced facts from editorial guidance. We will not infer amenities or programs from a venue name.</p>
+          <p style={{ lineHeight: 1.85, marginBottom: '2.5rem' }}>Advertising or affiliate links will not be added to bulk legacy pages. Monetization can be reconsidered only after manually reviewed pages provide original visitor utility and current first-party demand supports a test.</p>
 
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            Our Coverage
-          </h2>
-          <p>
-            All Skating Rinks includes featured skating venues across the United
-            States, with coverage in all 50 states. Our directory helps you find:
-          </p>
-          <ul style={{ color: "#555" }}>
-            <li>Roller skating rinks for arcade games and DJ nights</li>
-            <li>Ice skating arenas for figure skating and recreational skating</li>
-            <li>Family-friendly venues perfect for birthday celebrations</li>
-            <li>Locations offering professional lessons and coaching</li>
-            <li>Rinks with special programs and themed skating nights</li>
-          </ul>
-
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            How to Use All Skating Rinks
-          </h2>
-          <p>
-            Getting started is simple:
-          </p>
-          <ul style={{ color: "#555" }}>
-            <li>
-              Browse by state to find skating rinks in your area or where you're
-              traveling
-            </li>
-            <li>
-              Read detailed information about each rink, including type, amenities,
-              and services
-            </li>
-            <li>
-              Learn about skating, its benefits, and what to expect at a skating
-              rink
-            </li>
-            <li>
-              Find information about birthday parties, group bookings, and lessons
-            </li>
-          </ul>
-
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            Disclaimer
-          </h2>
-          <p>
-            The information on All Skating Rinks is provided for informational
-            purposes only. We make every effort to keep our directory accurate and
-            up-to-date, but we recommend contacting skating rinks directly to
-            confirm current hours, pricing, and availability of services before
-            visiting. Information about skating facilities, hours, prices, and
-            programs is subject to change.
-          </p>
-
-          <h2 style={{ fontSize: "1.5rem", color: "#003d99", marginTop: "1.5rem", marginBottom: "1rem", fontWeight: "bold" }}>
-            Get in Touch
-          </h2>
-          <p>
-            Have questions or suggestions? We'd love to hear from you! Please visit
-            our{" "}
-            <a
-              href="/contact"
-              style={{ color: "#003d99", textDecoration: "none", fontWeight: "bold" }}
-            >
-              contact page
-            </a>{" "}
-            to reach out.
-          </p>
+          <h2 className="section-title">Corrections</h2>
+          <p style={{ lineHeight: 1.85 }}>To report a closed venue, incorrect location, or other record problem, use the <Link href="/contact">contact page</Link>. Include the record URL and a current source when possible. Submissions are reviewed before publication.</p>
         </div>
       </section>
-    </main>
+    </div>
   );
 }

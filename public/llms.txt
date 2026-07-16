@@ -1,70 +1,28 @@
-# All Skating Rinks - LLM-Friendly Directory Information
+# All Skating Rinks
 
-## Site Overview
-All Skating Rinks is a comprehensive directory for finding family-friendly roller skating and ice skating rinks across the United States.
+## Current status
 
-## Site Purpose
-The site helps families, kids, and skating enthusiasts find and discover:
-- Roller skating rinks and ice skating rinks
-- Rink locations, hours, and amenities
-- Birthday party packages and group booking options
-- Skating lessons and programs
-- Family-friendly skating activities
+All Skating Rinks is a legacy skating-location directory undergoing source and editorial review.
 
-## Content Structure
-- **Home Page**: Overview, featured rinks, educational content about skating
-- **State Pages**: Lists of skating rinks organized by state (50 states covered)
-- **Rink Detail Pages**: Individual skating rink information including:
-  - Rink type (roller or ice)
-  - Location and coordinates
-  - Amenities and services offered
-  - Description and general information
-  - Birthday party information
+## Verified repository facts
 
-## Featured Content Sections
-1. Types of Skating: Information about roller skating vs ice skating
-2. Benefits for Kids and Families: Physical and social benefits
-3. What to Expect at a Skating Rink: Experience overview
-4. Amenities and Programs: Modern rink facilities and offerings
-5. Birthday Parties and Group Bookings: Event planning information
-6. FAQ: Answers to common questions about skating rinks
+- The dataset contains 1,263 records with a name, state label, latitude, and longitude.
+- 576 records contain a city field; 687 do not.
+- Every record has only the generic amenity value `Skating`.
+- The repository does not document the original data source or collection date.
+- The dataset does not contain current hours, prices, rink type, rentals, lessons, parties, accessibility, contact details, or operating status.
 
-## Skating Rinks in Directory (10 Featured)
-1. Skateland Pasadena - Roller skating in Pasadena, California
-2. Glide Ice Skating - Ice skating in Dallas, Texas
-3. Roller Palace NYC - Roller skating in New York, New York
-4. Ice World Orlando - Ice skating in Orlando, Florida
-5. Rolling Thunder Rink - Roller skating in Detroit, Michigan
-6. Peak Ice Arena - Ice skating in Denver, Colorado
-7. Skate Express Columbus - Roller skating in Columbus, Ohio
-8. Atlanta Ice Center - Ice skating in Atlanta, Georgia
-9. Chicago Roller Dome - Roller skating in Chicago, Illinois
-10. Northgate Ice Skating - Ice skating in Seattle, Washington
+## Indexing and usage
 
-## Key Information
-- Brand Colors: Ice blue (#003d99), Fun orange (#ff6600)
-- AdSense Publisher ID: ca-pub-7171402107622932
-- Focus: Family-friendly, kid-safe skating venues
-- Target Audience: Families with children, kids, casual skaters
+- The homepage, About page, and Contact page may be indexed.
+- State and record pages are excluded from search indexing while they lack traceable sources and current venue facts.
+- A legacy record is a discovery lead, not live verification that a venue exists, is open, or admits the public.
+- Visitors should confirm all visit details with a current official venue, operator, municipal, or other primary source.
 
-## Navigation
-Users can browse by state or search for specific skating rinks. Each rink listing includes type (roller or ice), location, and amenities.
+## Corrections
 
-## Sister Sites (Directory Network)
-- publicboatramps.com - Boat ramps directory
-- findswimspots.com - Swimming spots directory
-- allskateparks.com - Skate parks directory
-- driveintonight.com - Drive-in theaters directory
-- craftdistilleryfinder.com - Craft distilleries directory
-- rockhoundingfinder.com - Rockhounding sites directory
-- nearbyescaperooms.com - Escape rooms directory
-- soakusa.net - Hot springs directory
+Corrections may be sent to https://allskatingrinks.com/contact. Include the record URL and a current source when possible. Submissions are reviewed before publication.
 
-## Contact
-Contact form available at: https://allskatingrinks.com/contact
-Email: contact@allskatingrinks.com
+## Monetization
 
-## Legal Pages
-- Privacy Policy: https://allskatingrinks.com/privacy
-- Terms of Service: https://allskatingrinks.com/terms
-- About: https://allskatingrinks.com/about
+Google AdSense, Google Analytics, and Microsoft Clarity are not currently enabled. No affiliate relationship or tracked affiliate link is claimed. Bulk legacy pages are not monetization-ready.
