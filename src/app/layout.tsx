@@ -19,18 +19,6 @@ export const metadata: Metadata = {
   verification: { google: '_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs' },
 };
 
-const toolSites = [
-  { name: 'Flip My Case', href: 'https://flipmycase.com' },
-  { name: 'Contract Extract', href: 'https://contractextract.com' }, { name: 'Medical Bill Reader', href: 'https://medicalbillreader.com' },
-  { name: 'Tax Break Tools', href: 'https://taxbreaktools.com' }, { name: '524 Tracker', href: 'https://524tracker.com' },
-];
-const directorySites = [
-  { name: 'Public Boat Ramps', href: 'https://publicboatramps.com' }, { name: 'Find Swim Spots', href: 'https://findswimspots.com' },
-  { name: 'Craft Distillery Finder', href: 'https://craftdistilleryfinder.com' }, { name: 'Drive-In Tonight', href: 'https://driveintonight.com' },
-  { name: 'All Skate Parks', href: 'https://allskateparks.com' }, { name: 'Nearby Escape Rooms', href: 'https://nearbyescaperooms.com' },
-  { name: 'Rockhounding Finder', href: 'https://rockhoundingfinder.com' }, { name: 'Soak USA', href: 'https://soakusa.net' },
-];
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${righteous.variable} ${nunito.variable}`}>
@@ -62,22 +50,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <p style={{ fontFamily: 'var(--font-display)', background: 'linear-gradient(90deg, var(--pink), var(--blue-lt))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', backgroundClip: 'text', fontSize: '1.1rem', marginBottom: '0.75rem' }}>⛸️ All Skating Rinks</p>
                 <p style={{ color: 'var(--mid)', fontSize: '0.875rem', lineHeight: 1.7 }}>Legacy skating-rink location records undergoing source and editorial review.</p>
-              </div>
-              <div>
-                <h4 style={{ color: 'var(--pink)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 800 }}>Directory Sites</h4>
-                <ul style={{ listStyle: 'none' }}>
-                  {directorySites.map((s) => <li key={s.href} style={{ marginBottom: '0.4rem' }}><a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--mid)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a></li>)}
-                </ul>
-              </div>
-              <div>
-                <h4 style={{ color: 'var(--pink)', fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: '1rem', fontFamily: 'var(--font-body)', fontWeight: 800 }}>Tools</h4>
-                <ul style={{ listStyle: 'none' }}>
-                  {toolSites.map((s) => (
-                    <li key={s.href} style={{ marginBottom: '0.4rem' }}>
-                      <a href={s.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--mid)', fontSize: '0.875rem', textDecoration: 'none' }}>{s.name}</a>
-                    </li>
-                  ))}
-                </ul>
               </div>
             </div>
             <div style={{ borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
