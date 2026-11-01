@@ -56,8 +56,7 @@ export default function PrivacyPage() {
               logs. Retention depends on provider terms and our service settings.
             </li>
             <li>
-              <strong>Optional tracking:</strong> Google Analytics, Microsoft
-              Clarity, and Google AdSense are not currently enabled.
+              <strong>Optional tracking:</strong> Google Analytics is used only after you accept via the consent control on this site (see the Cookies, Analytics, and Advertising section). Microsoft Clarity and Google AdSense are not enabled.
             </li>
           </ul>
 
@@ -99,15 +98,8 @@ export default function PrivacyPage() {
             Cookies, Analytics, and Advertising
           </h2>
           <p>
-            The Site does not currently load Google AdSense, Google Analytics,
-            or Microsoft Clarity and does not set optional advertising or analytics
-            cookies. A publisher identifier may remain in public metadata or
-            ads.txt solely for ownership verification.
-          </p>
-          <p>
-            If optional tracking or advertising is enabled later, we will update
-            this policy and implement any consent and opt-out controls required at
-            that time.
+            We use Google Analytics (GA4) only after you accept via the consent control shown on this site. Google Analytics does not load, and sets no cookies, until you accept. If you decline or have not chosen, it never loads. When it runs, it collects standard page-view and usage data (pages visited, approximate location, device and browser information) so we can see which pages are useful. Advertising features, ad personalization, and Google signals are off. You can change or withdraw your choice at any time using the Privacy choices control shown on every page; withdrawing stops further collection and clears the analytics cookies we are able to clear. Global Privacy Control and Do Not Track signals are treated as a decline. Microsoft Clarity and advertising trackers are not used.
+            A publisher identifier may remain in public metadata or ads.txt solely for ownership verification. Google AdSense and Microsoft Clarity are not enabled, and no advertising cookies are set.
           </p>
 
           <h2 style={{ fontSize: "1.3rem", color: "#003d99", marginTop: "1.5rem", fontWeight: "bold" }}>

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Righteous, Nunito } from 'next/font/google';
 import './globals.css';
+import AnalyticsConsent from '@/components/AnalyticsConsent';
 
 const righteous = Righteous({ subsets: ['latin'], variable: '--font-display', display: 'swap', weight: '400' });
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','600','700','800'] });
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </div>
         </footer>
+        <AnalyticsConsent />
       </body>
     </html>
   );
