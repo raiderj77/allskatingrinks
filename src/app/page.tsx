@@ -12,8 +12,8 @@ function getMapboxImage(lat: number, lng: number, width = 800, height = 500): st
 export const dynamic = 'force-static';
 
 export const metadata: Metadata = {
-  title: 'All Skating Rinks - Legacy Rink Directory Rebuild',
-  description: 'Browse legacy skating-rink location records and learn what to verify with a venue before visiting.',
+  title: 'All Skating Rinks | Roller & Ice Skating Rinks by State',
+  description: 'Find skating rinks in every state: 1,263 roller rinks and ice rinks with addresses and venue details. Check session times with the rink before you go.',
 };
 
 const REGIONS = [

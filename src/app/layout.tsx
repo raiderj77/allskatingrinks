@@ -7,8 +7,8 @@ const righteous = Righteous({ subsets: ['latin'], variable: '--font-display', di
 const nunito = Nunito({ subsets: ['latin'], variable: '--font-body', display: 'swap', weight: ['400','600','700','800'] });
 
 export const metadata: Metadata = {
-  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks - Legacy Rink Directory Rebuild' },
-  description: 'Browse legacy skating-rink location records and learn what to verify before visiting.',
+  title: { template: '%s | All Skating Rinks', default: 'All Skating Rinks | Roller & Ice Skating Rinks by State' },
+  description: 'Find skating rinks in every state: 1,263 roller rinks and ice rinks with addresses and venue details. Check session times with the rink before you go.',
   keywords: 'skating rink directory, ice rink records, roller rink records',
   metadataBase: new URL('https://allskatingrinks.com'),
   alternates: { canonical: 'https://allskatingrinks.com' },

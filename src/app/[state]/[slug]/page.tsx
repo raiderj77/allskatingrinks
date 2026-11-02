@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `${loc.name} ,  Skating Rink in ${loc.state}`,
     description: `${loc.description.slice(0, 155)}`,
     alternates: { canonical: `https://allskatingrinks.com/${loc.stateSlug}/${loc.slug}` },
-    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
 
