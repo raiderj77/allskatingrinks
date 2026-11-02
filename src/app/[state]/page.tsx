@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: { params: Promise<{ state: st
     title: `Skating Rinks in ${stateName}`,
     description: `Browse legacy skating-location records in ${stateName}. Verify each venue and current visit details directly.`,
     alternates: { canonical: `https://allskatingrinks.com/${state}` },
-    robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   };
 }
 

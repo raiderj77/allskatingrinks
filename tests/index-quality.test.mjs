@@ -9,11 +9,11 @@ test('the homepage and trust pages may be indexed', () => {
   assert.match(layout, /robots:\s*{[\s\S]*?index:\s*true,[\s\S]*?googleBot:\s*{\s*index:\s*true/);
 });
 
-test('thin state and listing routes remain noindex,follow', () => {
+test('state and listing routes are index,follow after the 2026-11-02 spot-audit pilot', () => {
   for (const path of ['src/app/[state]/page.tsx', 'src/app/[state]/[slug]/page.tsx']) {
     const source = read(path);
-    assert.match(source, /robots:\s*{\s*index:\s*false,\s*follow:\s*true/);
-    assert.match(source, /googleBot:\s*{\s*index:\s*false,\s*follow:\s*true/);
+    assert.match(source, /robots:\s*{\s*index:\s*true,\s*follow:\s*true/);
+    assert.match(source, /googleBot:\s*{\s*index:\s*true,\s*follow:\s*true/);
   }
 });
 
@@ -26,10 +26,10 @@ test('directory-only browse hubs remain noindex when present', () => {
   }
 });
 
-test('the sitemap contains only an explicit allowlist', () => {
+test('the sitemap covers the full catalog after the 2026-11-02 spot-audit pilot', () => {
   const sitemap = read('src/app/sitemap.ts');
-  assert.match(sitemap, /INDEXABLE_PATHS/);
-  assert.doesNotMatch(sitemap, /data\/locations|locations\.map|statePages|locationPages|parkPages/);
+  assert.match(sitemap, /data\/locations/);
+  assert.match(sitemap, /stateSlug/);
   assert.match(sitemap, /'\/about'/);
   assert.match(sitemap, /'\/contact'/);
 });
