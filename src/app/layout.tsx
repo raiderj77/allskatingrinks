@@ -17,6 +17,15 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  openGraph: {
+    title: 'All Skating Rinks - Legacy Rink Directory Rebuild',
+    description: 'Browse legacy skating-rink location records and learn what to verify before visiting.',
+    url: 'https://allskatingrinks.com',
+    siteName: 'All Skating Rinks',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'All Skating Rinks' }],
+    type: 'website',
+  },
+  twitter: { card: 'summary_large_image', images: ['/og-image.png'] },
   verification: { google: '_93cBsMuBuh6NqZcFEj8v1kA6VhbwZXwqruIcDqebPs' },
 };
 
